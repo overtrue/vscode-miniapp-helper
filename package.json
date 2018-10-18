@@ -1,8 +1,8 @@
 {
   "name": "miniapp-helper",
   "displayName": "小程序开发助手",
-  "description": "小程序开发助手",
-  "version": "0.0.1",
+  "description": "微信小程序开发助手",
+  "version": "0.0.2",
   "icon": "assets/images/logo.png",
   "publisher": "overtrue",
   "engines": {
@@ -12,6 +12,13 @@
     "Languages",
     "Snippets",
     "Other"
+  ],
+  "keywords": [
+    "小程序",
+    "微信",
+    "wechat",
+    "miniapp",
+    "wxml"
   ],
   "author": {
     "email": "anzhengchao@gmail.com",
