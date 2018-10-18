@@ -3,7 +3,7 @@
   "displayName": "小程序开发助手",
   "description": "小程序开发助手",
   "version": "0.0.1",
-  "icon": "./assets/images/logo.png",
+  "icon": "assets/images/logo.png",
   "publisher": "overtrue",
   "engines": {
     "vscode": "^1.28.0"
