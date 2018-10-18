@@ -1,0 +1,17 @@
+<snippet>
+  <prefix>wx-connectSocket</prefix>
+  <description><![CDATA[创建一个WebSocket连接。]]></description>
+  <body><![CDATA[
+    ${1:var sockTask = }wx.connectSocket({
+	url: '${2}',
+	header: {${3:'content-type':'application/json'}},
+	method: '${4:GET}',
+	protocols: [${5}],
+	success: ()=>{
+		${6}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

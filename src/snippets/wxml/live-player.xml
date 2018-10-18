@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>live-player</prefix>
+  <description><![CDATA[实时音视频播放。默认宽度300px、高度225px，可通过wxss设置宽高]]></description>
+  <body><![CDATA[
+    <live-player class="${1}" src="${2}" mode="${3:live}" autoplay="${4:false}" muted="${5:false}" orientation="${6:vertical}" 
+	object-fit="${7:contain}" min-cache="${8:1}" max-cache="${9:3}" 
+	bindstatechange="${10}" bindfullscreenchange="${11}" bindnetstatus="${12}">
+	${13}
+</live-player>
+  ]]></body>
+</snippet>

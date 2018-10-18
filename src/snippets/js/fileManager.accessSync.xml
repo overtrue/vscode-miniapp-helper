@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>fileManager-accessSync</prefix>
+  <description><![CDATA[判断文件/目录是否存在,同步接口]]></description>
+  <body><![CDATA[
+    try{
+	fileManager.accessSync('${1}');
+}catch(e){
+	${2}
+}
+  ]]></body>
+</snippet>

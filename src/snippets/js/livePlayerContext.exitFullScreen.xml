@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePlayerContext-exitFullScreen</prefix>
+  <description><![CDATA[退出全屏]]></description>
+  <body><![CDATA[
+    livePlayerContext.exitFullScreen({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

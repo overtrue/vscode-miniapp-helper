@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePusherContext-resume</prefix>
+  <description><![CDATA[恢复推流]]></description>
+  <body><![CDATA[
+    livePusherContext.resume({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

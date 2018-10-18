@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-translateX</prefix>
+  <description><![CDATA[x轴偏移]]></description>
+  <body><![CDATA[
+    animation.translateX(${1});
+  ]]></body>
+</snippet>

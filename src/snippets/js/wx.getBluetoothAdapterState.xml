@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-getBluetoothAdapterState</prefix>
+  <description><![CDATA[获取本机蓝牙适配器状态]]></description>
+  <body><![CDATA[
+    wx.getBluetoothAdapterState({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

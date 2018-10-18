@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>fileManager-access</prefix>
+  <description><![CDATA[判断文件/目录是否存在]]></description>
+  <body><![CDATA[
+    fileManager.access({
+	path: '${1}',
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

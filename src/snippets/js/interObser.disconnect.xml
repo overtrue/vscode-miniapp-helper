@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>interObser-disconnect</prefix>
+  <description><![CDATA[停止监听。回调函数将不再触发]]></description>
+  <body><![CDATA[
+    interObser.disconnect();
+  ]]></body>
+</snippet>

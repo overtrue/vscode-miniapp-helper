@@ -1,0 +1,12 @@
+<snippet>
+  <prefix>recordManager-start</prefix>
+  <description><![CDATA[开始录音]]></description>
+  <body><![CDATA[
+    recordManager.start({
+	duration: ${1},
+	sampleRate: ${2:44100},
+	numberOfChannels: ${3:2},
+	format: ${4:'aac'}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <prefix>videoContext-sendDanmu</prefix>
+  <description><![CDATA[发送弹幕，包含两个属性 text, color。]]></description>
+  <body><![CDATA[
+    videoContext.sendDanmu({
+	text: ${1},
+	color: ${2}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>innerAudioContext-onPause</prefix>
+  <description><![CDATA[音频暂停播放事件]]></description>
+  <body><![CDATA[
+    innerAudioContext.onPause((${1})=>{
+	${2}
+});
+  ]]></body>
+</snippet>

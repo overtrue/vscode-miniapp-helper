@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-rotateZ</prefix>
+  <description><![CDATA[绕z轴旋转]]></description>
+  <body><![CDATA[
+    animation.rotateZ(${1});
+  ]]></body>
+</snippet>

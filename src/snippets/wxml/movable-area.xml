@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>movable-area</prefix>
+  <description><![CDATA[movable-view 的可移动区域]]></description>
+  <body><![CDATA[
+    <movable-area class="${1}" scale-area="${2:false}">
+	${3}
+</movable-area>
+  ]]></body>
+</snippet>

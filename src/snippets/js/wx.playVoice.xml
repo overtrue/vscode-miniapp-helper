@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>wx-playVoice</prefix>
+  <description><![CDATA[开始播放语音，同时只允许一个语音文件正在播放，如果前一个语音文件还没播放完，将中断前一个语音播放。1.6.0 起不再维护]]></description>
+  <body><![CDATA[
+    wx.playVoice({
+	filePath: '${1}',
+	duration: ${2:60},
+	success: (result)=>{
+		${3}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

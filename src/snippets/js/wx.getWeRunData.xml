@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-getWeRunData</prefix>
+  <description><![CDATA[获取用户过去三十天微信运动步数，需要先调用 wx.login 接口]]></description>
+  <body><![CDATA[
+    wx.getWeRunData({
+	timeout:${1:10000},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

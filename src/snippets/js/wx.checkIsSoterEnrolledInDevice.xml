@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-checkIsSoterEnrolledInDevice</prefix>
+  <description><![CDATA[获取设备内是否录入如指纹等生物信息的接口]]></description>
+  <body><![CDATA[
+    wx.checkIsSoterEnrolledInDevice({
+	checkAuthMode:{${1}},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

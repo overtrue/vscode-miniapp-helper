@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-startCompass</prefix>
+  <description><![CDATA[开始监听罗盘数据。]]></description>
+  <body><![CDATA[
+    wx.startCompass({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

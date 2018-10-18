@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-skewY</prefix>
+  <description><![CDATA[y轴倾斜]]></description>
+  <body><![CDATA[
+    animation.skewY(${1});
+  ]]></body>
+</snippet>

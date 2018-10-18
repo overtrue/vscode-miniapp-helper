@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-lineTo</prefix>
+  <description><![CDATA[lineTo 方法增加一个新点，然后创建一条从上次指定点到目标点的线。]]></description>
+  <body><![CDATA[
+    cvsCtx.lineTo(${1:x}, ${2:y});
+  ]]></body>
+</snippet>

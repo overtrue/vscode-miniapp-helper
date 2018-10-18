@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>innerAudioContext-offEnded</prefix>
+  <description><![CDATA[取消监听onEnded事件]]></description>
+  <body><![CDATA[
+    innerAudioContext.offEnded((${1})=>{
+	${2}
+});
+  ]]></body>
+</snippet>

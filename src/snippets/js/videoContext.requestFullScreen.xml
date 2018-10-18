@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>videoContext-requestFullScreen</prefix>
+  <description><![CDATA[进入全屏，可传入{direction}参数, 有效值为 0, 90,-90]]></description>
+  <body><![CDATA[
+    videoContext.requestFullScreen({
+	direction: ${1:0}
+});
+  ]]></body>
+</snippet>

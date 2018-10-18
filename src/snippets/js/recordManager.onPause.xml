@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>recordManager-onPause</prefix>
+  <description><![CDATA[录音暂停事件]]></description>
+  <body><![CDATA[
+    recordManager.onPause((${1})=>{
+	${2}
+});
+  ]]></body>
+</snippet>

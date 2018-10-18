@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>updateManager-onCheckForUpdate</prefix>
+  <description><![CDATA[当向微信后台请求完新版本信息，会进行回调]]></description>
+  <body><![CDATA[
+    updateManager.onCheckForUpdate((result) => {${1}});
+  ]]></body>
+</snippet>

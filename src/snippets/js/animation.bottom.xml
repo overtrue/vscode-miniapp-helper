@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-bottom</prefix>
+  <description><![CDATA[底部距离]]></description>
+  <body><![CDATA[
+    animation.bottom(${1});
+  ]]></body>
+</snippet>

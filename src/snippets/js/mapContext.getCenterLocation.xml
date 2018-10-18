@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>mapContext-getCenterLocation</prefix>
+  <description><![CDATA[获取当前地图中心的经纬度，返回的是 gcj02 坐标系，可以用于 wx.openLocation]]></description>
+  <body><![CDATA[
+    mapContext.getCenterLocation({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

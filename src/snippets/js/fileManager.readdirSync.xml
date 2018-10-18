@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>fileManager-readdirSync</prefix>
+  <description><![CDATA[读取目录内文件列表,同步接口]]></description>
+  <body><![CDATA[
+    try{
+	var ${1:fileList} = fileManager.readdirSync('${2}');
+}catch(e){
+	${3}
+}
+  ]]></body>
+</snippet>

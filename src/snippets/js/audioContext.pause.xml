@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>audioContext-pause</prefix>
+  <description><![CDATA[暂停。1.6.0 起不再维护]]></description>
+  <body><![CDATA[
+    audioContext.pause();
+  ]]></body>
+</snippet>

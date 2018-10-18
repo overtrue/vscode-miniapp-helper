@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-seekBackgroundAudio</prefix>
+  <description><![CDATA[控制音乐播放进度(秒)。1.2.0 起不再维护]]></description>
+  <body><![CDATA[
+    wx.seekBackgroundAudio({
+	position: '${1}',
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

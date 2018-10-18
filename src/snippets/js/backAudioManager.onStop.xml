@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>backAudioManager-onStop</prefix>
+  <description><![CDATA[背景音频停止事件]]></description>
+  <body><![CDATA[
+    backAudioManager.onStop(()=>{
+	${1}
+});
+  ]]></body>
+</snippet>

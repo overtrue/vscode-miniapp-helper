@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-startHCE</prefix>
+  <description><![CDATA[初始化NFC模块]]></description>
+  <body><![CDATA[
+    wx.startHCE({
+	aid_list: [${1}],
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

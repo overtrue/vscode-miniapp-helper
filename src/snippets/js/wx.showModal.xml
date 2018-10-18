@@ -1,0 +1,22 @@
+<snippet>
+  <prefix>wx-showModal</prefix>
+  <description><![CDATA[显示模态弹窗]]></description>
+  <body><![CDATA[
+    wx.showModal({
+	title: '${1}',
+	content: '${2}',
+	showCancel: ${3:true},
+	cancelText: '${4:取消}',
+	cancelColor: '${5:#000000}',
+	confirmText: '${6:确定}',
+	confirmColor: '${7:#3CC51F}',
+	success: (result) => {
+		${8:if(result.confirm){
+			${9}
+		}}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

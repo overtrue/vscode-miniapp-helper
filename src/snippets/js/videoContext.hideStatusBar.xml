@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>videoContext-hideStatusBar</prefix>
+  <description><![CDATA[隐藏状态栏，仅在iOS全屏下有效]]></description>
+  <body><![CDATA[
+    videoContext.hideStatusBar();
+  ]]></body>
+</snippet>

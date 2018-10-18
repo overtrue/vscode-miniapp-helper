@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-getSavedFileInfo</prefix>
+  <description><![CDATA[获取本地文件的文件信息。此接口只能用于获取已保存到本地的文件，若需要获取临时文件信息，请使用 wx.getFileInfo 接口]]></description>
+  <body><![CDATA[
+    wx.getSavedFileInfo({
+	filePath: '${1}',
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

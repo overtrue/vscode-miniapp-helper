@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>videoContext-showStatusBar</prefix>
+  <description><![CDATA[显示状态栏，仅在iOS全屏下有效]]></description>
+  <body><![CDATA[
+    videoContext.showStatusBar();
+  ]]></body>
+</snippet>

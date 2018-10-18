@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>wx-getStorageSync</prefix>
+  <description><![CDATA[从本地缓存中同步获取指定 key 对应的内容。]]></description>
+  <body><![CDATA[
+    wx.getStorageSync(${1:key});
+  ]]></body>
+</snippet>

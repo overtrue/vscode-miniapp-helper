@@ -1,0 +1,17 @@
+<snippet>
+  <prefix>wx-navigateToMiniProgram</prefix>
+  <description><![CDATA[打开同一公众号下关联的另一个小程序]]></description>
+  <body><![CDATA[
+    wx.navigateToMiniProgram({
+	appId:'${1}',
+	path:'${2}',
+	extraData:{${3}},
+	envVersion:'${4:release}',
+	success: (result)=>{
+		${5}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

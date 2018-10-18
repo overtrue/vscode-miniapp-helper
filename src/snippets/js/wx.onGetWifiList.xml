@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>wx-onGetWifiList</prefix>
+  <description><![CDATA[监听在获取到Wi-Fi列表数据时的事件，在回调中将返回wifiList。]]></description>
+  <body><![CDATA[
+    wx.onGetWifiList((result) => {
+	${1}
+});
+  ]]></body>
+</snippet>

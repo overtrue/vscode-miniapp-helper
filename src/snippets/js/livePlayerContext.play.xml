@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePlayerContext-play</prefix>
+  <description><![CDATA[播放]]></description>
+  <body><![CDATA[
+    livePlayerContext.play({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

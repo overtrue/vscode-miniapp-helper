@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-getConnectedWifi</prefix>
+  <description><![CDATA[获取已连接中的Wi-Fi信息]]></description>
+  <body><![CDATA[
+    wx.getConnectedWifi({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

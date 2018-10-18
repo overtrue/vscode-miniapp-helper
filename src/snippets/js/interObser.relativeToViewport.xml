@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>interObser-relativeToViewport</prefix>
+  <description><![CDATA[指定页面显示区域作为参照区域之一]]></description>
+  <body><![CDATA[
+    interObser.relativeToViewport(${1});
+  ]]></body>
+</snippet>

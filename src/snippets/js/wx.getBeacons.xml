@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-getBeacons</prefix>
+  <description><![CDATA[获取所有已搜索到的iBeacon设备]]></description>
+  <body><![CDATA[
+    wx.getBeacons({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>wx-onBLEConnectionStateChange</prefix>
+  <description><![CDATA[监听低功耗蓝牙连接状态的改变事件，包括开发者主动连接或断开连接，设备丢失，连接异常断开等等]]></description>
+  <body><![CDATA[
+    wx.onBLEConnectionStateChange((result) => {
+	${1}
+});
+  ]]></body>
+</snippet>

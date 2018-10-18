@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>fileStat-isDirectory</prefix>
+  <description><![CDATA[判断当前文件是否一个目录]]></description>
+  <body><![CDATA[
+    fileStat.isDirectory();
+  ]]></body>
+</snippet>

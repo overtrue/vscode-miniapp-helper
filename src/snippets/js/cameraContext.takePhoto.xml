@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>cameraContext-takePhoto</prefix>
+  <description><![CDATA[拍照，可指定质量(high, normal, low，默认normal)，成功则返回图片]]></description>
+  <body><![CDATA[
+    cameraContext.takePhoto({
+	quality: ${1:normal},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

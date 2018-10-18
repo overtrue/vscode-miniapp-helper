@@ -1,0 +1,16 @@
+<snippet>
+  <prefix>wx-startBluetoothDevicesDiscovery</prefix>
+  <description><![CDATA[开始搜寻附近的蓝牙外围设备。注意，该操作比较耗费系统资源，请在搜索并连接到设备后调用 stop 方法停止搜索。]]></description>
+  <body><![CDATA[
+    wx.startBluetoothDevicesDiscovery({
+	services:[${1}]
+	allowDuplicatesKey:${2:false}
+	interval:${3:0}
+	success: (result)=>{
+		${4}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

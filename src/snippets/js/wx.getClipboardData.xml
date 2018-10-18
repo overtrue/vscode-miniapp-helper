@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-getClipboardData</prefix>
+  <description><![CDATA[获取系统剪贴板内容]]></description>
+  <body><![CDATA[
+    wx.getClipboardData({
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

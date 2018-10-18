@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-strokeText</prefix>
+  <description><![CDATA[给定的 (x, y) 位置绘制文本描边的方法]]></description>
+  <body><![CDATA[
+    cvsCtx.strokeText(${1:text}, ${2:x}, ${3:y});
+  ]]></body>
+</snippet>

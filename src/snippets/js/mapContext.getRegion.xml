@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>mapContext-getRegion</prefix>
+  <description><![CDATA[获取当前地图的视野范围]]></description>
+  <body><![CDATA[
+    mapContext.getRegion({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

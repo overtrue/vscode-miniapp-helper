@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>selQuery-select</prefix>
+  <description><![CDATA[在当前页面下选择第一个匹配选择器 selector 的节点，返回一个 NodesRef 对象实例，可以用于获取节点信息]]></description>
+  <body><![CDATA[
+    selQuery.select(${2:selector});
+  ]]></body>
+</snippet>

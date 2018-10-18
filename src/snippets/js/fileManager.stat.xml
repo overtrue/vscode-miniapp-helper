@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>fileManager-stat</prefix>
+  <description><![CDATA[获取文件 Stats 对象]]></description>
+  <body><![CDATA[
+    fileManager.stat({
+	path: '${1}',
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

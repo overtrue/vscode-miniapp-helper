@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-width</prefix>
+  <description><![CDATA[宽度]]></description>
+  <body><![CDATA[
+    animation.width(${1});
+  ]]></body>
+</snippet>

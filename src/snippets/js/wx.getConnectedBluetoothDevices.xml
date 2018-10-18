@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-getConnectedBluetoothDevices</prefix>
+  <description><![CDATA[根据 uuid 获取处于已连接状态的设备]]></description>
+  <body><![CDATA[
+    wx.getConnectedBluetoothDevices({
+	services: [${1}],
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

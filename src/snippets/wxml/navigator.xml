@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>navigator</prefix>
+  <description><![CDATA[页面链接]]></description>
+  <body><![CDATA[
+    <navigator class="${1}" target="${2}" url="${3}" hover-class="${4:navigator-hover}" open-type="${5:navigate}">
+	${6}
+</navigator>
+  ]]></body>
+</snippet>

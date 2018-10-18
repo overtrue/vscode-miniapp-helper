@@ -1,0 +1,17 @@
+<snippet>
+  <prefix>wx-setTabBarItem</prefix>
+  <description><![CDATA[动态设置tabBar某一项的内容]]></description>
+  <body><![CDATA[
+    wx.setTabBarItem({
+	index: ${1},
+	text: ${2},
+	iconPath: ${3},
+	selectedIconPath: ${4},
+	success: (result)=>{
+		${5}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

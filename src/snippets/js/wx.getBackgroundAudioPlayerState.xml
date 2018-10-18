@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-getBackgroundAudioPlayerState</prefix>
+  <description><![CDATA[获取后台音乐播放状态。1.2.0 起不再维护]]></description>
+  <body><![CDATA[
+    wx.getBackgroundAudioPlayerState({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

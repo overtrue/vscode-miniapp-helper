@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>fileManager-rmdirSync</prefix>
+  <description><![CDATA[删除目录,同步接口]]></description>
+  <body><![CDATA[
+    try{
+	fileManager.rmdirSync('${1}');
+}catch(e){
+	${2}
+}
+  ]]></body>
+</snippet>

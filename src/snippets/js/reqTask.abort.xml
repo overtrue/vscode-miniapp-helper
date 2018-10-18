@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>reqTask-abort</prefix>
+  <description><![CDATA[中断请求任务。]]></description>
+  <body><![CDATA[
+    reqTask.abort();
+  ]]></body>
+</snippet>

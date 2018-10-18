@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePusherContext-stop</prefix>
+  <description><![CDATA[停止推流]]></description>
+  <body><![CDATA[
+    livePusherContext.stop({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

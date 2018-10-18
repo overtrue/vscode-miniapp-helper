@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>switch</prefix>
+  <description><![CDATA[开关选择器]]></description>
+  <body><![CDATA[
+    <switch class="${1}" checked="${2:false}" type="${3:switch|checkbox}" bindchange="${4}">
+	${5}
+</switch>
+  ]]></body>
+</snippet>

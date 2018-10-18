@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>innerAudioContext-offWaiting</prefix>
+  <description><![CDATA[取消监听onWaiting事件]]></description>
+  <body><![CDATA[
+    innerAudioContext.offWaiting((${1})=>{
+	${2}
+});
+  ]]></body>
+</snippet>

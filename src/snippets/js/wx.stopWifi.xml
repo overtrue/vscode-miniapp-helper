@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-stopWifi</prefix>
+  <description><![CDATA[关闭Wi-Fi模块。]]></description>
+  <body><![CDATA[
+    wx.stopWifi({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

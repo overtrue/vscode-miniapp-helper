@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>fileManager-writeFileSync</prefix>
+  <description><![CDATA[写文件,同步接口]]></description>
+  <body><![CDATA[
+    try{
+	fileManager.writeFileSync('${1}','${2}','${3:utf8}');
+}catch(e){
+	${4}
+}
+  ]]></body>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>fileManager-saveFileSync</prefix>
+  <description><![CDATA[保存临时文件到本地。此接口会移动临时文件，因此调用成功后，tempFilePath 将不可用,同步接口]]></description>
+  <body><![CDATA[
+    try{
+	var ${1:fileNumber} = fileManager.saveFileSync('${2}','${3}');
+}catch(e){
+	${4}
+}
+  ]]></body>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>wx-onBeaconUpdate</prefix>
+  <description><![CDATA[监听 iBeacon 设备的更新事件]]></description>
+  <body><![CDATA[
+    wx.onBeaconUpdate((result) => {
+	${1}
+});
+  ]]></body>
+</snippet>

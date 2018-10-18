@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>fileManager-mkdir</prefix>
+  <description><![CDATA[创建目录]]></description>
+  <body><![CDATA[
+    fileManager.mkdir({
+	dirPath: '${1}',
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

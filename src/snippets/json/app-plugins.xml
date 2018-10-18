@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>plugins</prefix>
+  <description><![CDATA[使用到的插件]]></description>
+  <body><![CDATA[
+    "plugins":{},
+  ]]></body>
+</snippet>

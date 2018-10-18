@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-closeBLEConnection</prefix>
+  <description><![CDATA[断开与低功耗蓝牙设备的连接]]></description>
+  <body><![CDATA[
+    wx.closeBLEConnection({
+	deviceId: ${1},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

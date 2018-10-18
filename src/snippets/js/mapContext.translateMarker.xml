@@ -1,0 +1,18 @@
+<snippet>
+  <prefix>mapContext-translateMarker</prefix>
+  <description><![CDATA[平移marker，带动画]]></description>
+  <body><![CDATA[
+    mapContext.translateMarker({
+	markerId: ${1},
+	destination: {
+		latitude: ${2},
+		longitude: ${3}
+	},
+	autoRotate: ${4:false},
+	rotate: ${5},
+	duration: ${6:1000},
+	animationEnd: ()=>{},
+	fail: ()=>{}
+});
+  ]]></body>
+</snippet>

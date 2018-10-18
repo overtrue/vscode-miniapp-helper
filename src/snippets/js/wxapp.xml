@@ -1,0 +1,29 @@
+<snippet>
+  <prefix>wx-app</prefix>
+  <description><![CDATA[App对象及其生命周期函数和回调函数]]></description>
+  <body><![CDATA[
+    //app.js
+App({
+	//onLaunch,onShow: options(path,query,scene,shareTicket,referrerInfo(appId,extraData))
+	onLaunch: function(options){
+		${1}
+	},
+	onShow: function(options){
+
+	},
+	onHide: function(){
+
+	},
+	onError: function(msg){
+
+	},
+	//options(path,query,isEntryPage)
+	onPageNotFound: function(options){
+
+	},
+	globalData: {
+		${2}
+	}
+});
+  ]]></body>
+</snippet>

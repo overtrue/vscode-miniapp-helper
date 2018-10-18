@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>fileManager-readdir</prefix>
+  <description><![CDATA[读取目录内文件列表]]></description>
+  <body><![CDATA[
+    fileManager.readdir({
+	dirPath: '${1}',
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

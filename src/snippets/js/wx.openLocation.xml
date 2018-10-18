@@ -1,0 +1,18 @@
+<snippet>
+  <prefix>wx-openLocation</prefix>
+  <description><![CDATA[​使用微信内置地图查看位置。 需要用户授权 scope.userLocation]]></description>
+  <body><![CDATA[
+    wx.openLocation({
+	latitude: ${1:0},
+	longitude: ${2:0},
+	scale: ${3:18},
+	name: '${4}',
+	address: '${5}',
+	success: (result)=>{
+		${6}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

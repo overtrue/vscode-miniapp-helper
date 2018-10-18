@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-getSavedFileList</prefix>
+  <description><![CDATA[获取本地已保存的文件列表]]></description>
+  <body><![CDATA[
+    wx.getSavedFileList({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

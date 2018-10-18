@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>preloadRule</prefix>
+  <description><![CDATA[分包预下载规则]]></description>
+  <body><![CDATA[
+    "preloadRule":{},
+  ]]></body>
+</snippet>

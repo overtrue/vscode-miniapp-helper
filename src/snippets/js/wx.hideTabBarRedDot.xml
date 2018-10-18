@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-hideTabBarRedDot</prefix>
+  <description><![CDATA[隐藏tabBar某一项的右上角的红点]]></description>
+  <body><![CDATA[
+    wx.hideTabBarRedDot({
+	index: ${1},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

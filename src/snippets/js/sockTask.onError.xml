@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>sockTask-onError</prefix>
+  <description><![CDATA[监听 WebSocket 错误。]]></description>
+  <body><![CDATA[
+    sockTask.onError(${1:result} => {
+	${2}
+});
+  ]]></body>
+</snippet>

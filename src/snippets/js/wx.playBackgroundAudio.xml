@@ -1,0 +1,16 @@
+<snippet>
+  <prefix>wx-playBackgroundAudio</prefix>
+  <description><![CDATA[使用后台播放器播放音乐，对于微信客户端来说，只能同时有一个后台音乐在播放。1.2.0 起不再维护]]></description>
+  <body><![CDATA[
+    wx.playBackgroundAudio({
+	dataUrl: '${1}',
+	title: '${2}',
+	coverImgUrl: '${3}',
+	success: (result)=>{
+		${4}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

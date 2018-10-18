@@ -1,0 +1,19 @@
+<snippet>
+  <prefix>wx-request</prefix>
+  <description><![CDATA[发起网络请求]]></description>
+  <body><![CDATA[
+    ${1:var reqTask = }wx.request({
+	url: '${2}',
+	data: {${3}},
+	header: {${4:'content-type':'application/json'}},
+	method: '${5:GET}',
+	dataType: '${6:json}',
+	responseType: '${7:text}',
+	success: (result)=>{
+		${8}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

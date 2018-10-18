@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-setFillStyle</prefix>
+  <description><![CDATA[设置填充色。]]></description>
+  <body><![CDATA[
+    cvsCtx.setFillStyle('${1}');
+  ]]></body>
+</snippet>

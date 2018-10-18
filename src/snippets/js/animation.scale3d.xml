@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-scale3d</prefix>
+  <description><![CDATA[3d缩放]]></description>
+  <body><![CDATA[
+    animation.scale3d(${1},${2},${3});
+  ]]></body>
+</snippet>

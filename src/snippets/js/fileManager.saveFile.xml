@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>fileManager-saveFile</prefix>
+  <description><![CDATA[保存临时文件到本地。此接口会移动临时文件，因此调用成功后，tempFilePath 将不可用]]></description>
+  <body><![CDATA[
+    fileManager.saveFile({
+	tempFilePath: '${1}',
+	filePath: '${2}',
+	success: (result)=>{
+		${3}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

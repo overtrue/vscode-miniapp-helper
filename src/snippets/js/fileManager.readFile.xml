@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>fileManager-readFile</prefix>
+  <description><![CDATA[读取本地文件内容]]></description>
+  <body><![CDATA[
+    fileManager.readFile({
+	filePath: '${1}',
+	encoding: '${2}',
+	success: (result)=>{
+		${3}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

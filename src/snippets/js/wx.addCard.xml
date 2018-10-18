@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-addCard</prefix>
+  <description><![CDATA[批量添加卡券]]></description>
+  <body><![CDATA[
+    wx.addCard({
+	cardList: [${1}],
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

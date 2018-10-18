@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-chooseInvoiceTitle</prefix>
+  <description><![CDATA[选择用户的发票抬头]]></description>
+  <body><![CDATA[
+    wx.chooseInvoiceTitle({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

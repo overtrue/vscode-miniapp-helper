@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>selQuery-selectAll</prefix>
+  <description><![CDATA[在当前页面下选择匹配选择器 selector 的所有节点。]]></description>
+  <body><![CDATA[
+    selQuery.selectAll();
+  ]]></body>
+</snippet>

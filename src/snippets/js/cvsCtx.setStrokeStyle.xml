@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-setStrokeStyle</prefix>
+  <description><![CDATA[设置边框颜色。]]></description>
+  <body><![CDATA[
+    cvsCtx.setStrokeStyle(${1});
+  ]]></body>
+</snippet>

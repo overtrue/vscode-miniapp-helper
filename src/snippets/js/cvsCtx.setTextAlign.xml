@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-setTextAlign</prefix>
+  <description><![CDATA[用于设置文字的对齐]]></description>
+  <body><![CDATA[
+    cvsCtx.setTextAlign('${1:center}');
+  ]]></body>
+</snippet>

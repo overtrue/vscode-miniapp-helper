@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>backAudioManager-pause</prefix>
+  <description><![CDATA[暂停]]></description>
+  <body><![CDATA[
+    backAudioManager.pause();
+  ]]></body>
+</snippet>

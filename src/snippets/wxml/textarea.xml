@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>textarea</prefix>
+  <description><![CDATA[多行输入框]]></description>
+  <body><![CDATA[
+    <textarea class="${1}" value="${2}" placeholder="${3}" placeholder-style="${4}" placeholder-class="${5:textarea-placeholder}" 
+	disabled="${6:false}" maxlength="${7:140}" auto-focus="${8:false}" focus="${9:false}" auto-height="${10}" 
+	bindinput="${11}" bindfocus="${12}" bindblur="${13}" bindconfirm="${14}" bindlinechange="%{15}">
+	${16}
+</textarea>
+  ]]></body>
+</snippet>

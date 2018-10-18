@@ -1,0 +1,12 @@
+<snippet>
+  <prefix>wx-createAnimation</prefix>
+  <description><![CDATA[创建一个动画实例animation。调用实例的方法来描述动画。]]></description>
+  <body><![CDATA[
+    ${1:let animation = }wx.createAnimation({
+	duration: ${2:400},
+	timingFunction: '${3:linear}',
+	delay: ${4:0},
+	transformOrigin: '${5:50% 50% 0}'
+});
+  ]]></body>
+</snippet>

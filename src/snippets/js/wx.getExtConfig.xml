@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-getExtConfig</prefix>
+  <description><![CDATA[获取第三方平台自定义的数据字段]]></description>
+  <body><![CDATA[
+    wx.getExtConfig({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

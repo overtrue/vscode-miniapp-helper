@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-chooseLocation</prefix>
+  <description><![CDATA[打开地图选择位置。需要用户授权 scope.userLocation]]></description>
+  <body><![CDATA[
+    wx.chooseLocation({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

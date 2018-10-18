@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>fileManager-rmdir</prefix>
+  <description><![CDATA[删除目录]]></description>
+  <body><![CDATA[
+    fileManager.rmdir({
+	dirPath: '${1}',
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

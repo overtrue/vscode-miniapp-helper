@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-measureText</prefix>
+  <description><![CDATA[测量文本尺寸信息，目前仅返回文本宽度。同步接口。]]></description>
+  <body><![CDATA[
+    ${1:var metrics =}cvsCtx.measureText(${2});
+  ]]></body>
+</snippet>

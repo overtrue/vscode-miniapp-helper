@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>sockTask-onClose</prefix>
+  <description><![CDATA[监听 WebSocket 连接关闭事件。]]></description>
+  <body><![CDATA[
+    sockTask.onClose(${1:result} => {
+	${2}
+});
+  ]]></body>
+</snippet>

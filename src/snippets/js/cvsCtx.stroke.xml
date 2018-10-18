@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-stroke</prefix>
+  <description><![CDATA[画出当前路径的边框。]]></description>
+  <body><![CDATA[
+    cvsCtx.stroke();
+  ]]></body>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>videoContext-play</prefix>
+  <description><![CDATA[播放]]></description>
+  <body><![CDATA[
+    videoContext.play();
+  ]]></body>
+</snippet>

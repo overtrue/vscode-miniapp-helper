@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-strokeStyle</prefix>
+  <description><![CDATA[设置边框颜色。基础库 1.9.90 起支持]]></description>
+  <body><![CDATA[
+    cvsCtx.strokeStyle = ${1};
+  ]]></body>
+</snippet>

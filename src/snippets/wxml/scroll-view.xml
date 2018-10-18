@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>scroll-view</prefix>
+  <description><![CDATA[可滚动视图区域]]></description>
+  <body><![CDATA[
+    <scroll-view class="${1}" scroll-x="${2:false}" scroll-y="${3:false}" upper-threshold="${4:50}" lower-threshold="${5:50}" 
+	scroll-top="${6:0}" scroll-left="${7:0}" scroll-into-view="${8}" scroll-with-animation="${9:false}" enable-back-to-top="${10:false}" 
+	bindscrolltoupper="${11}" bindscrolltolower="${12}" bindscroll="${13}">
+	${14}
+</scroll-view>
+  ]]></body>
+</snippet>

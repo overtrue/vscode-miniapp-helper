@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-closePath</prefix>
+  <description><![CDATA[关闭一个路径]]></description>
+  <body><![CDATA[
+    cvsCtx.closePath();
+  ]]></body>
+</snippet>

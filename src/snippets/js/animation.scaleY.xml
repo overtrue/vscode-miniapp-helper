@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-scaleY</prefix>
+  <description><![CDATA[y轴缩放]]></description>
+  <body><![CDATA[
+    animation.scaleY(${1});
+  ]]></body>
+</snippet>

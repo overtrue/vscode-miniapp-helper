@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-beginPath</prefix>
+  <description><![CDATA[开始创建一个路径，需要调用fill或者stroke才会使用路径进行填充或描边。]]></description>
+  <body><![CDATA[
+    cvsCtx.beginPath();
+  ]]></body>
+</snippet>

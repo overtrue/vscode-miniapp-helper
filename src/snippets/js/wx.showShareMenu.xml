@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-showShareMenu</prefix>
+  <description><![CDATA[显示当前页面的转发按钮]]></description>
+  <body><![CDATA[
+    wx.showShareMenu({
+	withShareTicket: ${1:false}
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

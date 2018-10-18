@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-top</prefix>
+  <description><![CDATA[顶部距离]]></description>
+  <body><![CDATA[
+    animation.top(${1});
+  ]]></body>
+</snippet>

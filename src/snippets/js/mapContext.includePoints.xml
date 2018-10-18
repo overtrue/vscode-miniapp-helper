@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>mapContext-includePoints</prefix>
+  <description><![CDATA[缩放视野展示所有经纬度]]></description>
+  <body><![CDATA[
+    mapContext.includePoints({
+	points: [
+		{
+			latitude: ${1:latitude},
+			longitude: ${2:longitude}
+		}
+	],
+	padding:[$3]
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+  <prefix>wx-showToast</prefix>
+  <description><![CDATA[显示消息提示框]]></description>
+  <body><![CDATA[
+    wx.showToast({
+	title: '${1}',
+	icon: '${2:none}',
+	image: '${3}',
+	duration: ${4:1500},
+	mask: ${5:false},
+	success: (result)=>{
+		${6}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

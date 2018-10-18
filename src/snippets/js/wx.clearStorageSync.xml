@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>wx-clearStorageSync</prefix>
+  <description><![CDATA[同步清除本地数据缓存]]></description>
+  <body><![CDATA[
+    wx.clearStorageSync();
+  ]]></body>
+</snippet>

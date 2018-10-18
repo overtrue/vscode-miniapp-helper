@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>recordManager-onStop</prefix>
+  <description><![CDATA[录音停止事件，会回调文件地址]]></description>
+  <body><![CDATA[
+    recordManager.onStop((${1:result})=>{
+	${2}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>wx-scanCode</prefix>
+  <description><![CDATA[调起客户端扫码界面，扫码成功后返回对应的结果]]></description>
+  <body><![CDATA[
+    wx.scanCode({
+	onlyFromCamera: ${1:false},
+	scanType: ['${2:qrCode}','${3:barCode}','${4:datamatrix}','${5:pdf417}'],
+	success: (result)=>{
+		${6}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

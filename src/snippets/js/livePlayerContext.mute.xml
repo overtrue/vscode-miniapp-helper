@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePlayerContext-mute</prefix>
+  <description><![CDATA[静音]]></description>
+  <body><![CDATA[
+    livePlayerContext.mute({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

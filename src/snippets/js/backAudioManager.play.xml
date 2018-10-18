@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>backAudioManager-play</prefix>
+  <description><![CDATA[播放]]></description>
+  <body><![CDATA[
+    backAudioManager.play();
+  ]]></body>
+</snippet>

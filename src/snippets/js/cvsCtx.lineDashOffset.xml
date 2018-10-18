@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-lineDashOffset</prefix>
+  <description><![CDATA[设置虚线偏移量的属性]]></description>
+  <body><![CDATA[
+    cvsCtx.lineDashOffset = ${1:value};
+  ]]></body>
+</snippet>

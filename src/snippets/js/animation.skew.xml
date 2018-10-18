@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-skew</prefix>
+  <description><![CDATA[x轴[y轴]倾斜。一个参数时，表示在X轴；两个参数时表示在X轴，在Y轴]]></description>
+  <body><![CDATA[
+    animation.skew(${1}${2:,});
+  ]]></body>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>resizable</prefix>
+  <description><![CDATA[iPad 小程序是否支持屏幕旋转，默认关闭]]></description>
+  <body><![CDATA[
+    "resizable":false,
+  ]]></body>
+</snippet>

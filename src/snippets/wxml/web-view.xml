@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>web-view</prefix>
+  <description><![CDATA[可以用来承载网页的容器，会自动铺满整个小程序页面]]></description>
+  <body><![CDATA[
+    <web-view src="${1}" bindmessage="${2}"></web-view>
+  ]]></body>
+</snippet>

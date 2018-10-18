@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>recordManager-onError</prefix>
+  <description><![CDATA[录音错误事件, 会回调错误信息]]></description>
+  <body><![CDATA[
+    recordManager.onError((${1:errMsg})=>{
+	${2}
+});
+  ]]></body>
+</snippet>

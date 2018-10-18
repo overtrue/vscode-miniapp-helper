@@ -1,0 +1,17 @@
+<snippet>
+  <prefix>wx-uploadFile</prefix>
+  <description><![CDATA[将本地资源上传到开发者服务器，客户端发起一个 HTTPS POST 请求，其中 content-type 为 multipart/form-data。]]></description>
+  <body><![CDATA[
+    ${1:var upTask = }wx.uploadFile({
+	url: '${2}',
+	filePath: ${3},
+	name: ${4},
+	formData: {${5}},
+	success: (result)=>{
+		${6}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

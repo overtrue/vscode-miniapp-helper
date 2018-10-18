@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>wx-getShareInfo</prefix>
+  <description><![CDATA[获取转发详细信息]]></description>
+  <body><![CDATA[
+    wx.getShareInfo({
+	shareTicket: ${1},
+	timeout:${2:10000},
+	success: (result)=>{
+		${3}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

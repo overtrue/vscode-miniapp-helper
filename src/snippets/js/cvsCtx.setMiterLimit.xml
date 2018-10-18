@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-setMiterLimit</prefix>
+  <description><![CDATA[设置最大斜接长度，斜接长度指的是在两条线交汇处内角和外角之间的距离。 当 setLineJoin() 为 miter 时才有效。]]></description>
+  <body><![CDATA[
+    cvsCtx.setMiterLimit(${1});
+  ]]></body>
+</snippet>

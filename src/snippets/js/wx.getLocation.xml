@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>wx-getLocation</prefix>
+  <description><![CDATA[获取当前的地理位置、速度。]]></description>
+  <body><![CDATA[
+    wx.getLocation({
+	type: '${1:wgs84}',
+	altitude: ${2:false},
+	success: (result)=>{
+		${3}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

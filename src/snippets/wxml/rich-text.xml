@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>rich-text</prefix>
+  <description><![CDATA[富文本]]></description>
+  <body><![CDATA[
+    <rich-text class="${1}" nodes="{{$2}}">
+	${3}
+</rich-text>
+  ]]></body>
+</snippet>

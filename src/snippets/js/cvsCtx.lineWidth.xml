@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-lineWidth</prefix>
+  <description><![CDATA[设置线条的宽度。基础库 1.9.90 起支持]]></description>
+  <body><![CDATA[
+    cvsCtx.lineWidth = ${1};
+  ]]></body>
+</snippet>

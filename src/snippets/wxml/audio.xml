@@ -1,0 +1,10 @@
+<snippet>
+  <prefix>audio</prefix>
+  <description><![CDATA[音频。1.6.0 版本开始，该组件不再维护]]></description>
+  <body><![CDATA[
+    <audio id="${1}" src="${2}" loop="${3:false}" controls="${4:false}" poster="${5}" name="${6:未知音频}" author="${7:未知作者}" 
+	binderror="${8}" bindplay="${9}" bindpause="${10}" bindtimeupdate="${11}" bindended="${12}">
+	${13}
+</audio>
+  ]]></body>
+</snippet>

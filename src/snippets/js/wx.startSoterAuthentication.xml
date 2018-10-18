@@ -1,0 +1,16 @@
+<snippet>
+  <prefix>wx-startSoterAuthentication</prefix>
+  <description><![CDATA[开始SOTER生物认证]]></description>
+  <body><![CDATA[
+    wx.startSoterAuthentication({
+	requestAuthModes:['fingerPrint'],
+	challenge:'${1}',
+	authContent:'${2}',
+	success: (result)=>{
+		${3}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

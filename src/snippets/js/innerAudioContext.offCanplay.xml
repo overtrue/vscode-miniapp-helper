@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>innerAudioContext-offCanplay</prefix>
+  <description><![CDATA[取消监听onCanplay事件]]></description>
+  <body><![CDATA[
+    innerAudioContext.offCanplay((${1})=>{
+	${2}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <prefix>wx-connectWifi</prefix>
+  <description><![CDATA[连接Wi-Fi。若已知Wi-Fi信息，可以直接利用该接口连接。]]></description>
+  <body><![CDATA[
+    wx.connectWifi({
+	SSID: ${1},
+	BSSID: ${2},
+	password: ${3},
+	success: (result)=>{
+		${4}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

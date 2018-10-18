@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>functional-page-navigator</prefix>
+  <description><![CDATA[页面链接]]></description>
+  <body><![CDATA[
+    <functional-page-navigator name="${1:loginAndGetUserInfo|requestPayment}" version="${2:release}" bindsuccess="${3}" bindfail="${4}">
+	${5}
+</functional-page-navigator>
+  ]]></body>
+</snippet>

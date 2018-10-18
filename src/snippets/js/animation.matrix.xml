@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-matrix</prefix>
+  <description><![CDATA[平面矩阵变换]]></description>
+  <body><![CDATA[
+    animation.matrix(${1},${2},${3},${4},${5},${6});
+  ]]></body>
+</snippet>

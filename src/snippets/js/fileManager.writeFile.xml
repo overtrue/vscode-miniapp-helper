@@ -1,0 +1,16 @@
+<snippet>
+  <prefix>fileManager-writeFile</prefix>
+  <description><![CDATA[写文件]]></description>
+  <body><![CDATA[
+    fileManager.writeFile({
+	filePath: '${1}',
+	data: '${2}',
+	encoding: '${3:utf8}',
+	success: (result)=>{
+		${4}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

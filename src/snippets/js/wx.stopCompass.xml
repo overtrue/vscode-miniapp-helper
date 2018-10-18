@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-stopCompass</prefix>
+  <description><![CDATA[停止监听罗盘数据。]]></description>
+  <body><![CDATA[
+    wx.stopCompass({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

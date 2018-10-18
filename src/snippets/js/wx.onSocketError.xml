@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>wx-onSocketError</prefix>
+  <description><![CDATA[监听WebSocket错误。]]></description>
+  <body><![CDATA[
+    wx.onSocketError(${1:result} => {
+	${2}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePlayerContext-resume</prefix>
+  <description><![CDATA[恢复]]></description>
+  <body><![CDATA[
+    livePlayerContext.resume({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

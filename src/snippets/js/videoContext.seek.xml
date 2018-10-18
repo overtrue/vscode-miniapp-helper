@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>videoContext-seek</prefix>
+  <description><![CDATA[跳转到指定位置，单位 s]]></description>
+  <body><![CDATA[
+    videoContext.seek(${1});
+  ]]></body>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-sendSocketMessage</prefix>
+  <description><![CDATA[通过WebSocket连接发送数据，需要先wx.connectSocket，并在wx.onSocketOpen回调之后才能发送。]]></description>
+  <body><![CDATA[
+    wx.sendSocketMessage({
+	data: ${1},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

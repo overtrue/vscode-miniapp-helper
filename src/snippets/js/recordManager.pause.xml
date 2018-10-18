@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>recordManager-pause</prefix>
+  <description><![CDATA[暂停录音]]></description>
+  <body><![CDATA[
+    recordManager.pause();
+  ]]></body>
+</snippet>

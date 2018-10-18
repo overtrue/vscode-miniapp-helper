@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>wx-setBackgroundColor</prefix>
+  <description><![CDATA[动态设置窗口的背景色]]></description>
+  <body><![CDATA[
+    wx.setBackgroundColor({
+	backgroundColor: '${1}',
+	backgroundColorTop: '${2}',
+	backgroundColorBottom: '${3}'
+});
+  ]]></body>
+</snippet>

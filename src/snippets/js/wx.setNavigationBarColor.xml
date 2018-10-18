@@ -1,0 +1,19 @@
+<snippet>
+  <prefix>wx-setNavigationBarColor</prefix>
+  <description><![CDATA[设置导航栏颜色]]></description>
+  <body><![CDATA[
+    wx.setNavigationBarColor({
+	frontColor: '${1:#ffffff}',
+	backgroundColor: '${2:#000000}',
+	animation: {
+		duration: ${3:0},
+		timingFunc: '${4:linear}'
+	},
+	success: (result)=>{
+		${5}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-vibrateLong</prefix>
+  <description><![CDATA[使手机发生较长时间的振动（400ms）]]></description>
+  <body><![CDATA[
+    wx.vibrateLong({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

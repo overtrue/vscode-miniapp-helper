@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePusherContext-switchCamera</prefix>
+  <description><![CDATA[切换前后摄像头]]></description>
+  <body><![CDATA[
+    livePusherContext.switchCamera({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

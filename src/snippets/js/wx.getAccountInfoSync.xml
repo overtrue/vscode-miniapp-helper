@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>wx-getAccountInfoSync</prefix>
+  <description><![CDATA[获取当前账号信息]]></description>
+  <body><![CDATA[
+    ${1:let accInfo = }wx.getAccountInfoSync();
+  ]]></body>
+</snippet>

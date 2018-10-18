@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-clip</prefix>
+  <description><![CDATA[从原始画布中剪切任意形状和尺寸。]]></description>
+  <body><![CDATA[
+    cvsCtx.clip();
+  ]]></body>
+</snippet>

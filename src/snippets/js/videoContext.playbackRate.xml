@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>videoContext-playbackRate</prefix>
+  <description><![CDATA[设置倍速播放，支持的倍率有 0.5/0.8/1.0/1.25/1.5]]></description>
+  <body><![CDATA[
+    videoContext.playbackRate(${1});
+  ]]></body>
+</snippet>

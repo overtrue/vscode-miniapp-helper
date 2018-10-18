@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>wx-onBluetoothDeviceFound</prefix>
+  <description><![CDATA[监听寻找到新设备的事件]]></description>
+  <body><![CDATA[
+    wx.onBluetoothDeviceFound((result) => {
+	${1}
+});
+  ]]></body>
+</snippet>

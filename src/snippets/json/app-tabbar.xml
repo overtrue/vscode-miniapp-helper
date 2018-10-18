@@ -1,0 +1,22 @@
+<snippet>
+  <prefix>tabbar</prefix>
+  <description><![CDATA[App对应的JSON文件tabbar配置项]]></description>
+  <body><![CDATA[
+    "tabBar": {
+	"color": "${1}",
+	"selectedColor": "${2}",
+	"backgroundColor": "${3}",
+	"position": "bottom",
+	"borderStyle": "black",
+	"list": [
+		{
+			"pagePath": "${4}",
+			"text": "${5}",
+			"iconPath": "${6}",
+			"selectedIconPath": "${7}"
+		}
+	]
+},
+${8}
+  ]]></body>
+</snippet>

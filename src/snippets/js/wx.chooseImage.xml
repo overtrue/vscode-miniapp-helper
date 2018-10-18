@@ -1,0 +1,16 @@
+<snippet>
+  <prefix>wx-chooseImage</prefix>
+  <description><![CDATA[从本地相册选择图片或使用相机拍照。]]></description>
+  <body><![CDATA[
+    wx.chooseImage({
+	count: ${1:9},
+	sizeType: ${2:['original','compressed']},
+	sourceType: ${3:['album','camera']},
+	success: (result)=>{
+		${4}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

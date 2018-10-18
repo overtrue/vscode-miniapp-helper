@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>videoContext-pause</prefix>
+  <description><![CDATA[暂停]]></description>
+  <body><![CDATA[
+    videoContext.pause();
+  ]]></body>
+</snippet>

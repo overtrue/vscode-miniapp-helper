@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-fillText</prefix>
+  <description><![CDATA[在画布上绘制被填充的文本。]]></description>
+  <body><![CDATA[
+    cvsCtx.fillText('${1:text}', ${2:x}, ${3:y});
+  ]]></body>
+</snippet>

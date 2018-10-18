@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>live-pusher</prefix>
+  <description><![CDATA[实时音视频录制。需要用户授权 scope.camera、scope.record。默认宽度为100%、无默认高度，请通过wxss设置宽高]]></description>
+  <body><![CDATA[
+    <live-pusher class="${1}" url="${2}" mode="${3:SD|HD|FHD|RTC}" autopush="${4:false}" muted="${5:false}" enable-camera="${6:true}" 
+	auto-focus="${7:true}" orientation="${8:vertical}" beauty="${9:0}" whiteness="${10:0}" min-bitrate="${11:200}" max-bitrate="${12:1000}" 
+	bindstatechange="${13}" bindnetstatus="${14}" binderror="${15}">
+	${16}
+</live-pusher>
+  ]]></body>
+</snippet>

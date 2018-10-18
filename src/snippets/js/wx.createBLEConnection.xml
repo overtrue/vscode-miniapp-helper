@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-createBLEConnection</prefix>
+  <description><![CDATA[连接低功耗蓝牙设备。]]></description>
+  <body><![CDATA[
+    wx.createBLEConnection({
+	deviceId: ${1},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

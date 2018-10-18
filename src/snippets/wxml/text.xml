@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>text</prefix>
+  <description><![CDATA[文本]]></description>
+  <body><![CDATA[
+    <text class="${1}" selectable="${2:false}" space="${3:false}" decode="${4:false}">
+	${5}
+</text>
+  ]]></body>
+</snippet>

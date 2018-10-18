@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-showTabBar</prefix>
+  <description><![CDATA[显示 tabBar]]></description>
+  <body><![CDATA[
+    wx.showTabBar({
+	animation: ${1:false},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

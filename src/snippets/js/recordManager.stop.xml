@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>recordManager-stop</prefix>
+  <description><![CDATA[停止录音]]></description>
+  <body><![CDATA[
+    recordManager.stop();
+  ]]></body>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>swiper-item</prefix>
+  <description><![CDATA[仅可放置在<swiper/>组件中，宽高自动设置为100%]]></description>
+  <body><![CDATA[
+    <swiper-item class="${1}" item-id="${2}">
+	${3}
+</swiper-item>
+  ]]></body>
+</snippet>

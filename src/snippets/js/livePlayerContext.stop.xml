@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePlayerContext-stop</prefix>
+  <description><![CDATA[停止]]></description>
+  <body><![CDATA[
+    livePlayerContext.stop({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

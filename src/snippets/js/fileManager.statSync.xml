@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>fileManager-statSync</prefix>
+  <description><![CDATA[获取文件 Stats 对象,同步接口]]></description>
+  <body><![CDATA[
+    try{
+	var ${1:fileStat} = fileManager.statSync('${2}');
+}catch(e){
+	${3}
+}
+  ]]></body>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-getScreenBrightness</prefix>
+  <description><![CDATA[获取屏幕亮度。]]></description>
+  <body><![CDATA[
+    wx.getScreenBrightness({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

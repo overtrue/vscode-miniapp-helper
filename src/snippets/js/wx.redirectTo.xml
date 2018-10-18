@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-redirectTo</prefix>
+  <description><![CDATA[关闭当前页面，跳转到应用内的某个页面。]]></description>
+  <body><![CDATA[
+    wx.redirectTo({
+	url: '${1}',
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

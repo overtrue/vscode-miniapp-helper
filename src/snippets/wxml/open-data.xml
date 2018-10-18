@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>open-data</prefix>
+  <description><![CDATA[用于展示微信开放的数据]]></description>
+  <body><![CDATA[
+    <open-data class="${1}" type="${2:groupName}" ${3:open-gid=""}></open-data>
+  ]]></body>
+</snippet>

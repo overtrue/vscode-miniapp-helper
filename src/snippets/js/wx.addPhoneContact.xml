@@ -1,0 +1,21 @@
+<snippet>
+  <prefix>wx-addPhoneContact</prefix>
+  <description><![CDATA[调用后，用户可以选择将该表单以“新增联系人”或“添加到已有联系人”的方式，写入手机系统通讯录，完成手机通讯录联系人和联系方式的增加。此API参数非常多，请参考文档。]]></description>
+  <body><![CDATA[
+    wx.addPhoneContact({
+	photoFilePath: ${1},
+	nickName: ${2},
+	lastName: ${3},
+	middleName: ${4},
+	firstName: ${5},
+	mobilePhoneNumber: ${6},
+	weChatNumber: ${7},
+	email: ${8},
+	success: (result)=>{
+		${9}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

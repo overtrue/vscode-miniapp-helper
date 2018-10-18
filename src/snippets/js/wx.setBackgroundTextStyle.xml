@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>wx-setBackgroundTextStyle</prefix>
+  <description><![CDATA[动态设置下拉背景字体、loading图的样式]]></description>
+  <body><![CDATA[
+    wx.setBackgroundTextStyle({
+	textStyle: '${1:dark}'
+});
+  ]]></body>
+</snippet>

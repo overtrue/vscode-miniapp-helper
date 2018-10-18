@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-rotate</prefix>
+  <description><![CDATA[以原点为中心，原点可以用 translate方法修改。顺时针旋转当前坐标轴。]]></description>
+  <body><![CDATA[
+    cvsCtx.rotate(${1:degrees} * Math.PI/180);
+  ]]></body>
+</snippet>

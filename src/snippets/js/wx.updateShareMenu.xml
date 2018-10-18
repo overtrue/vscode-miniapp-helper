@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-updateShareMenu</prefix>
+  <description><![CDATA[更新转发属性]]></description>
+  <body><![CDATA[
+    wx.updateShareMenu({
+	withShareTicket: ${1:false}
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

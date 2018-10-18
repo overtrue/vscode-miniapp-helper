@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>innerAudioContext-onPlay</prefix>
+  <description><![CDATA[音频播放事件]]></description>
+  <body><![CDATA[
+    innerAudioContext.onPlay((${1})=>{
+	${2}
+});
+  ]]></body>
+</snippet>

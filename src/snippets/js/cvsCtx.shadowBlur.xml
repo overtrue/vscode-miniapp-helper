@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-shadowBlur</prefix>
+  <description><![CDATA[设置阴影的模糊级别]]></description>
+  <body><![CDATA[
+    cvsCtx.shadowBlur = ${1:value};
+  ]]></body>
+</snippet>

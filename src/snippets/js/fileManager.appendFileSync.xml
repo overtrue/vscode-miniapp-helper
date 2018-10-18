@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>fileManager-appendFileSync</prefix>
+  <description><![CDATA[在文件结尾追加内容,同步接口]]></description>
+  <body><![CDATA[
+    try{
+	fileManager.appendFileSync('${1}','${2}','${3:utf8}');
+}catch(e){
+	${4}
+}
+  ]]></body>
+</snippet>

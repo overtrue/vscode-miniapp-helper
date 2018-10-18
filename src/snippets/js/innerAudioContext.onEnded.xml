@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>innerAudioContext-onEnded</prefix>
+  <description><![CDATA[音频自然播放结束事件]]></description>
+  <body><![CDATA[
+    innerAudioContext.onEnded((${1})=>{
+	${2}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePusherContext-snapshot</prefix>
+  <description><![CDATA[快照]]></description>
+  <body><![CDATA[
+    livePusherContext.snapshot({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+  <prefix>wx-notifyBLECharacteristicValueChange</prefix>
+  <description><![CDATA[启用低功耗蓝牙设备特征值变化时的 notify 功能，订阅特征值。注意：必须设备的特征值支持notify或者indicate才可以成功调用，具体参照 characteristic 的 properties 属性]]></description>
+  <body><![CDATA[
+    wx.notifyBLECharacteristicValueChange({
+	deviceId: ${1},
+	services: ${2},
+	characteristicId: ${3},
+	state: ${4:true},
+	value: ${5:<ArrayBuffer类型>},
+	success: (result)=>{
+		${6}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

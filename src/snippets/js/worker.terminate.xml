@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>worker-terminate</prefix>
+  <description><![CDATA[结束当前Worker线程，仅限在主线程Worker实例上调用。]]></description>
+  <body><![CDATA[
+    worker.terminate();
+  ]]></body>
+</snippet>

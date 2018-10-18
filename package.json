@@ -1,0 +1,99 @@
+{
+  "name": "miniapp-helper",
+  "displayName": "小程序开发助手",
+  "description": "小程序开发助手",
+  "version": "0.0.1",
+  "icon": "./assets/images/logo.png",
+  "publisher": "overtrue",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Languages",
+    "Snippets",
+    "Other"
+  ],
+  "author": {
+    "email": "anzhengchao@gmail.com",
+    "name": "overtrue",
+    "url": "http://github.com/overtrue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overtrue/vscode-miniapp-helper"
+  },
+  "bugs": {
+    "url": "https://github.com/overtrue/vscode-miniapp-helper/issues",
+    "email": "anzhengchao@gmail.com"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "wxml",
+        "aliases": [
+          "wxml",
+          "wxml"
+        ],
+        "extensions": [
+          ".wxml"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "json",
+        "extensions": [
+          ".json"
+        ]
+      },
+      {
+        "id": "wxs",
+        "extensions": [
+          ".wxs"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "wxml",
+        "scopeName": "text.html.wxml",
+        "path": "./syntaxes/wxml.tmLanguage"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/js.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/js.json"
+      },
+      {
+        "language": "wxs",
+        "path": "./snippets/js.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/wxml.json"
+      },
+      {
+        "language": "wxml",
+        "path": "./snippets/wxml.json"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/json.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "node ./scripts/compile.js",
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^3.12.5",
+    "vscode": "^1.1.21"
+  },
+  "dependencies": {}
+}

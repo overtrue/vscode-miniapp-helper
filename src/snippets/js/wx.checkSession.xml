@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-checkSession</prefix>
+  <description><![CDATA[校验用户当前session_key是否有效。]]></description>
+  <body><![CDATA[
+    wx.checkSession({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

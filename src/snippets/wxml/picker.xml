@@ -1,0 +1,10 @@
+<snippet>
+  <prefix>picker</prefix>
+  <description><![CDATA[滚动选择器。现支持三种选择器 通过mode来区分，分别是普通选择器、时间选择器、日期选择器。默认是普通选择器]]></description>
+  <body><![CDATA[
+    <picker class="${1}" mode="${2:selector|multiSelector|time|date|region}" range="${3:[]}" ${4:range-key=""} value="${5}" 
+	disabled="${6:false}" bindchange="${7}" bindcancel="${8}">
+	${9}
+</picker>
+  ]]></body>
+</snippet>

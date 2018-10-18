@@ -1,0 +1,10 @@
+<snippet>
+  <prefix>wx-pageScrollTo</prefix>
+  <description><![CDATA[将页面滚动到目标位置。]]></description>
+  <body><![CDATA[
+    wx.pageScrollTo({
+	scrollTop: ${1:0},
+	duration: ${2:300}
+});
+  ]]></body>
+</snippet>

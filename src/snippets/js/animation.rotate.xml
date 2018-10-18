@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-rotate</prefix>
+  <description><![CDATA[绕原点旋转]]></description>
+  <body><![CDATA[
+    animation.rotate(${1});
+  ]]></body>
+</snippet>

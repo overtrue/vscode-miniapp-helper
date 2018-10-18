@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-setTextBaseline</prefix>
+  <description><![CDATA[用于设置文字的水平对齐]]></description>
+  <body><![CDATA[
+    cvsCtx.setTextBaseline('${1:middle}');
+  ]]></body>
+</snippet>

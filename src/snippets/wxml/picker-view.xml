@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>picker-view</prefix>
+  <description><![CDATA[嵌入页面的滚动选择器]]></description>
+  <body><![CDATA[
+    <picker-view value="${1}" indicator-class="${2}" indicator-style="${3}" mask-class="${4}" mask-style="${5}" bindchange="${6}">
+	${7}
+</picker-view>
+  ]]></body>
+</snippet>

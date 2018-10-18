@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>backAudioManager-stop</prefix>
+  <description><![CDATA[停止]]></description>
+  <body><![CDATA[
+    backAudioManager.stop();
+  ]]></body>
+</snippet>

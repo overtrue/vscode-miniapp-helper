@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>innerAudioContext-stop</prefix>
+  <description><![CDATA[停止]]></description>
+  <body><![CDATA[
+    innerAudioContext.stop();
+  ]]></body>
+</snippet>

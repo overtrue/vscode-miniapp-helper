@@ -1,0 +1,17 @@
+<snippet>
+  <prefix>wx-writeBLECharacteristicValue</prefix>
+  <description><![CDATA[向低功耗蓝牙设备特征值中写入二进制数据。注意：必须设备的特征值支持write才可以成功调用，具体参照 characteristic 的 properties 属性]]></description>
+  <body><![CDATA[
+    wx.writeBLECharacteristicValue({
+	deviceId: ${1},
+	services: ${2},
+	characteristicId: ${3},
+	value: ${4:<ArrayBuffer类型>},
+	success: (result)=>{
+		${5}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

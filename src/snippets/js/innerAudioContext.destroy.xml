@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>innerAudioContext-destroy</prefix>
+  <description><![CDATA[销毁当前实例]]></description>
+  <body><![CDATA[
+    innerAudioContext.destroy();
+  ]]></body>
+</snippet>

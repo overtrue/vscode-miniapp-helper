@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>recordManager-resume</prefix>
+  <description><![CDATA[恢复录音]]></description>
+  <body><![CDATA[
+    recordManager.resume();
+  ]]></body>
+</snippet>

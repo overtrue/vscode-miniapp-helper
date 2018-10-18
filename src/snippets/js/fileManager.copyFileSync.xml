@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>fileManager-copyFileSync</prefix>
+  <description><![CDATA[复制文件,同步接口]]></description>
+  <body><![CDATA[
+    try{
+	fileManager.copyFileSync('${1}','${2}');
+}catch(e){
+	${3}
+}
+  ]]></body>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>logger-log</prefix>
+  <description><![CDATA[写log日志，可以提供任意个参数。]]></description>
+  <body><![CDATA[
+    logger.log(${1});
+  ]]></body>
+</snippet>

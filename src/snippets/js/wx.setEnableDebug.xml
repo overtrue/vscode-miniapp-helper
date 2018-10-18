@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-setEnableDebug</prefix>
+  <description><![CDATA[设置是否打开调试开关，此开关对正式版也能生效]]></description>
+  <body><![CDATA[
+    wx.setEnableDebug({
+	enableDebug:{${1:true}},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

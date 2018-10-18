@@ -1,0 +1,8 @@
+<snippet>
+  <prefix>getCurrentPages</prefix>
+  <description><![CDATA[获取当前页面栈]]></description>
+  <body><![CDATA[
+    ${1:var curPages = } getCurrentPages();
+${2}
+  ]]></body>
+</snippet>

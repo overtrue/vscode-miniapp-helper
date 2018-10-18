@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePusherContext-toggleTorch</prefix>
+  <description><![CDATA[切换闪光灯]]></description>
+  <body><![CDATA[
+    livePusherContext.toggleTorch({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

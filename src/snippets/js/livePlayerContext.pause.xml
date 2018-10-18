@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePlayerContext-pause</prefix>
+  <description><![CDATA[暂停]]></description>
+  <body><![CDATA[
+    livePlayerContext.pause({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

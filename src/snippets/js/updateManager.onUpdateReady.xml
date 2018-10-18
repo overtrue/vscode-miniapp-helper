@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>updateManager-onUpdateReady</prefix>
+  <description><![CDATA[当新版本下载完成，会进行回调]]></description>
+  <body><![CDATA[
+    updateManager.onUpdateReady((result) => {${1}});
+  ]]></body>
+</snippet>

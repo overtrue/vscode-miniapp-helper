@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>fileManager-unzip</prefix>
+  <description><![CDATA[解压文件]]></description>
+  <body><![CDATA[
+    fileManager.unzip({
+	zipFilePath: '${1}',
+	targetPath: '${2}',
+	success: (result)=>{
+		${3}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

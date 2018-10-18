@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>wx-onBackgroundAudioStop</prefix>
+  <description><![CDATA[监听音乐停止。1.2.0 起不再维护]]></description>
+  <body><![CDATA[
+    wx.onBackgroundAudioStop((${1:result})=>{${2}});
+  ]]></body>
+</snippet>

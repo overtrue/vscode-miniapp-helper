@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-setLineJoin</prefix>
+  <description><![CDATA[设置线条的交点样式。]]></description>
+  <body><![CDATA[
+    cvsCtx.setLineJoin('${1:bevel}');
+  ]]></body>
+</snippet>

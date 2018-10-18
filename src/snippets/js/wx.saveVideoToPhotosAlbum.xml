@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-saveVideoToPhotosAlbum</prefix>
+  <description><![CDATA[保存视频到系统相册。需要用户授权 scope.writePhotosAlbum]]></description>
+  <body><![CDATA[
+    wx.saveVideoToPhotosAlbum({
+	filePath: '${1}',
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

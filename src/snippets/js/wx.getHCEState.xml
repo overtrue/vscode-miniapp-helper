@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-getHCEState</prefix>
+  <description><![CDATA[判断当前设备是否支持 HCE 能力]]></description>
+  <body><![CDATA[
+    wx.getHCEState({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

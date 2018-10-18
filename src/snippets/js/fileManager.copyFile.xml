@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>fileManager-copyFile</prefix>
+  <description><![CDATA[复制文件]]></description>
+  <body><![CDATA[
+    fileManager.copyFile({
+	srcPath: '${1}',
+	destPath: '${2}',
+	success: (result)=>{
+		${3}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

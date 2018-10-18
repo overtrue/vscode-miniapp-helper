@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-setLineCap</prefix>
+  <description><![CDATA[设置线条的端点样式。]]></description>
+  <body><![CDATA[
+    cvsCtx.setLineCap('${1:butt}');
+  ]]></body>
+</snippet>

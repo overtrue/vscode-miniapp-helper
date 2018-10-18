@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-shadowOffsetX</prefix>
+  <description><![CDATA[设置阴影相对于形状在水平方向的偏移]]></description>
+  <body><![CDATA[
+    cvsCtx.shadowOffsetX = ${1:value};
+  ]]></body>
+</snippet>

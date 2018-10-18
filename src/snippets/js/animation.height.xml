@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-height</prefix>
+  <description><![CDATA[长度]]></description>
+  <body><![CDATA[
+    animation.height(${1});
+  ]]></body>
+</snippet>

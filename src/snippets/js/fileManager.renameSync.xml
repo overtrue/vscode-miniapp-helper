@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>fileManager-renameSync</prefix>
+  <description><![CDATA[重命名文件，可以把文件从 oldPath 移动到 newPath,同步接口]]></description>
+  <body><![CDATA[
+    try{
+	fileManager.renameSync('${1}','${2}');
+}catch(e){
+	${3}
+}
+  ]]></body>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>backAudioManager-onNext</prefix>
+  <description><![CDATA[用户在系统音乐播放面板点击下一曲事件（iOS only）]]></description>
+  <body><![CDATA[
+    backAudioManager.onNext((${1})=>{
+	${2}
+});
+  ]]></body>
+</snippet>

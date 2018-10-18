@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-getAvailableAudioSources</prefix>
+  <description><![CDATA[获取当前支持的音频输入源]]></description>
+  <body><![CDATA[
+    wx.getAvailableAudioSources({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

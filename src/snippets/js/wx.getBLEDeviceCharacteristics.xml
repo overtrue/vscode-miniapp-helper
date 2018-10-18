@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>wx-getBLEDeviceCharacteristics</prefix>
+  <description><![CDATA[获取蓝牙设备某个服务中的所有 characteristic（特征值）]]></description>
+  <body><![CDATA[
+    wx.getBLEDeviceCharacteristics({
+	deviceId: ${1},
+	services: ${2},
+	success: (result)=>{
+		${3}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

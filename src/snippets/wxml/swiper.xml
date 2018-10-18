@@ -1,0 +1,11 @@
+<snippet>
+  <prefix>swiper</prefix>
+  <description><![CDATA[滑块视图容器]]></description>
+  <body><![CDATA[
+    <swiper class="${1}" indicator-dots="${2:false}" indicator-color="${3:rgba(0,0,0,.3)}" autoplay="${4:false}" 
+	${5:current="0"} ${6:current-item-id=""} interval="${7:5000}" duration="${8:1000}" circular="${9:false}" vertical="${10:false}" 
+previous-margin="${10:0px}" next-margin"${11:0px}" display-multiple-items="${12:1}" skip-hidden-item-layout="${13:false}" bindchange="${14}" ${15:bindanimationfinish=""}>
+	${16}
+</swiper>
+  ]]></body>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>videoContext-exitFullScreen</prefix>
+  <description><![CDATA[退出全屏]]></description>
+  <body><![CDATA[
+    videoContext.exitFullScreen();
+  ]]></body>
+</snippet>

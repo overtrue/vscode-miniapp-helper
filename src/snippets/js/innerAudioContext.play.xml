@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>innerAudioContext-play</prefix>
+  <description><![CDATA[播放]]></description>
+  <body><![CDATA[
+    innerAudioContext.play();
+  ]]></body>
+</snippet>

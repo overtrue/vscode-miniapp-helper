@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>radio</prefix>
+  <description><![CDATA[单选项目]]></description>
+  <body><![CDATA[
+    <radio class="${1}" value="${2}" disabled="${3:false}" checked="${4:false}" color="${5}">
+	${6}
+</radio>
+  ]]></body>
+</snippet>

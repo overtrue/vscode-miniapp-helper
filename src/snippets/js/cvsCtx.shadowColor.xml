@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-shadowColor</prefix>
+  <description><![CDATA[设置阴影的颜色]]></description>
+  <body><![CDATA[
+    cvsCtx.shadowColor = ${1:value};
+  ]]></body>
+</snippet>

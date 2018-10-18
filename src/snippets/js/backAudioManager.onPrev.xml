@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>backAudioManager-onPrev</prefix>
+  <description><![CDATA[用户在系统音乐播放面板点击上一曲事件（iOS only）]]></description>
+  <body><![CDATA[
+    backAudioManager.onPrev((${1})=>{
+	${2}
+});
+  ]]></body>
+</snippet>

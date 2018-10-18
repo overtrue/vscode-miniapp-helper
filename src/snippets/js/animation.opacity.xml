@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-opacity</prefix>
+  <description><![CDATA[透明度，参数范围 0~1]]></description>
+  <body><![CDATA[
+    animation.opacity(${1});
+  ]]></body>
+</snippet>

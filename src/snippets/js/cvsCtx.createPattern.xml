@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-createPattern</prefix>
+  <description><![CDATA[对指定的图像创建模式的方法，可在指定的方向上重复元图像]]></description>
+  <body><![CDATA[
+    cvsCtx.createPattern(${1:image}, ${2:repetition});
+  ]]></body>
+</snippet>

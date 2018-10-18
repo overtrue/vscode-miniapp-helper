@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>networktimeout</prefix>
+  <description><![CDATA[App对应的JSON文件networktimeout配置项,超时设置]]></description>
+  <body><![CDATA[
+    "networkTimeout": {
+	"request": ${1:10000},
+	"connectSocket": ${2:10000},
+	"uploadFile": ${3:10000},
+	"downloadFile": ${4:10000}
+},
+${5}
+  ]]></body>
+</snippet>

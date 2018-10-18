@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>cameraContext-stopRecord</prefix>
+  <description><![CDATA[结束录像，成功则返回封面与视频]]></description>
+  <body><![CDATA[
+    cameraContext.stopRecord({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

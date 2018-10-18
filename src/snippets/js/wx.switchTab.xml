@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-switchTab</prefix>
+  <description><![CDATA[跳转到tabBar页面，并关闭其他所有非tabBar页面]]></description>
+  <body><![CDATA[
+    wx.switchTab({
+	url: '${1}',
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

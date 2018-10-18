@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>fileManager-rename</prefix>
+  <description><![CDATA[重命名文件，可以把文件从 oldPath 移动到 newPath]]></description>
+  <body><![CDATA[
+    fileManager.rename({
+	oldPath: '${1}',
+	newPath: '${2}',
+	success: (result)=>{
+		${3}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

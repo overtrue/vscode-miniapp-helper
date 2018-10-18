@@ -1,0 +1,8 @@
+<snippet>
+  <prefix>getApp</prefix>
+  <description><![CDATA[获取小程序实例]]></description>
+  <body><![CDATA[
+    ${1:var appInst = } getApp();
+${2}
+  ]]></body>
+</snippet>

@@ -1,0 +1,38 @@
+<snippet>
+  <prefix>wx-Component</prefix>
+  <description><![CDATA[Component对象及其生命周期函数和回调函数]]></description>
+  <body><![CDATA[
+    //Component Object
+Component({
+	properties: {
+		${1:myProperty}:{
+			type:${2:String},
+			value:${3:''},
+			observer: function(){${4}}
+		},
+
+	},
+	data: {
+
+	},
+	methods: {
+		${5}
+	},
+	created: function(){
+
+	},
+	attached: function(){
+
+	},
+	ready: function(){
+
+	},
+	moved: function(){
+
+	},
+	detached: function(){
+
+	},
+});
+  ]]></body>
+</snippet>

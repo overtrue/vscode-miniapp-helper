@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-draw</prefix>
+  <description><![CDATA[将之前在绘图上下文中的描述（路径、变形、样式）画到 canvas 中]]></description>
+  <body><![CDATA[
+    cvsCtx.draw(${1:true}, ${2:callback});
+  ]]></body>
+</snippet>

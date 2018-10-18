@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>fileManager-unlink</prefix>
+  <description><![CDATA[删除文件]]></description>
+  <body><![CDATA[
+    fileManager.unlink({
+	filePath: '${1}',
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

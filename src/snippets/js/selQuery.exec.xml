@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>selQuery-exec</prefix>
+  <description><![CDATA[执行所有的请求，请求结果按请求次序构成数组，在callback的第一个参数中返回。]]></description>
+  <body><![CDATA[
+    selQuery.exec(result)=>{
+	${1}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,147 @@
+{
+    "animation": {
+        "prefix": "animation-width",
+        "description": "宽度",
+        "body": "animation.width(${1});\n  "
+    },
+    "audioContext": {
+        "prefix": "audioContext-setSrc",
+        "description": "设置音频的地址。1.6.0 起不再维护",
+        "body": "audioContext.setSrc('${1}');\n  "
+    },
+    "backAudioManager": {
+        "prefix": "backAudioManager-stop",
+        "description": "停止",
+        "body": "backAudioManager.stop();\n  "
+    },
+    "cameraContext": {
+        "prefix": "cameraContext-takePhoto",
+        "description": "拍照，可指定质量(high, normal, low，默认normal)，成功则返回图片",
+        "body": "cameraContext.takePhoto({\n\tquality: ${1:normal},\n\tsuccess: (result)=>{\n\t\t${2}\n\t},\n\tfail: ()=>{},\n\tcomplete: ()=>{}\n});\n  "
+    },
+    "cvsCtx": {
+        "prefix": "cvsCtx-translate",
+        "description": "对当前坐标系的原点(0, 0)进行变换，默认的坐标系原点为页面左上角。",
+        "body": "cvsCtx.translate(${1:x}, ${2:y});\n  "
+    },
+    "downTask": {
+        "prefix": "downTask-onProgressUpdate",
+        "description": "监听下载进度变化事件。",
+        "body": "downTask.onProgressUpdate((result)=>{\n\t\t${1}\n\t});\n  "
+    },
+    "fileManager": {
+        "prefix": "fileManager-writeFileSync",
+        "description": "写文件,同步接口",
+        "body": "try{\n\tfileManager.writeFileSync('${1}','${2}','${3:utf8}');\n}catch(e){\n\t${4}\n}\n  "
+    },
+    "fileStat": {
+        "prefix": "fileStat-isFile",
+        "description": "判断当前文件是否一个普通文件",
+        "body": "fileStat.isFile();\n  "
+    },
+    "getApp": {
+        "prefix": "getApp",
+        "description": "获取小程序实例",
+        "body": "${1:var appInst = } getApp();\n${2}\n  "
+    },
+    "getCurrentPages": {
+        "prefix": "getCurrentPages",
+        "description": "获取当前页面栈",
+        "body": "${1:var curPages = } getCurrentPages();\n${2}\n  "
+    },
+    "innerAudioContext": {
+        "prefix": "innerAudioContext-stop",
+        "description": "停止",
+        "body": "innerAudioContext.stop();\n  "
+    },
+    "interObser": {
+        "prefix": "interObser-relativeToViewport",
+        "description": "指定页面显示区域作为参照区域之一",
+        "body": "interObser.relativeToViewport(${1});\n  "
+    },
+    "livePlayerContext": {
+        "prefix": "livePlayerContext-stop",
+        "description": "停止",
+        "body": "livePlayerContext.stop({\n\tsuccess: (result)=>{\n\t\t${1}\n\t},\n\tfail: ()=>{},\n\tcomplete: ()=>{}\n});\n  "
+    },
+    "livePusherContext": {
+        "prefix": "livePusherContext-toggleTorch",
+        "description": "切换闪光灯",
+        "body": "livePusherContext.toggleTorch({\n\tsuccess: (result)=>{\n\t\t${1}\n\t},\n\tfail: ()=>{},\n\tcomplete: ()=>{}\n});\n  "
+    },
+    "logger": {
+        "prefix": "logger-warn",
+        "description": "写warn日志，可以提供任意个参数。",
+        "body": "logger.warn(${1});\n  "
+    },
+    "mapContext": {
+        "prefix": "mapContext-translateMarker",
+        "description": "平移marker，带动画",
+        "body": "mapContext.translateMarker({\n\tmarkerId: ${1},\n\tdestination: {\n\t\tlatitude: ${2},\n\t\tlongitude: ${3}\n\t},\n\tautoRotate: ${4:false},\n\trotate: ${5},\n\tduration: ${6:1000},\n\tanimationEnd: ()=>{},\n\tfail: ()=>{}\n});\n  "
+    },
+    "recordManager": {
+        "prefix": "recordManager-stop",
+        "description": "停止录音",
+        "body": "recordManager.stop();\n  "
+    },
+    "reqTask": {
+        "prefix": "reqTask-abort",
+        "description": "中断请求任务。",
+        "body": "reqTask.abort();\n  "
+    },
+    "selQuery": {
+        "prefix": "selQuery-selectViewport",
+        "description": "选择显示区域，可用于获取显示区域的尺寸、滚动位置等信息。",
+        "body": "selQuery.selectViewport();\n  "
+    },
+    "sockTask": {
+        "prefix": "sockTask-send",
+        "description": "通过WebSocket连接发送数据。",
+        "body": "sockTask.send({\n\tdata: ${1},\n\tsuccess: (result)=>{\n\t\t${2}\n\t},\n\tfail: ()=>{},\n\tcomplete: ()=>{}\n});\n  "
+    },
+    "test": {
+        "prefix": "test",
+        "description": "测试一下",
+        "body": "hello world!\n  "
+    },
+    "upTask": {
+        "prefix": "upTask-onProgressUpdate",
+        "description": "监听上传进度变化事件。",
+        "body": "upTask.onProgressUpdate((result)=>{\n\t\t${1}\n\t});\n  "
+    },
+    "updateManager": {
+        "prefix": "updateManager-onUpdateReady",
+        "description": "当新版本下载完成，会进行回调",
+        "body": "updateManager.onUpdateReady((result) => {${1}});\n  "
+    },
+    "videoContext": {
+        "prefix": "videoContext-stop",
+        "description": "停止",
+        "body": "videoContext.stop();\n  "
+    },
+    "worker": {
+        "prefix": "worker-terminate",
+        "description": "结束当前Worker线程，仅限在主线程Worker实例上调用。",
+        "body": "worker.terminate();\n  "
+    },
+    "wx": {
+        "prefix": "wx-writeBLECharacteristicValue",
+        "description": "向低功耗蓝牙设备特征值中写入二进制数据。注意：必须设备的特征值支持write才可以成功调用，具体参照 characteristic 的 properties 属性",
+        "body": "wx.writeBLECharacteristicValue({\n\tdeviceId: ${1},\n\tservices: ${2},\n\tcharacteristicId: ${3},\n\tvalue: ${4:<ArrayBuffer类型>},\n\tsuccess: (result)=>{\n\t\t${5}\n\t},\n\tfail: ()=>{},\n\tcomplete: ()=>{}\n});\n  "
+    },
+    "wxComponent": {
+        "prefix": "wx-Component",
+        "description": "Component对象及其生命周期函数和回调函数",
+        "body": "//Component Object\nComponent({\n\tproperties: {\n\t\t${1:myProperty}:{\n\t\t\ttype:${2:String},\n\t\t\tvalue:${3:''},\n\t\t\tobserver: function(){${4}}\n\t\t},\n\r\n\t},\n\tdata: {\n\r\n\t},\n\tmethods: {\n\t\t${5}\n\t},\n\tcreated: function(){\n\r\n\t},\n\tattached: function(){\n\r\n\t},\n\tready: function(){\n\r\n\t},\n\tmoved: function(){\n\r\n\t},\n\tdetached: function(){\n\r\n\t},\n});\n  "
+    },
+    "wxapp": {
+        "prefix": "wx-app",
+        "description": "App对象及其生命周期函数和回调函数",
+        "body": "//app.js\nApp({\n\t//onLaunch,onShow: options(path,query,scene,shareTicket,referrerInfo(appId,extraData))\n\tonLaunch: function(options){\n\t\t${1}\n\t},\n\tonShow: function(options){\n\r\n\t},\n\tonHide: function(){\n\r\n\t},\n\tonError: function(msg){\n\r\n\t},\n\t//options(path,query,isEntryPage)\n\tonPageNotFound: function(options){\n\r\n\t},\n\tglobalData: {\n\t\t${2}\n\t}\n});\n  "
+    },
+    "wxpage": {
+        "prefix": "wx-page",
+        "description": "Page对象及其生命周期函数和回调函数",
+        "body": "//Page Object\nPage({\n\tdata: {\n\t\t${1}\n\t},\n\t//options(Object)\n\tonLoad: function(options){\n\t\t${2}\n\t},\n\tonReady: function(){\n\t\t${3}\n\t},\n\tonShow: function(){\n\t\t${4}\n\t},\n\tonHide: function(){\n\r\n\t},\n\tonUnload: function(){\n\r\n\t},\n\tonPullDownRefresh: function(){\n\r\n\t},\n\tonReachBottom: function(){\n\r\n\t},\n\tonShareAppMessage: function(){\n\r\n\t},\n\tonPageScroll: function(){\n\r\n\t},\n\t//item(index,pagePath,text)\n\tonTabItemTap:function(item){\n\r\n\t}\n});\n  "
+    }
+}

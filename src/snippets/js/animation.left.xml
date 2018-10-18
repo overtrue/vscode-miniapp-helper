@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-left</prefix>
+  <description><![CDATA[左侧距离]]></description>
+  <body><![CDATA[
+    animation.height(${1});
+  ]]></body>
+</snippet>

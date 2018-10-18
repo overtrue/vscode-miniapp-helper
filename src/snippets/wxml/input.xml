@@ -1,0 +1,10 @@
+<snippet>
+  <prefix>input</prefix>
+  <description><![CDATA[输入框]]></description>
+  <body><![CDATA[
+    <input class="${1}" value="${2}" type="${3:text|number|idcard|digit|time|date}" password="${4:false}" placeholder="${5}" placeholder-style="${6}" placeholder-class="${7:input-placeholder}" 
+	disabled="${8:false}" maxlength="${9:140}" focus="${10:false}" bindinput="${11}" bindfocus="${12}" bindblur="${13}" bindconfirm="${14}">
+	${15}
+</input>
+  ]]></body>
+</snippet>

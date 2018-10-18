@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>wx-showNavigationBarLoading</prefix>
+  <description><![CDATA[在当前页面显示导航条加载动画。]]></description>
+  <body><![CDATA[
+    wx.showNavigationBarLoading();
+  ]]></body>
+</snippet>

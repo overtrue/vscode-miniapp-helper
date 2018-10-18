@@ -1,0 +1,18 @@
+<snippet>
+  <prefix>wx-canvasGetImageData</prefix>
+  <description><![CDATA[返回一个数组，用来描述 canvas 区域隐含的像素数据。]]></description>
+  <body><![CDATA[
+    wx.canvasGetImageData({
+	canvasId: ${1},
+	x: ${2:0},
+	y: ${3:0},
+	width: ${4},
+	height: ${5},
+	success: (result)=>{
+		${6}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+}, this);
+  ]]></body>
+</snippet>

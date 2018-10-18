@@ -1,0 +1,15 @@
+<snippet>
+  <prefix>wx-openDocument</prefix>
+  <description><![CDATA[新开页面打开文档，支持格式：doc, xls, ppt, pdf, docx, xlsx, pptx]]></description>
+  <body><![CDATA[
+    wx.openDocument({
+	filePath: ${1},
+	fileType: ${2:'docx'},
+	success: (result)=>{
+		${3}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

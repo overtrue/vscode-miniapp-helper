@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>livePusherContext-play</prefix>
+  <description><![CDATA[播放推流]]></description>
+  <body><![CDATA[
+    livePusherContext.play({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

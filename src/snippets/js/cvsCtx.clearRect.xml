@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-clearRect</prefix>
+  <description><![CDATA[清除画布上在该矩形区域内的内容。]]></description>
+  <body><![CDATA[
+    cvsCtx.clearRect(${1:x}, ${2:y}, ${3:width}, ${4:height});
+  ]]></body>
+</snippet>

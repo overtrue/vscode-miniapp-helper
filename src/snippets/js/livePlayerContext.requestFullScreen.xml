@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>livePlayerContext-requestFullScreen</prefix>
+  <description><![CDATA[进入全屏]]></description>
+  <body><![CDATA[
+    livePlayerContext.requestFullScreen({
+	direction: ${1:0},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

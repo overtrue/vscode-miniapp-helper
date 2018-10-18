@@ -1,0 +1,20 @@
+<snippet>
+  <prefix>wx-loadFontFace</prefix>
+  <description><![CDATA[动态加载网络字体]]></description>
+  <body><![CDATA[
+    wx.loadFontFace({
+	family: '${1}',
+	source: '${2}',
+	desc: {
+		style: '${3:normal}',
+		weight: '${4:normal}',
+		variant: '${5:normal}'
+	},
+	success: (result)=>{
+		${6}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

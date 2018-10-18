@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-setScreenBrightness</prefix>
+  <description><![CDATA[设置屏幕亮度]]></description>
+  <body><![CDATA[
+    wx.setScreenBrightness({
+	value: ${1},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

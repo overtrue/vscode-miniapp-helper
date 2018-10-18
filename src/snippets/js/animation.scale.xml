@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>animation-scale</prefix>
+  <description><![CDATA[x轴[y轴]缩放。一个参数时，表示在X轴、Y轴两个相同；两个参数时表示在X轴，在Y轴不同]]></description>
+  <body><![CDATA[
+    animation.scale(${1}${2:,});
+  ]]></body>
+</snippet>

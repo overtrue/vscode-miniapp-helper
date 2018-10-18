@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-showTabBarRedDot</prefix>
+  <description><![CDATA[显示tabBar某一项的右上角的红点]]></description>
+  <body><![CDATA[
+    wx.showTabBarRedDot({
+	index: ${1},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <prefix>wx-getImageInfo</prefix>
+  <description><![CDATA[获取图片信息，倘若为网络图片，需先配置download域名才能生效。]]></description>
+  <body><![CDATA[
+    wx.getImageInfo({
+	src: ${1},
+	success: (result)=>{
+		${2}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>wx-onBluetoothAdapterStateChange</prefix>
+  <description><![CDATA[监听蓝牙适配器状态变化事件]]></description>
+  <body><![CDATA[
+    wx.onBluetoothAdapterStateChange((result) => {
+	${1}
+});
+  ]]></body>
+</snippet>

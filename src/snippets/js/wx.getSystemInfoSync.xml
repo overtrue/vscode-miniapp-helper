@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>wx-getSystemInfoSync</prefix>
+  <description><![CDATA[获取系统信息同步接口]]></description>
+  <body><![CDATA[
+    ${var systemInfo = }wx.getSystemInfoSync();
+  ]]></body>
+</snippet>

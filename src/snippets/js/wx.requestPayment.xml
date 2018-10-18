@@ -1,0 +1,18 @@
+<snippet>
+  <prefix>wx-requestPayment</prefix>
+  <description><![CDATA[发起微信支付。]]></description>
+  <body><![CDATA[
+    wx.requestPayment({
+	timeStamp: '${1}',
+	nonceStr: '${2}',
+	package: '${3}',
+	signType: '${4}',
+	paySign: '${5}',
+	success: (result)=>{
+		${6}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+  <prefix>wx-faceVerifyForPay</prefix>
+  <description><![CDATA[支付各个安全场景验证人脸。]]></description>
+  <body><![CDATA[
+    wx.faceVerifyForPay({
+	scene: '${1}',
+	package: '${2}',
+	packageSign: '${3}',
+	otherVerifyTitle: '${4}',
+	success: (result)=>{
+		${5}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

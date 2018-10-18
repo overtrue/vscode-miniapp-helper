@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>wx-createVideoContext</prefix>
+  <description><![CDATA[创建并返回 video 上下文 videoContext 对象。在自定义组件下，第二个参数传入组件实例this，以操作组件内 <video/> 组件]]></description>
+  <body><![CDATA[
+    ${1:var videoContext = }wx.createVideoContext('${2:video}'${3:, this});
+  ]]></body>
+</snippet>

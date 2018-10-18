@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-checkIsSupportSoterAuthentication</prefix>
+  <description><![CDATA[获取本机支持的SOTER生物认证方式]]></description>
+  <body><![CDATA[
+    wx.checkIsSupportSoterAuthentication({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

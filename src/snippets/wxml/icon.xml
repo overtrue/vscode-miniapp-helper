@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>icon</prefix>
+  <description><![CDATA[图标]]></description>
+  <body><![CDATA[
+    <icon class="${1}" type="${2:success|success_no_circle|info|warn|waiting|cancel|download|search|clear}" size="${3:23}" color="${4}">
+	${5}
+</icon>
+  ]]></body>
+</snippet>

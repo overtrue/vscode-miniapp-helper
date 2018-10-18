@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>requiredBackgroundModes</prefix>
+  <description><![CDATA[需要在后台使用的能力，如“音乐播放”]]></description>
+  <body><![CDATA[
+    "requiredBackgroundModes":["audio"],
+  ]]></body>
+</snippet>

@@ -1,0 +1,44 @@
+<snippet>
+  <prefix>wx-page</prefix>
+  <description><![CDATA[Page对象及其生命周期函数和回调函数]]></description>
+  <body><![CDATA[
+    //Page Object
+Page({
+	data: {
+		${1}
+	},
+	//options(Object)
+	onLoad: function(options){
+		${2}
+	},
+	onReady: function(){
+		${3}
+	},
+	onShow: function(){
+		${4}
+	},
+	onHide: function(){
+
+	},
+	onUnload: function(){
+
+	},
+	onPullDownRefresh: function(){
+
+	},
+	onReachBottom: function(){
+
+	},
+	onShareAppMessage: function(){
+
+	},
+	onPageScroll: function(){
+
+	},
+	//item(index,pagePath,text)
+	onTabItemTap:function(item){
+
+	}
+});
+  ]]></body>
+</snippet>

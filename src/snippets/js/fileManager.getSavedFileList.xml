@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>fileManager-getSavedFileList</prefix>
+  <description><![CDATA[获取该小程序下已保存的本地缓存文件列表]]></description>
+  <body><![CDATA[
+    fileManager.getSavedFileList({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

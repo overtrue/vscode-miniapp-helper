@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>cvsCtx-globalAlpha</prefix>
+  <description><![CDATA[设置全局画笔透明度。基础库 1.9.90 起支持]]></description>
+  <body><![CDATA[
+    cvsCtx.globalAlpha = ${1:1};
+  ]]></body>
+</snippet>

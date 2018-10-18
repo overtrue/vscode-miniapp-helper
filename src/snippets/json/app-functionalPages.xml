@@ -1,0 +1,7 @@
+<snippet>
+  <prefix>functionalPages</prefix>
+  <description><![CDATA[是否启用插件功能页]]></description>
+  <body><![CDATA[
+    "functionalPages":false,
+  ]]></body>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <prefix>wx-startRecord</prefix>
+  <description><![CDATA[开始录音。需要用户授权 scope.record。1.6.0 起不再维护]]></description>
+  <body><![CDATA[
+    wx.startRecord({
+	success: (result)=>{
+		${1}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>

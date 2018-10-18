@@ -1,0 +1,9 @@
+<snippet>
+  <prefix>wx-createInnerAudioContext</prefix>
+  <description><![CDATA[创建并返回内部 audio 上下文 innerAudioContext 对象。本接口是 wx.createAudioContext 升级版。1.6.0 开始支持]]></description>
+  <body><![CDATA[
+    // properties(Read only)(duration,currentTime,paused,buffered,volume)
+// properties(src,startTime,autoplay,loop,obeyMuteSwitch)
+${1:var innerAudioContext = }wx.createInnerAudioContext();
+  ]]></body>
+</snippet>

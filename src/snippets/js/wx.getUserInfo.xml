@@ -1,0 +1,16 @@
+<snippet>
+  <prefix>wx-getUserInfo</prefix>
+  <description><![CDATA[当用户未授权过，调用该接口将直接报错；当用户授权过，可以使用该接口获取用户信息]]></description>
+  <body><![CDATA[
+    wx.getUserInfo({
+	withCredentials: '${1:false}',
+	lang: '${2:zh_CN}',
+	timeout:${3:10000},
+	success: (result)=>{
+		${4}
+	},
+	fail: ()=>{},
+	complete: ()=>{}
+});
+  ]]></body>
+</snippet>
