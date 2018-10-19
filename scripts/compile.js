@@ -18,9 +18,28 @@ const compile = group => {
       }
       snippets[file.split('.').shift()] = snippet
     })
-
+    updateReadme(group, snippets)
     fs.writeFileSync(path.join(targetSnippetPath, `${group}.json`), JSON.stringify(snippets, null, 4), 'utf8')
   })
+}
+
+const updateReadme = (group, snippets) => {
+  let readme = fs.readFileSync('README.md', 'utf8')
+
+  let tableContent = ''
+
+  for (const snippet in snippets) {
+    tableContent += `\n| \`${snippets[snippet].prefix}\` | ${snippets[snippet].description} |`
+  }
+
+  fs.writeFileSync(
+    'README.md',
+    readme.replace(
+      new RegExp(`(#{3}\\s+${group})\\n[\\s\\S]*?\\n-{3}`),
+      `$1\n| 前缀 | 描述 |\n| :-- | :-- |${tableContent}\n---`
+    ),
+    'utf8'
+  )
 }
 
 const snippetToXml = group => {
