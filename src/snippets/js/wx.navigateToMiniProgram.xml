@@ -7,11 +7,11 @@
 	path:'${2}',
 	extraData:{${3}},
 	envVersion:'${4:release}',
-	success: (result)=>{
+	success: (result) => {
 		${5}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

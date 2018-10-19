@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-hideTabBar</prefix>
-  <description><![CDATA[隐藏 tabBar]]></description>
+  <description><![CDATA[?? tabBar]]></description>
   <body><![CDATA[
     wx.hideTabBar({
 	animation: ${1:false},
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

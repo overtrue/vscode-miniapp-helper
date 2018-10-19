@@ -3,11 +3,11 @@
   <description><![CDATA[开始录音。需要用户授权 scope.record。1.6.0 起不再维护]]></description>
   <body><![CDATA[
     wx.startRecord({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
   <prefix>innerAudioContext-offSeeked</prefix>
-  <description><![CDATA[取消监听onSeeked事件]]></description>
+  <description><![CDATA[取消监听 onSeeked 事件]]></description>
   <body><![CDATA[
-    innerAudioContext.offSeeked((${1})=>{
+    innerAudioContext.offSeeked((${1}) => {
 	${2}
 });
   ]]></body>

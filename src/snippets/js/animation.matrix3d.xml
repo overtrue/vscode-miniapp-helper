@@ -2,6 +2,6 @@
   <prefix>animation-matrix3d</prefix>
   <description><![CDATA[立体矩阵变换]]></description>
   <body><![CDATA[
-    animation.matrix3d(${1},${2},${3},${4},${5},${6},${7},${8},${9},${10},${11},${12},${13},${14},${15},${16});
+    animation.matrix3d(${1}, ${2}, ${3}, ${4}, ${5}, ${6}, ${7}, ${8}, ${9}, ${10}, ${11}, ${12}, ${13}, ${14}, ${15}, ${16});
   ]]></body>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-moveTo</prefix>
-  <description><![CDATA[把路径移动到画布中的指定点，不创建线条。]]></description>
+  <description><![CDATA[把路径移动到画布中的指定点，不创建线条]]></description>
   <body><![CDATA[
     cvsCtx.moveTo(${1:x}, ${2:y});
   ]]></body>

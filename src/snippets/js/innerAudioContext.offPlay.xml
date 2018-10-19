@@ -1,8 +1,8 @@
 <snippet>
   <prefix>innerAudioContext-offPlay</prefix>
-  <description><![CDATA[取消监听onPlay事件]]></description>
+  <description><![CDATA[取消监听 onPlay 事件]]></description>
   <body><![CDATA[
-    innerAudioContext.offPlay((${1})=>{
+    innerAudioContext.offPlay((${1}) => {
 	${2}
 });
   ]]></body>

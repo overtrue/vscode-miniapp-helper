@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-getStorage</prefix>
-  <description><![CDATA[从本地缓存中异步获取指定 key 对应的内容。]]></description>
+  <description><![CDATA[从本地缓存中异步获取指定 key 对应的内容]]></description>
   <body><![CDATA[
     wx.getStorage({
 	key: '${1:key}',
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

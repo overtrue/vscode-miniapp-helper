@@ -1,13 +1,13 @@
 <snippet>
   <prefix>wx-stopBeaconDiscovery</prefix>
-  <description><![CDATA[停止搜索附近的iBeacon设备]]></description>
+  <description><![CDATA[停止搜索附近的 iBeacon 设备]]></description>
   <body><![CDATA[
     wx.stopBeaconDiscovery({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
   <prefix>innerAudioContext-onSeeking</prefix>
-  <description><![CDATA[音频进行seek操作事件]]></description>
+  <description><![CDATA[音频进行 seek 操作事件]]></description>
   <body><![CDATA[
-    innerAudioContext.onSeeking((${1})=>{
+    innerAudioContext.onSeeking((${1}) => {
 	${2}
 });
   ]]></body>

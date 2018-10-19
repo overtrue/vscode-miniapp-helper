@@ -1,8 +1,8 @@
 <snippet>
   <prefix>innerAudioContext-offEnded</prefix>
-  <description><![CDATA[取消监听onEnded事件]]></description>
+  <description><![CDATA[取消监听 onEnded 事件]]></description>
   <body><![CDATA[
-    innerAudioContext.offEnded((${1})=>{
+    innerAudioContext.offEnded((${1}) => {
 	${2}
 });
   ]]></body>

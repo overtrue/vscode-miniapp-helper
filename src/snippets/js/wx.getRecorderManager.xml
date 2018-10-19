@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-getRecorderManager</prefix>
-  <description><![CDATA[获取全局唯一的录音管理器recorderManager。]]></description>
+  <description><![CDATA[获取全局唯一的录音管理器 recorderManager]]></description>
   <body><![CDATA[
     ${1:var recordManager = }wx.getRecorderManager();
   ]]></body>

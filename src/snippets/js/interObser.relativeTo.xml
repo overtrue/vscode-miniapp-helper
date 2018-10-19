@@ -2,6 +2,6 @@
   <prefix>interObser-relativeTo</prefix>
   <description><![CDATA[使用选择器指定一个节点，作为参照区域之一]]></description>
   <body><![CDATA[
-    interObser.relativeTo(${1:selector},${2});
+    interObser.relativeTo(${1:selector}, ${2});
   ]]></body>
 </snippet>

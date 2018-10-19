@@ -1,6 +1,6 @@
 <snippet>
   <prefix>workers</prefix>
-  <description><![CDATA[Worker代码放置的目录]]></description>
+  <description><![CDATA[Worker 代码放置的目录]]></description>
   <body><![CDATA[
     "workers":"",
   ]]></body>

@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-strokeRect</prefix>
-  <description><![CDATA[画一个矩形(非填充)。]]></description>
+  <description><![CDATA[画一个矩形(非填充)]]></description>
   <body><![CDATA[
     cvsCtx.strokeRect(${1:x}, ${2:y}, ${3:width}, ${4:height});
   ]]></body>

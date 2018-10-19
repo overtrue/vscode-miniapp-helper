@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-setTopBarText</prefix>
-  <description><![CDATA[动态设置置顶栏文字内容，只有当前小程序被置顶时能生效，如果当前小程序没有被置顶，也能调用成功，但是不会立即生效，只有在用户将这个小程序置顶后才换上设置的文字内容。]]></description>
+  <description><![CDATA[动态设置置顶栏文字内容，只有当前小程序被置顶时能生效，如果当前小程序没有被置顶，也能调用成功，但是不会立即生效，只有在用户将这个小程序置顶后才换上设置的文字内容]]></description>
   <body><![CDATA[
     wx.setTopBarText({
 	text: '${1}',
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

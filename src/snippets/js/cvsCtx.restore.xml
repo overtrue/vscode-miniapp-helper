@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-restore</prefix>
-  <description><![CDATA[恢复之前保存的绘图上下文。]]></description>
+  <description><![CDATA[恢复之前保存的绘图上下文]]></description>
   <body><![CDATA[
     cvsCtx.restore();
   ]]></body>

@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-globalCompositeOperation</prefix>
-  <description><![CDATA[该属性是设置要在绘制新形状时应用的合成操作的类型。]]></description>
+  <description><![CDATA[该属性是设置要在绘制新形状时应用的合成操作的类型]]></description>
   <body><![CDATA[
     cvsCtx.globalCompositeOperation = ${1};
   ]]></body>

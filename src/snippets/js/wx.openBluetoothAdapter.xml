@@ -1,13 +1,13 @@
 <snippet>
   <prefix>wx-openBluetoothAdapter</prefix>
-  <description><![CDATA[初始化小程序蓝牙模块，生效周期为调用wx.openBluetoothAdapter至调用wx.closeBluetoothAdapter或小程序被销毁为止。]]></description>
+  <description><![CDATA[初始化小程序蓝牙模块，生效周期为调用 wx.openBluetoothAdapter 至调用 wx.closeBluetoothAdapter 或小程序被销毁为止]]></description>
   <body><![CDATA[
     wx.openBluetoothAdapter({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	,
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

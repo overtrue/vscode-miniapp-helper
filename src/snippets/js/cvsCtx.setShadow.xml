@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-setShadow</prefix>
-  <description><![CDATA[设置阴影样式。]]></description>
+  <description><![CDATA[设置阴影样式]]></description>
   <body><![CDATA[
     cvsCtx.setShadow(${1:offsetX}, ${2:offsetY}, ${3:blur}, ${4:color});
   ]]></body>

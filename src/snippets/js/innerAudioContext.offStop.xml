@@ -1,8 +1,8 @@
 <snippet>
   <prefix>innerAudioContext-offStop</prefix>
-  <description><![CDATA[取消监听onStop事件]]></description>
+  <description><![CDATA[取消监听 onStop 事件]]></description>
   <body><![CDATA[
-    innerAudioContext.offStop((${1})=>{
+    innerAudioContext.offStop((${1}) => {
 	${2}
 });
   ]]></body>

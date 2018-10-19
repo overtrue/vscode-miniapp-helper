@@ -1,16 +1,16 @@
 <snippet>
   <prefix>wx-chooseVideo</prefix>
-  <description><![CDATA[拍摄视频或从手机相册中选视频，返回视频的临时文件路径。]]></description>
+  <description><![CDATA[拍摄视频或从手机相册中选视频，返回视频的临时文件路径]]></description>
   <body><![CDATA[
     wx.chooseVideo({
 	sourceType:['album', 'camera'],
 	compressed: ${1:true},
 	maxDuration:${2:15},
-	success: (result)=>{
+	success: (result) => {
 		${3}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-bezierCurveTo</prefix>
-  <description><![CDATA[创建三次方贝塞尔曲线路径。曲线的起始点为路径中前一个点。]]></description>
+  <description><![CDATA[创建三次方贝塞尔曲线路径。曲线的起始点为路径中前一个点]]></description>
   <body><![CDATA[
     cvsCtx.bezierCurveTo(${1:cp1x}, ${2:cp1y}, ${3:cp2x}, ${4:cp2y}, ${5:x}, ${6:y});
   ]]></body>

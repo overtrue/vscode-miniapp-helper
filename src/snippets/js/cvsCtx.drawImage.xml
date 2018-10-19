@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-drawImage</prefix>
-  <description><![CDATA[绘制图像到画布。]]></description>
+  <description><![CDATA[绘制图像到画布]]></description>
   <body><![CDATA[
     cvsCtx.drawImage(${1:imageResource}, ${2:dx}, ${3:dy}, ${4:dWidth}, ${5:dHeight});
   ]]></body>

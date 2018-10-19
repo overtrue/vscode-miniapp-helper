@@ -1,6 +1,6 @@
 <snippet>
   <prefix>ad</prefix>
-  <description><![CDATA[广告模块]]></description>
+  <description><![CDATA[广告]]></description>
   <body><![CDATA[
     <ad class="${1}" unit-id="${2}" bindload="${3}" binderror="${4}"></ad>
   ]]></body>

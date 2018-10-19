@@ -9,11 +9,11 @@
 		duration: ${3:0},
 		timingFunc: '${4:linear}'
 	},
-	success: (result)=>{
+	success: (result) => {
 		${5}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

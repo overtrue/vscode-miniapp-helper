@@ -1,6 +1,6 @@
 <snippet>
   <prefix>pages</prefix>
-  <description><![CDATA[App对应的JSON文件pages配置项]]></description>
+  <description><![CDATA[App 对应的 JSON 文件 pages 配置项]]></description>
   <body><![CDATA[
     "pages": [
 	"pages/index/index"

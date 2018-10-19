@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-startAccelerometer</prefix>
-  <description><![CDATA[开始监听加速度数据。]]></description>
+  <description><![CDATA[开始监听加速度数据]]></description>
   <body><![CDATA[
     wx.startAccelerometer({
 	interval: '${1:normal}',
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

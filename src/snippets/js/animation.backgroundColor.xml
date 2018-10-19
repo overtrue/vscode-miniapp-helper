@@ -1,6 +1,6 @@
 <snippet>
   <prefix>animation-backgroundColor</prefix>
-  <description><![CDATA[颜色值]]></description>
+  <description><![CDATA[设置背景色]]></description>
   <body><![CDATA[
     animation.backgroundColor(${1});
   ]]></body>

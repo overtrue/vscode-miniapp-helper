@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-onCompassChange</prefix>
-  <description><![CDATA[监听罗盘数据，频率：5次/秒，接口调用后会自动开始监听，可使用wx.stopCompass停止监听。]]></description>
+  <description><![CDATA[监听罗盘数据，频率：5 次/秒，接口调用后会自动开始监听，可使用 wx.stopCompass 停止监听]]></description>
   <body><![CDATA[
     wx.onCompassChange((result) => {
 	${1}

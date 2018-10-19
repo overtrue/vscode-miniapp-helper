@@ -4,11 +4,11 @@
   <body><![CDATA[
     wx.setScreenBrightness({
 	value: ${1},
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

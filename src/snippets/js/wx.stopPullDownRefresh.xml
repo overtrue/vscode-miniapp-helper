@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-stopPullDownRefresh</prefix>
-  <description><![CDATA[停止当前页面下拉刷新。]]></description>
+  <description><![CDATA[停止当前页面下拉刷新]]></description>
   <body><![CDATA[
     wx.stopPullDownRefresh
   ]]></body>

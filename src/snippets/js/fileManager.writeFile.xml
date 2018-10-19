@@ -6,11 +6,11 @@
 	filePath: '${1}',
 	data: '${2}',
 	encoding: '${3:utf8}',
-	success: (result)=>{
+	success: (result) => {
 		${4}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

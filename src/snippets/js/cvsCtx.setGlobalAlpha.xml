@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-setGlobalAlpha</prefix>
-  <description><![CDATA[设置全局画笔透明度。]]></description>
+  <description><![CDATA[设置全局画笔透明度]]></description>
   <body><![CDATA[
     cvsCtx.setGlobalAlpha(${1:1});
   ]]></body>

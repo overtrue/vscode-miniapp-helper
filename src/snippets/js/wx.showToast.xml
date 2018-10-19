@@ -8,11 +8,11 @@
 	image: '${3}',
 	duration: ${4:1500},
 	mask: ${5:false},
-	success: (result)=>{
+	success: (result) => {
 		${6}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

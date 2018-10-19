@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-hideNavigationBarLoading</prefix>
-  <description><![CDATA[隐藏导航条加载动画。]]></description>
+  <description><![CDATA[隐藏导航条加载动画]]></description>
   <body><![CDATA[
     wx.hideNavigationBarLoading();
   ]]></body>

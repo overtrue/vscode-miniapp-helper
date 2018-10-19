@@ -3,11 +3,11 @@
   <description><![CDATA[退出全屏]]></description>
   <body><![CDATA[
     livePlayerContext.exitFullScreen({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

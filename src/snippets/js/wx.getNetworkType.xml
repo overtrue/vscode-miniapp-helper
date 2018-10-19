@@ -3,11 +3,11 @@
   <description><![CDATA[获取网络类型]]></description>
   <body><![CDATA[
     wx.getNetworkType({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

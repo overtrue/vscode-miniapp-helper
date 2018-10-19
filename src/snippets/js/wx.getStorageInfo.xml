@@ -1,13 +1,13 @@
 <snippet>
   <prefix>wx-getStorageInfo</prefix>
-  <description><![CDATA[异步获取当前storage的相关信息]]></description>
+  <description><![CDATA[异步获取当前 storage 的相关信息]]></description>
   <body><![CDATA[
     wx.getStorageInfo({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

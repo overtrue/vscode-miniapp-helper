@@ -3,11 +3,11 @@
   <description><![CDATA[获取第三方平台自定义的数据字段]]></description>
   <body><![CDATA[
     wx.getExtConfig({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

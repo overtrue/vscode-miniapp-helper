@@ -3,11 +3,11 @@
   <description><![CDATA[结束录像，成功则返回封面与视频]]></description>
   <body><![CDATA[
     cameraContext.stopRecord({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

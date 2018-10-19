@@ -1,9 +1,9 @@
 <snippet>
   <prefix>movable-view</prefix>
-  <description><![CDATA[可移动的视图容器 在页面中可以拖拽滑动]]></description>
+  <description><![CDATA[可移动的视图容器，在页面中可以拖拽滑动]]></description>
   <body><![CDATA[
-    <movable-view class="${1}" direction="${2:none}" inertia="${3:false}" out-of-bounds="${4:false}" x="${5}" y="${6}" damping="${7:20}" 
-	friction="${8:2}" disabled="${9:false}" scale="${10:false}" scale-min="${11:0.5}" scale-max="${12:10}" scale-value="${13:1}" 
+    <movable-view class="${1}" direction="${2:none}" inertia="${3:false}" out-of-bounds="${4:false}" x="${5}" y="${6}" damping="${7:20}"
+	friction="${8:2}" disabled="${9:false}" scale="${10:false}" scale-min="${11:0.5}" scale-max="${12:10}" scale-value="${13:1}"
 	animation="${14:true}" bindchange="${15}" bindscale="${16}">
 	${17}
 </movable-view>

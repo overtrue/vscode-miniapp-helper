@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-getUpdateManager</prefix>
-  <description><![CDATA[获取全局唯一的版本更新管理器，用于管理小程序更新。]]></description>
+  <description><![CDATA[获取全局唯一的版本更新管理器，用于管理小程序更新]]></description>
   <body><![CDATA[
     ${1:var updateManager = }wx.getUpdateManager();
   ]]></body>

@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-setLineDash</prefix>
-  <description><![CDATA[设置线条的宽度。]]></description>
+  <description><![CDATA[设置线条的宽度]]></description>
   <body><![CDATA[
     cvsCtx.setLineDash([${1:pattern}], ${2:offset});
   ]]></body>

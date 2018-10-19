@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-createAudioContext</prefix>
-  <description><![CDATA[创建并返回audio上下文audioContext对象。在自定义组件下，第二个参数传入组件实例this，以操作组件内<audio/>组件。1.6.0 起不再维护]]></description>
+  <description><![CDATA[创建并返回 audio 上下文 audioContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 <audio/> 组件。1.6.0 起不再维护]]></description>
   <body><![CDATA[
     ${1:var audioContext = }wx.createAudioContext(${2}, this);
   ]]></body>

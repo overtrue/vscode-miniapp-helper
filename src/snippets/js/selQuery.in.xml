@@ -1,6 +1,6 @@
 <snippet>
   <prefix>selQuery-in</prefix>
-  <description><![CDATA[将选择器的选取范围更改为自定义组件 component 内（初始时，选择器仅选取页面范围的节点，不会选取任何自定义组件中的节点）。]]></description>
+  <description><![CDATA[将选择器的选取范围更改为自定义组件 component 内（初始时，选择器仅选取页面范围的节点，不会选取任何自定义组件中的节点）]]></description>
   <body><![CDATA[
     selQuery.in(${1:this});
   ]]></body>

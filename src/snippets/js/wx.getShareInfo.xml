@@ -5,11 +5,11 @@
     wx.getShareInfo({
 	shareTicket: ${1},
 	timeout:${2:10000},
-	success: (result)=>{
+	success: (result) => {
 		${3}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

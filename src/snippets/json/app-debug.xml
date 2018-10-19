@@ -1,6 +1,6 @@
 <snippet>
   <prefix>debug</prefix>
-  <description><![CDATA[App对应的JSON文件debug配置项,是否是调试模式]]></description>
+  <description><![CDATA[App 对应的 JSON 文件 debug 配置项，是否是调试模式]]></description>
   <body><![CDATA[
     "debug":true,
   ]]></body>

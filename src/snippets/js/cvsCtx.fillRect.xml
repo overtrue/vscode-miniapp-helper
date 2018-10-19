@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-fillRect</prefix>
-  <description><![CDATA[填充一个矩形。]]></description>
+  <description><![CDATA[填充一个矩形]]></description>
   <body><![CDATA[
     cvsCtx.fillRect(${1:x}, ${2:y}, ${3:width}, ${4:height});
   ]]></body>

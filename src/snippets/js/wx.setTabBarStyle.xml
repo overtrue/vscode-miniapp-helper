@@ -1,17 +1,17 @@
 <snippet>
   <prefix>wx-setTabBarStyle</prefix>
-  <description><![CDATA[动态设置tabBar的整体样式]]></description>
+  <description><![CDATA[动态设置 tabBar 的整体样式]]></description>
   <body><![CDATA[
     wx.setTabBarStyle({
 	color: '${1:#000000}',
 	selectedColor: '${2:#1AAD16}',
 	backgroundColor: '${3:#e3e3e3}',
 	borderStyle: '${4:black}',
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

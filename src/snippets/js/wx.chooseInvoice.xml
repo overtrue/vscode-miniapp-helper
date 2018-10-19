@@ -3,11 +3,11 @@
   <description><![CDATA[选择用户已有的发票]]></description>
   <body><![CDATA[
     wx.chooseInvoice({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

@@ -1,15 +1,15 @@
 <snippet>
   <prefix>wx-showLoading</prefix>
-  <description><![CDATA[显示loading提示框, 需主动调用wx.hideLoading才能关闭提示框]]></description>
+  <description><![CDATA[显示 loading 提示框, 需主动调用 wx.hideLoading 才能关闭提示框]]></description>
   <body><![CDATA[
     wx.showLoading({
 	title: ${1},
 	mask: ${2:true},
-	success: (result)=>{
+	success: (result) => {
 		${3}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

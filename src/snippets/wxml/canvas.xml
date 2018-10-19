@@ -2,7 +2,7 @@
   <prefix>canvas</prefix>
   <description><![CDATA[画布]]></description>
   <body><![CDATA[
-    <canvas class="${1}" canvas-id="${2}" bindtouchstart="${3}" bindtouchmove="${4}" bindtouchend="${5}" 
+    <canvas class="${1}" canvas-id="${2}" bindtouchstart="${3}" bindtouchmove="${4}" bindtouchend="${5}"
 	bindtouchcancel="${6}" bindlongtap="${7}" binderror="${8}"></canvas>
   ]]></body>
 </snippet>

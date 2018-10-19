@@ -2,7 +2,7 @@
   <prefix>innerAudioContext-onTimeUpdate</prefix>
   <description><![CDATA[音频播放进度更新事件]]></description>
   <body><![CDATA[
-    innerAudioContext.onTimeUpdate((${1})=>{
+    innerAudioContext.onTimeUpdate((${1}) => {
 	${2}
 });
   ]]></body>

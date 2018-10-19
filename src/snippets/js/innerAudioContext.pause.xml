@@ -1,6 +1,6 @@
 <snippet>
   <prefix>innerAudioContext-pause</prefix>
-  <description><![CDATA[暂停]]></description>
+  <description><![CDATA[????]]></description>
   <body><![CDATA[
     innerAudioContext.pause();
   ]]></body>

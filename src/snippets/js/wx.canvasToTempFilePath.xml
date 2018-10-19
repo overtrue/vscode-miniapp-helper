@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-canvasToTempFilePath</prefix>
-  <description><![CDATA[把当前画布指定区域的内容导出生成指定大小的图片，并返回文件路径。]]></description>
+  <description><![CDATA[把当前画布指定区域的内容导出生成指定大小的图片，并返回文件路径]]></description>
   <body><![CDATA[
     wx.canvasToTempFilePath({
 	x: ${1:0},
@@ -12,11 +12,11 @@
 	canvasId: ${7},
 	fileType: ${8:png},
 	quality: ${9:1.0},
-	success: (result)=>{
+	success: (result) => {
 		${10}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 }, this);
   ]]></body>
 </snippet>

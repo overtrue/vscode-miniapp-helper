@@ -1,10 +1,10 @@
 <snippet>
   <prefix>fileManager-readFileSync</prefix>
-  <description><![CDATA[读取本地文件内容,同步接口]]></description>
+  <description><![CDATA[读取本地文件内容，同步接口]]></description>
   <body><![CDATA[
-    try{
-	var ${1:fileData} = fileManager.readFileSync('${2}','${3}');
-}catch(e){
+    try {
+	var ${1:fileData} = fileManager.readFileSync('${2}', '${3}');
+} catch (e) {
 	${4}
 }
   ]]></body>

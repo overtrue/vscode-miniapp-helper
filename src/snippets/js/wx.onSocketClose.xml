@@ -1,8 +1,8 @@
 <snippet>
   <prefix>wx-onSocketClose</prefix>
-  <description><![CDATA[监听WebSocket关闭。]]></description>
+  <description><![CDATA[监听 WebSocket 关闭]]></description>
   <body><![CDATA[
-    wx.onSocketClose((${1:result})=>{
+    wx.onSocketClose((${1:result}) => {
 	${2}
 });
   ]]></body>

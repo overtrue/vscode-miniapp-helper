@@ -2,8 +2,8 @@
   <prefix>button</prefix>
   <description><![CDATA[按钮]]></description>
   <body><![CDATA[
-    <button class="${1}" size="${2:default}" type="${1:default}" plain="${2:false}" disabled="${3:false}" loading="${4:false}" 
-	hover-class="${5:button-hover}" hover-stop-propagation="${6:false}" 
+    <button class="${1}" size="${2:default}" type="${1:default}" plain="${2:false}" disabled="${3:false}" loading="${4:false}"
+	hover-class="${5:button-hover}" hover-stop-propagation="${6:false}"
 	${7: form-type="submit|reset"} ${8:open-type="contact|share|getUserInfo|openSetting|feedback"} >
 	${9}
 </button>

@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-hideLoading</prefix>
-  <description><![CDATA[隐藏loading提示框]]></description>
+  <description><![CDATA[隐藏 loading 提示框]]></description>
   <body><![CDATA[
     wx.hideLoading();
   ]]></body>

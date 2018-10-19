@@ -3,12 +3,12 @@
   <description><![CDATA[开始录像]]></description>
   <body><![CDATA[
     cameraContext.startRecord({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
-	timeoutCallback: (result)=>{
+	fail: () => {},
+	complete: () => {}
+	timeoutCallback: (result) => {
 		${2}
 	},
 });

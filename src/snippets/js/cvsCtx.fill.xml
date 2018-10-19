@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-fill</prefix>
-  <description><![CDATA[对当前路径中的内容进行填充。]]></description>
+  <description><![CDATA[对当前路径中的内容进行填充]]></description>
   <body><![CDATA[
     cvsCtx.fill();
   ]]></body>

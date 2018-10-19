@@ -1,13 +1,13 @@
 <snippet>
   <prefix>wx-closeBluetoothAdapter</prefix>
-  <description><![CDATA[关闭蓝牙模块，使其进入未初始化状态。调用该方法将断开所有已建立的链接并释放系统资源。]]></description>
+  <description><![CDATA[关闭蓝牙模块，使其进入未初始化状态。调用该方法将断开所有已建立的链接并释放系统资源]]></description>
   <body><![CDATA[
     wx.closeBluetoothAdapter({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

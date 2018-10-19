@@ -1,15 +1,15 @@
 <snippet>
   <prefix>wx-closeSocket</prefix>
-  <description><![CDATA[关闭WebSocket连接。]]></description>
+  <description><![CDATA[关闭 WebSocket 连接]]></description>
   <body><![CDATA[
     wx.closeSocket({
 	code: ${1:1000},
 	reason: '${2}',
-	success: (result)=>{
+	success: (result) => {
 		${3}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

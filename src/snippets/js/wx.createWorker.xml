@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-createWorker</prefix>
-  <description><![CDATA[创建一个Worker线程，并返回Worker实例，目前限制最多只能创建一个Worker，创建下一个Worker前请调用Worker.terminate。]]></description>
+  <description><![CDATA[创建一个 Worker 线程，并返回 Worker 实例，目前限制最多只能创建一个 Worker，创建下一个 Worker 前请调用 Worker.terminate]]></description>
   <body><![CDATA[
     ${1:var worker = }wx.createWorker(${1});
   ]]></body>

@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-login</prefix>
-  <description><![CDATA[调用接口wx.login() 获取临时登录凭证（code）]]></description>
+  <description><![CDATA[调用接口 wx.login() 获取临时登录凭证（code）]]></description>
   <body><![CDATA[
     wx.login({
 	timeout:${1:10000},
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

@@ -2,7 +2,7 @@
   <prefix>recordManager-onStart</prefix>
   <description><![CDATA[录音开始事件]]></description>
   <body><![CDATA[
-    recordManager.onStart((${1})=>{
+    recordManager.onStart((${1}) => {
 	${2}
 });
   ]]></body>

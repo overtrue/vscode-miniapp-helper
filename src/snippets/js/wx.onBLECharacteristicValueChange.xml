@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-onBLECharacteristicValueChange</prefix>
-  <description><![CDATA[监听低功耗蓝牙设备的特征值变化。必须先启用notify接口才能接收到设备推送的notification。]]></description>
+  <description><![CDATA[监听低功耗蓝牙设备的特征值变化。必须先启用 notify 接口才能接收到设备推送的 notification]]></description>
   <body><![CDATA[
     wx.onBLECharacteristicValueChange((result) => {
 	${1}

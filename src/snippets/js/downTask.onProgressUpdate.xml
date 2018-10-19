@@ -1,8 +1,8 @@
 <snippet>
   <prefix>downTask-onProgressUpdate</prefix>
-  <description><![CDATA[监听下载进度变化事件。]]></description>
+  <description><![CDATA[监听下载进度变化事件]]></description>
   <body><![CDATA[
-    downTask.onProgressUpdate((result)=>{
+    downTask.onProgressUpdate((result) => {
 		${1}
 	});
   ]]></body>

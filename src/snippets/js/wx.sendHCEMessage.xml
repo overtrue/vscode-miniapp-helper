@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-sendHCEMessage</prefix>
-  <description><![CDATA[发送 NFC 消息。仅在安卓系统下有效。]]></description>
+  <description><![CDATA[发送 NFC 消息。仅在安卓系统下有效]]></description>
   <body><![CDATA[
     wx.sendHCEMessage({
 	data: ${1:<ArrayBuffer类型>},
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

@@ -5,11 +5,11 @@
     fileManager.unzip({
 	zipFilePath: '${1}',
 	targetPath: '${2}',
-	success: (result)=>{
+	success: (result) => {
 		${3}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

@@ -3,11 +3,11 @@
   <description><![CDATA[恢复推流]]></description>
   <body><![CDATA[
     livePusherContext.resume({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

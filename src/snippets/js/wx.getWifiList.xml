@@ -1,13 +1,13 @@
 <snippet>
   <prefix>wx-getWifiList</prefix>
-  <description><![CDATA[请求获取Wi-Fi列表，在onGetWifiList注册的回调中返回wifiList数据。]]></description>
+  <description><![CDATA[请求获取 WiFi列表，在 onGetWifiList 注册的回调中返回 wifiList 数据]]></description>
   <body><![CDATA[
     wx.getWifiList({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

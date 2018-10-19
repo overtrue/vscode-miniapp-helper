@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-createCanvasContext</prefix>
-  <description><![CDATA[创建 canvas 绘图上下文（指定 canvasId）。]]></description>
+  <description><![CDATA[创建 canvas 绘图上下文（指定 canvasId）]]></description>
   <body><![CDATA[
     ${1:var cvsCtx = }wx.createCanvasContext(${2:canvas-id}, this);
   ]]></body>

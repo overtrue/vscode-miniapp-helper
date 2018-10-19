@@ -3,11 +3,11 @@
   <description><![CDATA[使手机发生较短时间的振动（15ms）]]></description>
   <body><![CDATA[
     wx.vibrateShort({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

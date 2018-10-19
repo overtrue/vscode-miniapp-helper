@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-onWifiConnected</prefix>
-  <description><![CDATA[监听连接上Wi-Fi的事件。]]></description>
+  <description><![CDATA[监听连接上 WiFi 的事件]]></description>
   <body><![CDATA[
     wx.onWifiConnected((result) => {
 	${1}

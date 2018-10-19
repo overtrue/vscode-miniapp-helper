@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-Component</prefix>
-  <description><![CDATA[Component对象及其生命周期函数和回调函数]]></description>
+  <description><![CDATA[Component 对象及其生命周期函数和回调函数]]></description>
   <body><![CDATA[
     //Component Object
 Component({
@@ -8,7 +8,7 @@ Component({
 		${1:myProperty}:{
 			type:${2:String},
 			value:${3:''},
-			observer: function(){${4}}
+			observer: function() {${4}}
 		},
 
 	},
@@ -18,19 +18,19 @@ Component({
 	methods: {
 		${5}
 	},
-	created: function(){
+	created: function() {
 
 	},
-	attached: function(){
+	attached: function() {
 
 	},
-	ready: function(){
+	ready: function() {
 
 	},
-	moved: function(){
+	moved: function() {
 
 	},
-	detached: function(){
+	detached: function() {
 
 	},
 });

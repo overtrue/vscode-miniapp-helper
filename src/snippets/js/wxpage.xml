@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-page</prefix>
-  <description><![CDATA[Page对象及其生命周期函数和回调函数]]></description>
+  <description><![CDATA[Page 对象及其生命周期函数和回调函数]]></description>
   <body><![CDATA[
     //Page Object
 Page({
@@ -8,35 +8,35 @@ Page({
 		${1}
 	},
 	//options(Object)
-	onLoad: function(options){
+	onLoad: function(options) {
 		${2}
 	},
-	onReady: function(){
+	onReady: function() {
 		${3}
 	},
-	onShow: function(){
+	onShow: function() {
 		${4}
 	},
-	onHide: function(){
+	onHide: function() {
 
 	},
-	onUnload: function(){
+	onUnload: function() {
 
 	},
-	onPullDownRefresh: function(){
+	onPullDownRefresh: function() {
 
 	},
-	onReachBottom: function(){
+	onReachBottom: function() {
 
 	},
-	onShareAppMessage: function(){
+	onShareAppMessage: function() {
 
 	},
-	onPageScroll: function(){
+	onPageScroll: function() {
 
 	},
 	//item(index,pagePath,text)
-	onTabItemTap:function(item){
+	onTabItemTap:function(item) {
 
 	}
 });

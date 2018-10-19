@@ -10,11 +10,11 @@
 		weight: '${4:normal}',
 		variant: '${5:normal}'
 	},
-	success: (result)=>{
+	success: (result) => {
 		${6}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

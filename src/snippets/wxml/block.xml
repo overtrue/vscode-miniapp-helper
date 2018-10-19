@@ -1,6 +1,6 @@
 <snippet>
   <prefix>block</prefix>
-  <description><![CDATA[block标签，不是组件，只是包装元素，不会在页面中做任何渲染，只接受控制属性]]></description>
+  <description><![CDATA[block 标签，不是组件，只是包装元素，不会在页面中做任何渲染，只接受控制属性]]></description>
   <body><![CDATA[
     <block wx:for="{{${1:items}}}">
 	${2}

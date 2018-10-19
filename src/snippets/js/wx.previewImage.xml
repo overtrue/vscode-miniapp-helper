@@ -1,15 +1,15 @@
 <snippet>
   <prefix>wx-previewImage</prefix>
-  <description><![CDATA[预览图片。]]></description>
+  <description><![CDATA[预览图片]]></description>
   <body><![CDATA[
     wx.previewImage({
 	current: '${1}',
 	urls: [${2}],
-	success: (result)=>{
+	success: (result) => {
 		${3}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

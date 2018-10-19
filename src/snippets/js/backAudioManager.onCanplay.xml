@@ -2,7 +2,7 @@
   <prefix>backAudioManager-onCanplay</prefix>
   <description><![CDATA[背景音频进入可以播放状态，但不保证后面可以流畅播放]]></description>
   <body><![CDATA[
-    backAudioManager.onCanplay(${1:()=>{
+    backAudioManager.onCanplay(${1:() => {
 		${2}
 	}});
   ]]></body>

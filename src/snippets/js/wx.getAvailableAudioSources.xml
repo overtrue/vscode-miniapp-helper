@@ -3,11 +3,11 @@
   <description><![CDATA[获取当前支持的音频输入源]]></description>
   <body><![CDATA[
     wx.getAvailableAudioSources({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

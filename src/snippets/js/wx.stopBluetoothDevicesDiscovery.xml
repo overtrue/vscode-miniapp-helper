@@ -1,13 +1,13 @@
 <snippet>
   <prefix>wx-stopBluetoothDevicesDiscovery</prefix>
-  <description><![CDATA[停止搜寻附近的蓝牙外围设备。若已经找到需要的蓝牙设备并不需要继续搜索时，建议调用该接口停止蓝牙搜索。]]></description>
+  <description><![CDATA[停止搜寻附近的蓝牙外围设备。若已经找到需要的蓝牙设备并不需要继续搜索时，建议调用该接口停止蓝牙搜索]]></description>
   <body><![CDATA[
     wx.stopBluetoothDevicesDiscovery({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

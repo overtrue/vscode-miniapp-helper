@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-getStorageInfoSync</prefix>
-  <description><![CDATA[同步获取当前storage的相关信息]]></description>
+  <description><![CDATA[同步获取当前 storage 的相关信息]]></description>
   <body><![CDATA[
     ${1:let storageInfo = }wx.getStorageInfoSync();
   ]]></body>

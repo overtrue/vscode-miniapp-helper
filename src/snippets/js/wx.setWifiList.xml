@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-setWifiList</prefix>
-  <description><![CDATA[iOS特有接口，在 onGetWifiList 回调后，利用接口设置 wifiList 中 AP 的相关信息。]]></description>
+  <description><![CDATA[iOS 特有接口，在 onGetWifiList 回调后，利用接口设置 wifiList 中 AP 的相关信息]]></description>
   <body><![CDATA[
     wx.setWifiList({
 	wifiList: [
@@ -10,11 +10,11 @@
 			password: ${3}
 		}
 	],
-	success: (result)=>{
+	success: (result) => {
 		${4}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

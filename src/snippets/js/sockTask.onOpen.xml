@@ -1,6 +1,6 @@
 <snippet>
   <prefix>sockTask-onOpen</prefix>
-  <description><![CDATA[监听WebSocket连接打开事件。]]></description>
+  <description><![CDATA[监听 WebSocket 连接打开事件]]></description>
   <body><![CDATA[
     sockTask.onOpen(${1:result} => {
 	${2}

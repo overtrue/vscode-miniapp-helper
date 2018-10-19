@@ -1,6 +1,6 @@
 <snippet>
   <prefix>animation-scaleZ</prefix>
-  <description><![CDATA[z轴缩放]]></description>
+  <description><![CDATA[z 轴缩放]]></description>
   <body><![CDATA[
     animation.scaleZ(${1});
   ]]></body>

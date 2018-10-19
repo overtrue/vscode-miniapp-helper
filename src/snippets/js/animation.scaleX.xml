@@ -1,6 +1,6 @@
 <snippet>
   <prefix>animation-scaleX</prefix>
-  <description><![CDATA[x轴缩放]]></description>
+  <description><![CDATA[x 轴缩放]]></description>
   <body><![CDATA[
     animation.scaleX(${1});
   ]]></body>

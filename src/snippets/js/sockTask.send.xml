@@ -1,14 +1,14 @@
 <snippet>
   <prefix>sockTask-send</prefix>
-  <description><![CDATA[通过WebSocket连接发送数据。]]></description>
+  <description><![CDATA[通过 WebSocket 连接发送数据]]></description>
   <body><![CDATA[
     sockTask.send({
 	data: ${1},
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

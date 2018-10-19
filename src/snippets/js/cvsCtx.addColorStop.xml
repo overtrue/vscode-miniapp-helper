@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-addColorStop</prefix>
-  <description><![CDATA[创建一个颜色的渐变点。]]></description>
+  <description><![CDATA[创建一个颜色的渐变点]]></description>
   <body><![CDATA[
     cvsCtx.addColorStop(${1:stop(0 ~ 1)}, ${2:color});
   ]]></body>

@@ -2,7 +2,7 @@
   <prefix>recordManager-onFrameRecorded</prefix>
   <description><![CDATA[已录制完指定帧大小的文件，会回调录音分片结果数据]]></description>
   <body><![CDATA[
-    recordManager.onFrameRecorded((${1:result})=>{
+    recordManager.onFrameRecorded((${1:result}) => {
 	${2}
 });
   ]]></body>

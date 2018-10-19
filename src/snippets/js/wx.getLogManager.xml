@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-getLogManager</prefix>
-  <description><![CDATA[获取日志管理器 logManager 对象。]]></description>
+  <description><![CDATA[获取日志管理器 logManager 对象]]></description>
   <body><![CDATA[
     ${1:var logger = }wx.getLogManager();
   ]]></body>

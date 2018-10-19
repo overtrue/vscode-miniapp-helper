@@ -2,7 +2,7 @@
   <prefix>backAudioManager-onPause</prefix>
   <description><![CDATA[背景音频暂停事件]]></description>
   <body><![CDATA[
-    backAudioManager.onPause(()=>{
+    backAudioManager.onPause(() => {
 	${1}
 });
   ]]></body>

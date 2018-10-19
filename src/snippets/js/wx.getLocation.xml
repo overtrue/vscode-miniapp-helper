@@ -1,15 +1,15 @@
 <snippet>
   <prefix>wx-getLocation</prefix>
-  <description><![CDATA[获取当前的地理位置、速度。]]></description>
+  <description><![CDATA[获取当前的地理位置、速度]]></description>
   <body><![CDATA[
     wx.getLocation({
 	type: '${1:wgs84}',
 	altitude: ${2:false},
-	success: (result)=>{
+	success: (result) => {
 		${3}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

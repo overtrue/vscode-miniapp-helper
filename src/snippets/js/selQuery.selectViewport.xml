@@ -1,6 +1,6 @@
 <snippet>
   <prefix>selQuery-selectViewport</prefix>
-  <description><![CDATA[选择显示区域，可用于获取显示区域的尺寸、滚动位置等信息。]]></description>
+  <description><![CDATA[选择显示区域，可用于获取显示区域的尺寸、滚动位置等信息]]></description>
   <body><![CDATA[
     selQuery.selectViewport();
   ]]></body>

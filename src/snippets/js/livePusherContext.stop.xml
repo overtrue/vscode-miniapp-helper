@@ -3,11 +3,11 @@
   <description><![CDATA[停止推流]]></description>
   <body><![CDATA[
     livePusherContext.stop({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

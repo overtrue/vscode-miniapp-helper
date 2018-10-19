@@ -1,16 +1,16 @@
 <snippet>
   <prefix>wx-readBLECharacteristicValue</prefix>
-  <description><![CDATA[读取低功耗蓝牙设备的特征值的二进制数据值。注意：必须设备的特征值支持read才可以成功调用，具体参照 characteristic 的 properties 属性]]></description>
+  <description><![CDATA[读取低功耗蓝牙设备的特征值的二进制数据值。注意：必须设备的特征值支持 read 才可以成功调用，具体参照 characteristic 的 properties 属性]]></description>
   <body><![CDATA[
     wx.readBLECharacteristicValue({
 	deviceId: ${1},
 	services: ${2},
 	characteristicId: ${3},
-	success: (result)=>{
+	success: (result) => {
 		${4}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

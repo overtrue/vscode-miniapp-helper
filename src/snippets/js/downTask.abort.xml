@@ -1,6 +1,6 @@
 <snippet>
   <prefix>downTask-abort</prefix>
-  <description><![CDATA[中断下载任务。]]></description>
+  <description><![CDATA[中断下载任务]]></description>
   <body><![CDATA[
     downTask.abort();
   ]]></body>

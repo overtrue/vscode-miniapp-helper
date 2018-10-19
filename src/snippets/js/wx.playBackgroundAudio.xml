@@ -6,11 +6,11 @@
 	dataUrl: '${1}',
 	title: '${2}',
 	coverImgUrl: '${3}',
-	success: (result)=>{
+	success: (result) => {
 		${4}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

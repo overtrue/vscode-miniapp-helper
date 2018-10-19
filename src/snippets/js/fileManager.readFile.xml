@@ -5,11 +5,11 @@
     fileManager.readFile({
 	filePath: '${1}',
 	encoding: '${2}',
-	success: (result)=>{
+	success: (result) => {
 		${3}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

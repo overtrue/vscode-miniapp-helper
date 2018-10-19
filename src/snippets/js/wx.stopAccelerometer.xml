@@ -1,13 +1,13 @@
 <snippet>
   <prefix>wx-stopAccelerometer</prefix>
-  <description><![CDATA[停止监听加速度数据。]]></description>
+  <description><![CDATA[停止监听加速度数据]]></description>
   <body><![CDATA[
     wx.stopAccelerometer({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-createAnimation</prefix>
-  <description><![CDATA[创建一个动画实例animation。调用实例的方法来描述动画。]]></description>
+  <description><![CDATA[创建一个动画实例 animation。调用实例的方法来描述动画]]></description>
   <body><![CDATA[
     ${1:let animation = }wx.createAnimation({
 	duration: ${2:400},

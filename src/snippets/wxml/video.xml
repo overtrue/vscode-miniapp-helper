@@ -1,8 +1,8 @@
 <snippet>
   <prefix>video</prefix>
-  <description><![CDATA[视频。默认宽度300px、高度225px，可通过wxss设置宽高]]></description>
+  <description><![CDATA[视频。默认宽度 300px、高度 225px，可通过 wxss 设置宽高]]></description>
   <body><![CDATA[
-    <video class="${1}" src="${2}" initial-time="${3:0}" autoplay="${4:false}" loop="${5:false}" muted="${6:false}" direction="${7:0}" 
+    <video class="${1}" src="${2}" initial-time="${3:0}" autoplay="${4:false}" loop="${5:false}" muted="${6:false}" direction="${7:0}"
 	bindplay="${8}" bindpause="${9}" bindended="${10}" bindtimeupdate="${11}" bindwaiting="${12}" binderror="${13}">
 	${14}
 </video>

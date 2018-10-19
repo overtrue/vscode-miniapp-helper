@@ -4,11 +4,11 @@
   <body><![CDATA[
     livePlayerContext.requestFullScreen({
 	direction: ${1:0},
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

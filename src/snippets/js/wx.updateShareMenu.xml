@@ -4,11 +4,11 @@
   <body><![CDATA[
     wx.updateShareMenu({
 	withShareTicket: ${1:false}
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

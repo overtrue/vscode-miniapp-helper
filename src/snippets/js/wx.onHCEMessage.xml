@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-onHCEMessage</prefix>
-  <description><![CDATA[监听 NFC 设备的消息回调，并在回调中处理。]]></description>
+  <description><![CDATA[监听 NFC 设备的消息回调，并在回调中处理]]></description>
   <body><![CDATA[
     wx.onHCEMessage((result) => {
 	${1}

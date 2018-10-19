@@ -3,11 +3,11 @@
   <description><![CDATA[开始监听罗盘数据。]]></description>
   <body><![CDATA[
     wx.startCompass({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

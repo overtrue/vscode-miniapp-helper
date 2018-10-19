@@ -1,6 +1,6 @@
 <snippet>
   <prefix>worker-postMessage</prefix>
-  <description><![CDATA[向Worker线程发送的消息。]]></description>
+  <description><![CDATA[向 Worker 线程发送的消息]]></description>
   <body><![CDATA[
     worker.postMessage(${1});
   ]]></body>

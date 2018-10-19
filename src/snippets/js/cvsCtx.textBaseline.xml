@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-textBaseline</prefix>
-  <description><![CDATA[用于设置文字的水平对齐,基础库 1.9.90 起支持]]></description>
+  <description><![CDATA[用于设置文字的水平对齐，基础库 1.9.90 起支持]]></description>
   <body><![CDATA[
     cvsCtx.textBaseline = '${1:middle}';
   ]]></body>

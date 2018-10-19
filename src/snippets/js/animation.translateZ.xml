@@ -1,6 +1,6 @@
 <snippet>
   <prefix>animation-translateZ</prefix>
-  <description><![CDATA[z轴偏移]]></description>
+  <description><![CDATA[z 轴偏移]]></description>
   <body><![CDATA[
     animation.translateZ(${1});
   ]]></body>

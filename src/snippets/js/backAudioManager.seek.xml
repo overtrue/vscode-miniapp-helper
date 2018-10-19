@@ -1,6 +1,6 @@
 <snippet>
   <prefix>backAudioManager-seek</prefix>
-  <description><![CDATA[跳转到指定位置，单位 s。精确到小数点后 3 位，即支持 ms 级别精确度。]]></description>
+  <description><![CDATA[跳转到指定位置，单位 s。精确到小数点后 3 位，即支持 ms 级别精确度]]></description>
   <body><![CDATA[
     backAudioManager.seek(${1});
   ]]></body>

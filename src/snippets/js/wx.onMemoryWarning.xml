@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-onMemoryWarning</prefix>
-  <description><![CDATA[监听内存不足的告警事件，Android下有告警等级划分，只有LOW和CRITICAL会回调开发者；iOS无等级划分]]></description>
+  <description><![CDATA[监听内存不足的告警事件，Android 下有告警等级划分，只有 LOW 和 CRITICAL 会回调开发者；iOS 无等级划分]]></description>
   <body><![CDATA[
     wx.onMemoryWarning((result) => {
 	${1}

@@ -1,13 +1,13 @@
 <snippet>
   <prefix>wx-getSystemInfo</prefix>
-  <description><![CDATA[异步获取系统信息。]]></description>
+  <description><![CDATA[异步获取系统信息]]></description>
   <body><![CDATA[
     wx.getSystemInfo({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

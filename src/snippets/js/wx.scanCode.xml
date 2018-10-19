@@ -4,12 +4,12 @@
   <body><![CDATA[
     wx.scanCode({
 	onlyFromCamera: ${1:false},
-	scanType: ['${2:qrCode}','${3:barCode}','${4:datamatrix}','${5:pdf417}'],
-	success: (result)=>{
+	scanType: ['${2:qrCode}', '${3:barCode}', '${4:datamatrix}', '${5:pdf417}'],
+	success: (result) => {
 		${6}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

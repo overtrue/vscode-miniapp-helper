@@ -2,7 +2,7 @@
   <prefix>innerAudioContext-onStop</prefix>
   <description><![CDATA[音频停止播放事件]]></description>
   <body><![CDATA[
-    innerAudioContext.onStop((${1})=>{
+    innerAudioContext.onStop((${1}) => {
 	${2}
 });
   ]]></body>

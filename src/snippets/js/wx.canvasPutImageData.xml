@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-canvasPutImageData</prefix>
-  <description><![CDATA[将像素数据绘制到画布的方法。]]></description>
+  <description><![CDATA[将像素数据绘制到画布的方法]]></description>
   <body><![CDATA[
     wx.canvasPutImageData({
 	canvasId: ${1},
@@ -9,11 +9,11 @@
 	y: ${4},
 	width: ${5},
 	height: ${6},
-	success: (result)=>{
+	success: (result) => {
 		${7}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 }, this);
   ]]></body>
 </snippet>

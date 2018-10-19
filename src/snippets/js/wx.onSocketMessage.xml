@@ -1,7 +1,7 @@
 <snippet>
   <prefix>wx-onSocketMessage</prefix>
-  <description><![CDATA[监听WebSocket接受到服务器的消息事件。]]></description>
+  <description><![CDATA[监听 WebSocket 接受到服务器的消息事件]]></description>
   <body><![CDATA[
-    wx.onSocketMessage((${1:result})=>{${2}});
+    wx.onSocketMessage((${1:result}) => {${2}});
   ]]></body>
 </snippet>

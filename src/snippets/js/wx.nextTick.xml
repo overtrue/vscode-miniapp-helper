@@ -2,7 +2,7 @@
   <prefix>wx-nextTick</prefix>
   <description><![CDATA[用于延迟一部分操作到下一个时间片再执行]]></description>
   <body><![CDATA[
-    wx.nextTick(()=>{
+    wx.nextTick(() => {
 	${1}
 });
   ]]></body>

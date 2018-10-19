@@ -1,6 +1,6 @@
 <snippet>
   <prefix>upTask-abort</prefix>
-  <description><![CDATA[中断上传任务。]]></description>
+  <description><![CDATA[中断上传任务]]></description>
   <body><![CDATA[
     upTask.abort();
   ]]></body>

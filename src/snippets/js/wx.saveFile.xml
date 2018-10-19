@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-saveFile</prefix>
-  <description><![CDATA[保存文件到本地。注意：saveFile会把临时文件移动，因此调用成功后传入的 tempFilePath 将不可用]]></description>
+  <description><![CDATA[保存文件到本地。注意：saveFile 会把临时文件移动，因此调用成功后传入的 tempFilePath 将不可用]]></description>
   <body><![CDATA[
     wx.saveFile({
 	tempFilePath: '${1}',
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

@@ -2,7 +2,7 @@
   <prefix>wx-onUserCaptureScreen</prefix>
   <description><![CDATA[监听用户主动截屏事件，用户使用系统截屏按键截屏时触发此事件]]></description>
   <body><![CDATA[
-    wx.onUserCaptureScreen((result)=>{
+    wx.onUserCaptureScreen((result) => {
 	${1}
 });
   ]]></body>

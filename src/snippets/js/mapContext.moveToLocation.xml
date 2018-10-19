@@ -1,6 +1,6 @@
 <snippet>
   <prefix>mapContext-moveToLocation</prefix>
-  <description><![CDATA[将地图中心移动到当前定位点，需要配合map组件的show-location使用]]></description>
+  <description><![CDATA[将地图中心移动到当前定位点，需要配合 map 组件的 show-location 使用]]></description>
   <body><![CDATA[
     mapContext.moveToLocation();
   ]]></body>

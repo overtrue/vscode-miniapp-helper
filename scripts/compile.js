@@ -11,6 +11,7 @@ const compile = group => {
     let snippets = {}
 
     files.forEach(function(file) {
+      console.log(`parse snippet ${group}/${file} to json...`)
       let snippet = xmlParser.parse(fs.readFileSync(path.join(sourceSnippetPath, group, file), 'utf8')).snippet
       if (snippet.body.indexOf('\n    ') === 0) {
         snippet.body = snippet.body.substring(5)

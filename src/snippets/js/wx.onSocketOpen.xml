@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-onSocketOpen</prefix>
-  <description><![CDATA[监听WebSocket连接打开事件。]]></description>
+  <description><![CDATA[监听 WebSocket 连接打开事件]]></description>
   <body><![CDATA[
     wx.onSocketOpen(${1:result} => {
 	${2}

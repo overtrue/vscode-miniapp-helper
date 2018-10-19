@@ -1,8 +1,8 @@
 <snippet>
   <prefix>innerAudioContext-offError</prefix>
-  <description><![CDATA[取消监听onError事件]]></description>
+  <description><![CDATA[取消监听 onError 事件]]></description>
   <body><![CDATA[
-    innerAudioContext.offError((${1})=>{
+    innerAudioContext.offError((${1}) => {
 	${2}
 });
   ]]></body>

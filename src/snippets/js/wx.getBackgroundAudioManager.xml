@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-getBackgroundAudioManager</prefix>
-  <description><![CDATA[获取全局唯一的背景音频管理器 backgroundAudioManager。]]></description>
+  <description><![CDATA[获取全局唯一的背景音频管理器 backgroundAudioManager]]></description>
   <body><![CDATA[
     // properties(Read only)(duration,currentTime,paused,buffered)
 // properties(src(m4a, aac, mp3, wav),startTime,title,epname,singer,coverImgUrl,webUrl,protocol)

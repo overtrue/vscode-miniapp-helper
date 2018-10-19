@@ -2,7 +2,7 @@
   <prefix>backAudioManager-onWaiting</prefix>
   <description><![CDATA[音频加载中事件，当音频因为数据不足，需要停下来加载时会触发]]></description>
   <body><![CDATA[
-    backAudioManager.onWaiting((${1})=>{
+    backAudioManager.onWaiting((${1}) => {
 	${2}
 });
   ]]></body>

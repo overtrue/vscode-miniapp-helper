@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-textAlign</prefix>
-  <description><![CDATA[用于设置文字的对齐,基础库 1.9.90 起支持]]></description>
+  <description><![CDATA[用于设置文字的对齐，基础库 1.9.90 起支持]]></description>
   <body><![CDATA[
     cvsCtx.textAlign = '${1:center}';
   ]]></body>

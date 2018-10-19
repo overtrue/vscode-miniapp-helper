@@ -4,11 +4,11 @@
   <body><![CDATA[
     cameraContext.takePhoto({
 	quality: ${1:normal},
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

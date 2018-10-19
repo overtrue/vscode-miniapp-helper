@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-downloadFile</prefix>
-  <description><![CDATA[下载文件资源到本地，客户端直接发起一个HTTP GET请求，返回文件的本地临时路径。]]></description>
+  <description><![CDATA[下载文件资源到本地，客户端直接发起一个 HTTP GET 请求，返回文件的本地临时路径]]></description>
   <body><![CDATA[
     ${1:var downTask = }wx.downloadFile({
 	url: '${2}',
-	success: (result)=>{
+	success: (result) => {
 		${3}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

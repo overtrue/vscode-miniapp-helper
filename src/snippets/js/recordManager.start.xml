@@ -1,6 +1,6 @@
 <snippet>
   <prefix>recordManager-start</prefix>
-  <description><![CDATA[开始录音]]></description>
+  <description><![CDATA[??]]></description>
   <body><![CDATA[
     recordManager.start({
 	duration: ${1},

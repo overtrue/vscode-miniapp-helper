@@ -1,13 +1,13 @@
 <snippet>
   <prefix>wx-chooseAddress</prefix>
-  <description><![CDATA[调起用户编辑收货地址原生界面，并在编辑完成后返回用户选择的地址。]]></description>
+  <description><![CDATA[调起用户编辑收货地址原生界面，并在编辑完成后返回用户选择的地址]]></description>
   <body><![CDATA[
     wx.chooseAddress({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

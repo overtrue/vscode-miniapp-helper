@@ -2,6 +2,6 @@
   <prefix>wx-onBackgroundAudioPlay</prefix>
   <description><![CDATA[监听音乐播放。1.2.0 起不再维护]]></description>
   <body><![CDATA[
-    wx.onBackgroundAudioPlay((${1:result})=>{${2}});
+    wx.onBackgroundAudioPlay((${1:result}) => {${2}});
   ]]></body>
 </snippet>

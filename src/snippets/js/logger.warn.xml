@@ -1,6 +1,6 @@
 <snippet>
   <prefix>logger-warn</prefix>
-  <description><![CDATA[写warn日志，可以提供任意个参数。]]></description>
+  <description><![CDATA[写 warn 日志，可以提供任意个参数]]></description>
   <body><![CDATA[
     logger.warn(${1});
   ]]></body>

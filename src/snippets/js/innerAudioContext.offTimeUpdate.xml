@@ -1,8 +1,8 @@
 <snippet>
   <prefix>innerAudioContext-offTimeUpdate</prefix>
-  <description><![CDATA[取消监听onTimeUpdate事件]]></description>
+  <description><![CDATA[取消监听 onTimeUpdate 事件]]></description>
   <body><![CDATA[
-    innerAudioContext.offTimeUpdate((${1})=>{
+    innerAudioContext.offTimeUpdate((${1}) => {
 	${2}
 });
   ]]></body>

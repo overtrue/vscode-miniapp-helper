@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-createCircularGradient</prefix>
-  <description><![CDATA[创建一个圆形的渐变颜色。需要使用 addColorStop() 来指定渐变点，至少要两个。]]></description>
+  <description><![CDATA[创建一个圆形的渐变颜色。需要使用 addColorStop() 来指定渐变点，至少要两个]]></description>
   <body><![CDATA[
     cvsCtx.createCircularGradient(${1:x}, ${2:y}, ${3:r});
   ]]></body>

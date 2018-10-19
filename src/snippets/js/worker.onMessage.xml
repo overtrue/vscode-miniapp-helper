@@ -1,6 +1,6 @@
 <snippet>
   <prefix>worker-onMessage</prefix>
-  <description><![CDATA[监听Worker线程向当前线程发送的消息]]></description>
+  <description><![CDATA[监听 Worker 线程向当前线程发送的消息]]></description>
   <body><![CDATA[
     worker.onMessage((result) => {${1}});
   ]]></body>

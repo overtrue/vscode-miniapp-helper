@@ -2,7 +2,7 @@
   <prefix>backAudioManager-onError</prefix>
   <description><![CDATA[背景音频播放错误事件]]></description>
   <body><![CDATA[
-    backAudioManager.onError((${1:errMsg})=>{
+    backAudioManager.onError((${1:errMsg}) => {
 	${2}
 });
   ]]></body>

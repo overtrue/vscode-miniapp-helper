@@ -2,7 +2,7 @@
   <prefix>interObser-observe</prefix>
   <description><![CDATA[指定目标节点并开始监听相交状态变化情况]]></description>
   <body><![CDATA[
-    interObser.observe(${1:selector},(result)=>{
+    interObser.observe(${1:selector},(result) => {
 	${2}
 });
   ]]></body>

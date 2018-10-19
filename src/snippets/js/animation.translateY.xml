@@ -1,6 +1,6 @@
 <snippet>
   <prefix>animation-translateY</prefix>
-  <description><![CDATA[y轴偏移]]></description>
+  <description><![CDATA[y 轴偏移]]></description>
   <body><![CDATA[
     animation.translateY(${1});
   ]]></body>

@@ -3,11 +3,11 @@
   <description><![CDATA[停止]]></description>
   <body><![CDATA[
     livePlayerContext.stop({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

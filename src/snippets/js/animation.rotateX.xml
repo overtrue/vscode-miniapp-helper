@@ -1,6 +1,6 @@
 <snippet>
   <prefix>animation-rotateX</prefix>
-  <description><![CDATA[绕x轴旋转]]></description>
+  <description><![CDATA[绕 x 轴旋转]]></description>
   <body><![CDATA[
     animation.rotateX(${1});
   ]]></body>

@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-startBeaconDiscovery</prefix>
-  <description><![CDATA[开始搜索附近的iBeacon设备]]></description>
+  <description><![CDATA[开始搜索附近的 iBeacon 设备]]></description>
   <body><![CDATA[
     wx.startBeaconDiscovery({
 	uuids: [${1}],
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

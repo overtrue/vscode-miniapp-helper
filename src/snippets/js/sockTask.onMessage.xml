@@ -1,6 +1,6 @@
 <snippet>
   <prefix>sockTask-onMessage</prefix>
-  <description><![CDATA[监听WebSocket接受到服务器的消息事件。]]></description>
+  <description><![CDATA[监听 WebSocket 接受到服务器的消息事件]]></description>
   <body><![CDATA[
     sockTask.onMessage(${1:result} => {
 	${2}

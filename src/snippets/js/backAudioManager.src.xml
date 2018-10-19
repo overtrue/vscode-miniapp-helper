@@ -1,6 +1,6 @@
 <snippet>
   <prefix>backAudioManager-src</prefix>
-  <description><![CDATA[音频的数据源，默认为空字符串，当设置了新的 src 时，会自动开始播放 ，目前支持的格式有 m4a, aac, mp3, wav。]]></description>
+  <description><![CDATA[音频的数据源，默认为空字符串，当设置了新的 src 时，会自动开始播放 ，目前支持的格式有 m4a, aac, mp3, wav]]></description>
   <body><![CDATA[
     backAudioManager.src = ${1};
   ]]></body>

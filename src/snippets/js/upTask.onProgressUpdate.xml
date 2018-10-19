@@ -1,8 +1,8 @@
 <snippet>
   <prefix>upTask-onProgressUpdate</prefix>
-  <description><![CDATA[监听上传进度变化事件。]]></description>
+  <description><![CDATA[监听上传进度变化事件]]></description>
   <body><![CDATA[
-    upTask.onProgressUpdate((result)=>{
+    upTask.onProgressUpdate((result) => {
 		${1}
 	});
   ]]></body>

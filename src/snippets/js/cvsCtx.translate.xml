@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-translate</prefix>
-  <description><![CDATA[对当前坐标系的原点(0, 0)进行变换，默认的坐标系原点为页面左上角。]]></description>
+  <description><![CDATA[对当前坐标系的原点(0, 0)进行变换，默认的坐标系原点为页面左上角]]></description>
   <body><![CDATA[
     cvsCtx.translate(${1:x}, ${2:y});
   ]]></body>

@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-pauseBackgroundAudio</prefix>
-  <description><![CDATA[暂停播放音乐。1.2.0 起不再维护]]></description>
+  <description><![CDATA[暂停播放音乐，1.2.0 起不再维护]]></description>
   <body><![CDATA[
     wx.playBackgroundAudio();
   ]]></body>

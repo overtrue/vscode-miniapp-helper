@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-arcTo</prefix>
-  <description><![CDATA[根据控制点和半径绘制圆弧路径。]]></description>
+  <description><![CDATA[根据控制点和半径绘制圆弧路径]]></description>
   <body><![CDATA[
     cvsCtx.arcTo(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:radius});
   ]]></body>

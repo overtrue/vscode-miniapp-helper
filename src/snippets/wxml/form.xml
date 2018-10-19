@@ -1,6 +1,6 @@
 <snippet>
   <prefix>form</prefix>
-  <description><![CDATA[表单。将组件内的用户输入的<switch/> <input/> <checkbox/> <slider/> <radio/> <picker/> 提交]]></description>
+  <description><![CDATA[表单，将组件内的用户输入的 <switch/> <input/> <checkbox/> <slider/> <radio/> <picker/> 提交]]></description>
   <body><![CDATA[
     <form class="${1}" report-submit="${2:false}" bindsubmit="${3}" bindreset="${4}">
 	${5}

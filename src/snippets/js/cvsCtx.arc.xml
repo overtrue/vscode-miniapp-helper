@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-arc</prefix>
-  <description><![CDATA[画一条弧线。]]></description>
+  <description><![CDATA[画一条弧线]]></description>
   <body><![CDATA[
     cvsCtx.arc(${1:x}, ${2:y}, ${3:r}, ${4:sAngle}, ${5:eAngle}, ${6:false});
   ]]></body>

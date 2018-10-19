@@ -3,11 +3,11 @@
   <description><![CDATA[调起客户端小程序设置界面，返回用户设置的操作结果]]></description>
   <body><![CDATA[
     wx.openSetting({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

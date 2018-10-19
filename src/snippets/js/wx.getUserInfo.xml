@@ -6,11 +6,11 @@
 	withCredentials: '${1:false}',
 	lang: '${2:zh_CN}',
 	timeout:${3:10000},
-	success: (result)=>{
+	success: (result) => {
 		${4}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

@@ -1,7 +1,0 @@
-<snippet>
-  <prefix>test</prefix>
-  <description>测试一下</description>
-  <body><![CDATA[
-    hello world!
-  ]]></body>
-</snippet>

@@ -2,7 +2,7 @@
   <prefix>backAudioManager-onEnded</prefix>
   <description><![CDATA[背景音频自然播放结束事件]]></description>
   <body><![CDATA[
-    backAudioManager.onEnded(()=>{
+    backAudioManager.onEnded(() => {
 	${1}
 });
   ]]></body>

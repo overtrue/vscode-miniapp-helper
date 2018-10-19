@@ -2,9 +2,9 @@
   <prefix>fileManager-unlinkSync</prefix>
   <description><![CDATA[删除文件,同步接口]]></description>
   <body><![CDATA[
-    try{
+    try {
 	fileManager.unlinkSync('${1}');
-}catch(e){
+} catch (e) {
 	${2}
 }
   ]]></body>

@@ -9,11 +9,11 @@
 	method: '${5:GET}',
 	dataType: '${6:json}',
 	responseType: '${7:text}',
-	success: (result)=>{
+	success: (result) => {
 		${8}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

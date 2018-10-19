@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-rect</prefix>
-  <description><![CDATA[创建一个矩形。]]></description>
+  <description><![CDATA[创建一个矩形]]></description>
   <body><![CDATA[
     cvsCtx.rect(${1:x}, ${2:y}, ${3:width}, ${4:height});
   ]]></body>

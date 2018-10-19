@@ -2,7 +2,7 @@
   <prefix>backAudioManager-onTimeUpdate</prefix>
   <description><![CDATA[背景音频播放进度更新事件]]></description>
   <body><![CDATA[
-    backAudioManager.onTimeUpdate((${1})=>{
+    backAudioManager.onTimeUpdate((${1}) => {
 	${2}
 });
   ]]></body>

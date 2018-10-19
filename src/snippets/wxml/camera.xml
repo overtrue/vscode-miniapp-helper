@@ -2,7 +2,7 @@
   <prefix>camera</prefix>
   <description><![CDATA[系统相机。需要用户授权 scope.camera]]></description>
   <body><![CDATA[
-    <camera class="${1}" mode="${2:normal}" device-position="${3:back}" flash="${4:auto}" scan-area="[${5},${6},${7},${8}]" 
+    <camera class="${1}" mode="${2:normal}" device-position="${3:back}" flash="${4:auto}" scan-area="[${5}, ${6}, ${7}, ${8}]"
 	bindstop="${9}" bindscancode="${10}" binderror="${11}">
 	${12}
 </camera>

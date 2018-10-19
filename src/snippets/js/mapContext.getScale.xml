@@ -3,11 +3,11 @@
   <description><![CDATA[获取当前地图的缩放级别]]></description>
   <body><![CDATA[
     mapContext.getScale({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

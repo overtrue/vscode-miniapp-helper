@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-createLivePlayerContext</prefix>
-  <description><![CDATA[操作对应的 <live-player/> 组件。 创建并返回 live-player 上下文 LivePlayerContext 对象。在自定义组件下，第二个参数传入组件实例this，以操作组件内 <live-player/> 组件。]]></description>
+  <description><![CDATA[操作对应的 <live-player/> 组件。 创建并返回 live-player 上下文 LivePlayerContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 <live-player/> 组件]]></description>
   <body><![CDATA[
     ${1:var livePlayerContext = }wx.createLivePlayerContext('${2:live-player}'${3:, this})
   ]]></body>

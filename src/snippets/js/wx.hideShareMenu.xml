@@ -3,11 +3,11 @@
   <description><![CDATA[隐藏转发按钮]]></description>
   <body><![CDATA[
     wx.hideShareMenu({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

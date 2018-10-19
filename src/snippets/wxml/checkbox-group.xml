@@ -1,6 +1,6 @@
 <snippet>
   <prefix>checkbox-group</prefix>
-  <description><![CDATA[多项选择器 内部由多个checkbox组成]]></description>
+  <description><![CDATA[多项选择器，内部由多个 checkbox 组成]]></description>
   <body><![CDATA[
     <checkbox-group bindchange="${1}">
 	${2}

@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-getFileSystemManager</prefix>
-  <description><![CDATA[获取全局唯一的文件管理器。]]></description>
+  <description><![CDATA[获取全局唯一的文件管理器]]></description>
   <body><![CDATA[
     ${1:var fileManager = }wx.getFileSystemManager();
   ]]></body>

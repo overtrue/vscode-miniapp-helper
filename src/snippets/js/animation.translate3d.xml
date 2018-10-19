@@ -1,7 +1,7 @@
 <snippet>
   <prefix>animation-translate3d</prefix>
-  <description><![CDATA[3d偏移]]></description>
+  <description><![CDATA[3D 偏移]]></description>
   <body><![CDATA[
-    animation.translate3d(${1},${2},${3});
+    animation.translate3d(${1}, ${2}, ${3});
   ]]></body>
 </snippet>

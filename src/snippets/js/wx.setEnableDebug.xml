@@ -4,11 +4,11 @@
   <body><![CDATA[
     wx.setEnableDebug({
 	enableDebug:{${1:true}},
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

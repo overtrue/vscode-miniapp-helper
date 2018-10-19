@@ -3,11 +3,11 @@
   <description><![CDATA[播放推流]]></description>
   <body><![CDATA[
     livePusherContext.play({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

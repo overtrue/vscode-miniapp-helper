@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-navigateBack</prefix>
-  <description><![CDATA[关闭当前页面，返回上一页面或多级页面。可通过 getCurrentPages()) 获取当前的页面栈，决定需要返回几层。]]></description>
+  <description><![CDATA[关闭当前页面，返回上一页面或多级页面。可通过 getCurrentPages()) 获取当前的页面栈，决定需要返回几层]]></description>
   <body><![CDATA[
     wx.navigateBack({
 	delta: ${1:1}

@@ -2,7 +2,7 @@
   <prefix>backAudioManager-onPlay</prefix>
   <description><![CDATA[背景音频播放事件]]></description>
   <body><![CDATA[
-    backAudioManager.onPlay(()=>{
+    backAudioManager.onPlay(() => {
 	${1}
 });
   ]]></body>

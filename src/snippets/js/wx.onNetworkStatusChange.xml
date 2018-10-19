@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-onNetworkStatusChange</prefix>
-  <description><![CDATA[监听网络状态变化。]]></description>
+  <description><![CDATA[监听网络状态变化]]></description>
   <body><![CDATA[
     wx.onNetworkStatusChange((result) => {
 	${1}

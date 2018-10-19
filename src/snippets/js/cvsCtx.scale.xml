@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-scale</prefix>
-  <description><![CDATA[在调用scale方法后，之后创建的路径其横纵坐标会被缩放。多次调用scale，倍数会相乘。]]></description>
+  <description><![CDATA[在调用 scale 方法后，之后创建的路径其横纵坐标会被缩放。多次调用 scale，倍数会相乘]]></description>
   <body><![CDATA[
     cvsCtx.scale(${1:scaleWidth}, ${2:scaleHeight});
   ]]></body>

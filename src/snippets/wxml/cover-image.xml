@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cover-image</prefix>
-  <description><![CDATA[覆盖在原生组件之上的图片视图，可覆盖的原生组件同cover-view，支持嵌套在cover-view里]]></description>
+  <description><![CDATA[覆盖在原生组件之上的图片视图，可覆盖的原生组件同 cover-view，支持嵌套在 cover-view 里]]></description>
   <body><![CDATA[
     <cover-image class="${1}" src="${2}" bindload="${3}" binderror="${4}">
 	${5}

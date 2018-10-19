@@ -1,6 +1,6 @@
 <snippet>
   <prefix>animation-skewX</prefix>
-  <description><![CDATA[x轴倾斜]]></description>
+  <description><![CDATA[x 轴倾斜]]></description>
   <body><![CDATA[
     animation.skewX(${1});
   ]]></body>

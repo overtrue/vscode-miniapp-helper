@@ -3,11 +3,11 @@
   <description><![CDATA[获取本机蓝牙适配器状态]]></description>
   <body><![CDATA[
     wx.getBluetoothAdapterState({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
   <prefix>cvsCtx-save</prefix>
-  <description><![CDATA[保存当前的绘图上下文。]]></description>
+  <description><![CDATA[保存当前的绘图上下文]]></description>
   <body><![CDATA[
     cvsCtx.save();
   ]]></body>

@@ -1,13 +1,13 @@
 <snippet>
   <prefix>wx-getBluetoothDevices</prefix>
-  <description><![CDATA[获取在小程序蓝牙模块生效期间所有已发现的蓝牙设备，包括已经和本机处于连接状态的设备。]]></description>
+  <description><![CDATA[获取在小程序蓝牙模块生效期间所有已发现的蓝牙设备，包括已经和本机处于连接状态的设备]]></description>
   <body><![CDATA[
     wx.getBluetoothDevices({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

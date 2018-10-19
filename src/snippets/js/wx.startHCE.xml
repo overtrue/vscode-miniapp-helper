@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-startHCE</prefix>
-  <description><![CDATA[初始化NFC模块]]></description>
+  <description><![CDATA[初始化 NFC 模块]]></description>
   <body><![CDATA[
     wx.startHCE({
 	aid_list: [${1}],
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

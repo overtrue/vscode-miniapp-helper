@@ -1,6 +1,6 @@
 <snippet>
   <prefix>picker-view-column</prefix>
-  <description><![CDATA[仅可放置于<picker-view />中 其孩子节点的高度会自动设置成与picker-view的选中框的高度一致]]></description>
+  <description><![CDATA[仅可放置于 <picker-view />中 其孩子节点的高度会自动设置成与 picker-view 的选中框的高度一致]]></description>
   <body><![CDATA[
     <picker-view-column>
 	${1}

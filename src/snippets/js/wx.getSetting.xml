@@ -3,11 +3,11 @@
   <description><![CDATA[获取用户的当前设置]]></description>
   <body><![CDATA[
     wx.getSetting({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

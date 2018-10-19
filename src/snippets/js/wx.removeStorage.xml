@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-removeStorage</prefix>
-  <description><![CDATA[从本地缓存中异步移除指定 key。]]></description>
+  <description><![CDATA[从本地缓存中异步移除指定 key]]></description>
   <body><![CDATA[
     wx.removeStorage({
 	key: '${1:key},'
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

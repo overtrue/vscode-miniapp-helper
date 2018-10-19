@@ -1,13 +1,13 @@
 <snippet>
   <prefix>wx-stopHCE</prefix>
-  <description><![CDATA[关闭 NFC 模块。仅在安卓系统下有效。]]></description>
+  <description><![CDATA[关闭 NFC 模块。仅在安卓系统下有效]]></description>
   <body><![CDATA[
     wx.stopHCE({
-	success: (result)=>{
+	success: (result) => {
 		${1}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

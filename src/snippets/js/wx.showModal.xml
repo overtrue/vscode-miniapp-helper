@@ -11,12 +11,12 @@
 	confirmText: '${6:确定}',
 	confirmColor: '${7:#3CC51F}',
 	success: (result) => {
-		${8:if(result.confirm){
+		${8:if {result.confirm) {
 			${9}
 		}}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

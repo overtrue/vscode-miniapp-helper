@@ -1,6 +1,6 @@
 <snippet>
   <prefix>wx-createSelectorQuery</prefix>
-  <description><![CDATA[返回一个 SelectorQuery 对象实例。]]></description>
+  <description><![CDATA[返回一个 SelectorQuery 对象实例]]></description>
   <body><![CDATA[
     let ${1:selQuery} = wx.createSelectorQuery();
   ]]></body>

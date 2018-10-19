@@ -1,14 +1,14 @@
 <snippet>
   <prefix>wx-navigateTo</prefix>
-  <description><![CDATA[保留当前页面，跳转到应用内的某个页面，使用wx.navigateBack可以返回到原页面。目前页面路径最多只能十层。]]></description>
+  <description><![CDATA[保留当前页面，跳转到应用内的某个页面，使用 wx.navigateBack 可以返回到原页面。目前页面路径最多只能十层]]></description>
   <body><![CDATA[
     wx.navigateTo({
 	url: '${1}',
-	success: (result)=>{
+	success: (result) => {
 		${2}
 	},
-	fail: ()=>{},
-	complete: ()=>{}
+	fail: () => {},
+	complete: () => {}
 });
   ]]></body>
 </snippet>

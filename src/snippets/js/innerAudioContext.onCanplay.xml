@@ -2,6 +2,6 @@
   <prefix>innerAudioContext-onCanplay</prefix>
   <description><![CDATA[音频进入可以播放状态，但不保证后面可以流畅播放]]></description>
   <body><![CDATA[
-    innerAudioContext.onCanplay(()=>{${1}});
+    innerAudioContext.onCanplay(() => {${1}});
   ]]></body>
 </snippet>

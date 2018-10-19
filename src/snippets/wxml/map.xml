@@ -2,7 +2,7 @@
   <prefix>map</prefix>
   <description><![CDATA[地图]]></description>
   <body><![CDATA[
-    <map id="${1}" class="2" longitude="${3}" latitude="${4}" scale="${5:16}" markers="${6}" 
+    <map id="${1}" class="2" longitude="${3}" latitude="${4}" scale="${5:16}" markers="${6}"
 	bindregionchange="${7}" bindtap="${8}" bindupdated="${9}" ></map>
   ]]></body>
 </snippet>
