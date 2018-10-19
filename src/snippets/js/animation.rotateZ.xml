@@ -1,6 +1,6 @@
 <snippet>
   <prefix>animation-rotateZ</prefix>
-  <description><![CDATA[? Z ??????????]]></description>
+  <description><![CDATA[从 Z 轴顺时针旋转一个角度]]></description>
   <body><![CDATA[
     animation.rotateZ(${1});
   ]]></body>
