@@ -2,11 +2,11 @@
   "name": "miniapp-helper",
   "displayName": "小程序开发助手",
   "description": "微信小程序开发助手",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "icon": "assets/images/logo.png",
   "publisher": "overtrue",
   "engines": {
-    "vscode": "^1.28.0"
+    "vscode": "^1.25.0"
   },
   "categories": [
     "Languages",
