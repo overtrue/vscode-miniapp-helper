@@ -67,7 +67,7 @@
     "image": {
         "prefix": "image",
         "description": "图片。默认宽度 300px、高度 225px。image 组件中二维码/小程序码图片不支持长按识别",
-        "body": "<image class=\"${1}\" src=\"${2}\" mode=\"${3:aspectFit|aspectFill|widthFix}\" lazy-load=\"${4:false}\" binderror=\"${5}\" bindload=\"${6}\">\n\t${7}\n</image>\n  "
+        "body": "<image class=\"${1}\" src=\"${2}\" mode=\"${3:aspectFit|aspectFill|widthFix}\" lazy-load=\"${4:false}\" binderror=\"${5}\" bindload=\"${6}\" />\n  "
     },
     "input": {
         "prefix": "input",

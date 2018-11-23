@@ -2,8 +2,6 @@
   <prefix>image</prefix>
   <description><![CDATA[图片。默认宽度 300px、高度 225px。image 组件中二维码/小程序码图片不支持长按识别]]></description>
   <body><![CDATA[
-    <image class="${1}" src="${2}" mode="${3:aspectFit|aspectFill|widthFix}" lazy-load="${4:false}" binderror="${5}" bindload="${6}">
-	${7}
-</image>
+    <image class="${1}" src="${2}" mode="${3:aspectFit|aspectFill|widthFix}" lazy-load="${4:false}" binderror="${5}" bindload="${6}" />
   ]]></body>
 </snippet>
