@@ -16,7 +16,7 @@ const compile = group => {
       if (snippet.body.indexOf('\n    ') === 0) {
         snippet.body = snippet.body.substring(5)
       }
-      snippets[file.split('.').shift()] = snippet
+      snippets[file.replace(/.xml$/, '')] = snippet
     })
     updateReadme(group, snippets)
     fs.writeFileSync(path.join(targetSnippetPath, `${group}.json`), JSON.stringify(snippets, null, 4), 'utf8')

@@ -1,40 +1,695 @@
 {
-    "animation": {
+    "animation.backgroundColor": {
+        "prefix": "animation-backgroundColor",
+        "description": "设置背景色",
+        "body": "animation.backgroundColor(${1});\n  "
+    },
+    "animation.bottom": {
+        "prefix": "animation-bottom",
+        "description": "底部距离",
+        "body": "animation.bottom(${1});\n  "
+    },
+    "animation.height": {
+        "prefix": "animation-height",
+        "description": "长度",
+        "body": "animation.height(${1});\n  "
+    },
+    "animation.left": {
+        "prefix": "animation-left",
+        "description": "左侧距离",
+        "body": "animation.height(${1});\n  "
+    },
+    "animation.matrix": {
+        "prefix": "animation-matrix",
+        "description": "平面矩阵变换",
+        "body": "animation.matrix(${1}, ${2}, ${3}, ${4}, ${5}, ${6});\n  "
+    },
+    "animation.matrix3d": {
+        "prefix": "animation-matrix3d",
+        "description": "立体矩阵变换",
+        "body": "animation.matrix3d(${1}, ${2}, ${3}, ${4}, ${5}, ${6}, ${7}, ${8}, ${9}, ${10}, ${11}, ${12}, ${13}, ${14}, ${15}, ${16});\n  "
+    },
+    "animation.opacity": {
+        "prefix": "animation-opacity",
+        "description": "透明度，参数范围 0~1",
+        "body": "animation.opacity(${1});\n  "
+    },
+    "animation.right": {
+        "prefix": "animation-right",
+        "description": "右侧距离",
+        "body": "animation.right(${1});\n  "
+    },
+    "animation.rotate": {
+        "prefix": "animation-rotate",
+        "description": "绕原点旋转",
+        "body": "animation.rotate(${1});\n  "
+    },
+    "animation.rotate3d": {
+        "prefix": "animation-rotate3d",
+        "description": "3D 旋转",
+        "body": "animation.rotate3d(${1}, ${2}, ${3}, ${4});\n  "
+    },
+    "animation.rotateX": {
+        "prefix": "animation-rotateX",
+        "description": "绕 x 轴旋转",
+        "body": "animation.rotateX(${1});\n  "
+    },
+    "animation.rotateY": {
+        "prefix": "animation-rotateY",
+        "description": "绕 Y 轴旋转",
+        "body": "animation.rotateY(${1});\n  "
+    },
+    "animation.rotateZ": {
+        "prefix": "animation-rotateZ",
+        "description": "从 Z 轴顺时针旋转一个角度",
+        "body": "animation.rotateZ(${1});\n  "
+    },
+    "animation.scale": {
+        "prefix": "animation-scale",
+        "description": "x轴[y轴]缩放。一个参数时，表示在X轴、Y轴两个相同；两个参数时表示在X轴，在Y轴不同",
+        "body": "animation.scale(${1}${2:,});\n  "
+    },
+    "animation.scale3d": {
+        "prefix": "animation-scale3d",
+        "description": "3D 缩放",
+        "body": "animation.scale3d(${1}, ${2}, ${3});\n  "
+    },
+    "animation.scaleX": {
+        "prefix": "animation-scaleX",
+        "description": "x 轴缩放",
+        "body": "animation.scaleX(${1});\n  "
+    },
+    "animation.scaleY": {
+        "prefix": "animation-scaleY",
+        "description": "y 轴缩放",
+        "body": "animation.scaleY(${1});\n  "
+    },
+    "animation.scaleZ": {
+        "prefix": "animation-scaleZ",
+        "description": "z 轴缩放",
+        "body": "animation.scaleZ(${1});\n  "
+    },
+    "animation.skew": {
+        "prefix": "animation-skew",
+        "description": "x轴[y轴]倾斜。一个参数时，表示在X轴；两个参数时表示在X轴，在Y轴",
+        "body": "animation.skew(${1}${2:,});\n  "
+    },
+    "animation.skewX": {
+        "prefix": "animation-skewX",
+        "description": "x 轴倾斜",
+        "body": "animation.skewX(${1});\n  "
+    },
+    "animation.skewY": {
+        "prefix": "animation-skewY",
+        "description": "y 轴倾斜",
+        "body": "animation.skewY(${1});\n  "
+    },
+    "animation.top": {
+        "prefix": "animation-top",
+        "description": "顶部距离",
+        "body": "animation.top(${1});\n  "
+    },
+    "animation.translate": {
+        "prefix": "animation-translate",
+        "description": "x轴[y轴]偏移。一个参数时，表示在X轴；两个参数时表示在X轴，在Y轴",
+        "body": "animation.translate(${1}${2:,});\n  "
+    },
+    "animation.translate3d": {
+        "prefix": "animation-translate3d",
+        "description": "3D 偏移",
+        "body": "animation.translate3d(${1}, ${2}, ${3});\n  "
+    },
+    "animation.translateX": {
+        "prefix": "animation-translateX",
+        "description": "x 轴偏移",
+        "body": "animation.translateX(${1});\n  "
+    },
+    "animation.translateY": {
+        "prefix": "animation-translateY",
+        "description": "y 轴偏移",
+        "body": "animation.translateY(${1});\n  "
+    },
+    "animation.translateZ": {
+        "prefix": "animation-translateZ",
+        "description": "z 轴偏移",
+        "body": "animation.translateZ(${1});\n  "
+    },
+    "animation.width": {
         "prefix": "animation-width",
         "description": "宽度",
         "body": "animation.width(${1});\n  "
     },
-    "audioContext": {
+    "audioContext.pause": {
+        "prefix": "audioContext-pause",
+        "description": "暂停。1.6.0 起不再维护",
+        "body": "audioContext.pause();\n  "
+    },
+    "audioContext.play": {
+        "prefix": "audioContext-play",
+        "description": "播放。1.6.0 起不再维护",
+        "body": "audioContext.play();\n  "
+    },
+    "audioContext.seek": {
+        "prefix": "audioContext-seek",
+        "description": "跳转到指定位置，单位 s。1.6.0 起不再维护",
+        "body": "audioContext.seek(${1});\n  "
+    },
+    "audioContext.setSrc": {
         "prefix": "audioContext-setSrc",
         "description": "设置音频的地址。1.6.0 起不再维护",
         "body": "audioContext.setSrc('${1}');\n  "
     },
-    "backAudioManager": {
+    "backAudioManager.onCanplay": {
+        "prefix": "backAudioManager-onCanplay",
+        "description": "背景音频进入可以播放状态，但不保证后面可以流畅播放",
+        "body": "backAudioManager.onCanplay(${1:() => {\n\t\t${2}\n\t}});\n  "
+    },
+    "backAudioManager.onEnded": {
+        "prefix": "backAudioManager-onEnded",
+        "description": "背景音频自然播放结束事件",
+        "body": "backAudioManager.onEnded(() => {\n\t${1}\n});\n  "
+    },
+    "backAudioManager.onError": {
+        "prefix": "backAudioManager-onError",
+        "description": "背景音频播放错误事件",
+        "body": "backAudioManager.onError((${1:errMsg}) => {\n\t${2}\n});\n  "
+    },
+    "backAudioManager.onNext": {
+        "prefix": "backAudioManager-onNext",
+        "description": "用户在系统音乐播放面板点击下一曲事件（iOS only）",
+        "body": "backAudioManager.onNext((${1}) => {\n\t${2}\n});\n  "
+    },
+    "backAudioManager.onPause": {
+        "prefix": "backAudioManager-onPause",
+        "description": "背景音频暂停事件",
+        "body": "backAudioManager.onPause(() => {\n\t${1}\n});\n  "
+    },
+    "backAudioManager.onPlay": {
+        "prefix": "backAudioManager-onPlay",
+        "description": "背景音频播放事件",
+        "body": "backAudioManager.onPlay(() => {\n\t${1}\n});\n  "
+    },
+    "backAudioManager.onPrev": {
+        "prefix": "backAudioManager-onPrev",
+        "description": "用户在系统音乐播放面板点击上一曲事件（iOS only）",
+        "body": "backAudioManager.onPrev((${1}) => {\n\t${2}\n});\n  "
+    },
+    "backAudioManager.onStop": {
+        "prefix": "backAudioManager-onStop",
+        "description": "背景音频停止事件",
+        "body": "backAudioManager.onStop(() => {\n\t${1}\n});\n  "
+    },
+    "backAudioManager.onTimeUpdate": {
+        "prefix": "backAudioManager-onTimeUpdate",
+        "description": "背景音频播放进度更新事件",
+        "body": "backAudioManager.onTimeUpdate((${1}) => {\n\t${2}\n});\n  "
+    },
+    "backAudioManager.onWaiting": {
+        "prefix": "backAudioManager-onWaiting",
+        "description": "音频加载中事件，当音频因为数据不足，需要停下来加载时会触发",
+        "body": "backAudioManager.onWaiting((${1}) => {\n\t${2}\n});\n  "
+    },
+    "backAudioManager.pause": {
+        "prefix": "backAudioManager-pause",
+        "description": "暂停",
+        "body": "backAudioManager.pause();\n  "
+    },
+    "backAudioManager.play": {
+        "prefix": "backAudioManager-play",
+        "description": "播放",
+        "body": "backAudioManager.play();\n  "
+    },
+    "backAudioManager.seek": {
+        "prefix": "backAudioManager-seek",
+        "description": "跳转到指定位置，单位 s。精确到小数点后 3 位，即支持 ms 级别精确度",
+        "body": "backAudioManager.seek(${1});\n  "
+    },
+    "backAudioManager.src": {
+        "prefix": "backAudioManager-src",
+        "description": "音频的数据源，默认为空字符串，当设置了新的 src 时，会自动开始播放 ，目前支持的格式有 m4a, aac, mp3, wav",
+        "body": "backAudioManager.src = ${1};\n  "
+    },
+    "backAudioManager.stop": {
         "prefix": "backAudioManager-stop",
         "description": "停止",
         "body": "backAudioManager.stop();\n  "
     },
-    "cameraContext": {
+    "cameraContext.startRecord": {
+        "prefix": "cameraContext-startRecord",
+        "description": "开始录像",
+        "body": "cameraContext.startRecord({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n\ttimeoutCallback: (result) => {\n\t\t${2}\n\t},\n});\n  "
+    },
+    "cameraContext.stopRecord": {
+        "prefix": "cameraContext-stopRecord",
+        "description": "结束录像，成功则返回封面与视频",
+        "body": "cameraContext.stopRecord({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "cameraContext.takePhoto": {
         "prefix": "cameraContext-takePhoto",
         "description": "拍照，可指定质量(high, normal, low，默认normal)，成功则返回图片",
         "body": "cameraContext.takePhoto({\n\tquality: ${1:normal},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
     },
-    "cvsCtx": {
+    "cvsCtx.addColorStop": {
+        "prefix": "cvsCtx-addColorStop",
+        "description": "创建一个颜色的渐变点",
+        "body": "cvsCtx.addColorStop(${1:stop(0 ~ 1)}, ${2:color});\n  "
+    },
+    "cvsCtx.arc": {
+        "prefix": "cvsCtx-arc",
+        "description": "画一条弧线",
+        "body": "cvsCtx.arc(${1:x}, ${2:y}, ${3:r}, ${4:sAngle}, ${5:eAngle}, ${6:false});\n  "
+    },
+    "cvsCtx.arcTo": {
+        "prefix": "cvsCtx-arcTo",
+        "description": "根据控制点和半径绘制圆弧路径",
+        "body": "cvsCtx.arcTo(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:radius});\n  "
+    },
+    "cvsCtx.beginPath": {
+        "prefix": "cvsCtx-beginPath",
+        "description": "开始创建一个路径，需要调用 fill 或者 stroke 才会使用路径进行填充或描边",
+        "body": "cvsCtx.beginPath();\n  "
+    },
+    "cvsCtx.bezierCurveTo": {
+        "prefix": "cvsCtx-bezierCurveTo",
+        "description": "创建三次方贝塞尔曲线路径。曲线的起始点为路径中前一个点",
+        "body": "cvsCtx.bezierCurveTo(${1:cp1x}, ${2:cp1y}, ${3:cp2x}, ${4:cp2y}, ${5:x}, ${6:y});\n  "
+    },
+    "cvsCtx.clearRect": {
+        "prefix": "cvsCtx-clearRect",
+        "description": "清除画布上在该矩形区域内的内容",
+        "body": "cvsCtx.clearRect(${1:x}, ${2:y}, ${3:width}, ${4:height});\n  "
+    },
+    "cvsCtx.clip": {
+        "prefix": "cvsCtx-clip",
+        "description": "从原始画布中剪切任意形状和尺寸",
+        "body": "cvsCtx.clip();\n  "
+    },
+    "cvsCtx.closePath": {
+        "prefix": "cvsCtx-closePath",
+        "description": "关闭一个路径",
+        "body": "cvsCtx.closePath();\n  "
+    },
+    "cvsCtx.createCircularGradient": {
+        "prefix": "cvsCtx-createCircularGradient",
+        "description": "创建一个圆形的渐变颜色。需要使用 addColorStop() 来指定渐变点，至少要两个",
+        "body": "cvsCtx.createCircularGradient(${1:x}, ${2:y}, ${3:r});\n  "
+    },
+    "cvsCtx.createLinearGradient": {
+        "prefix": "cvsCtx-createLinearGradient",
+        "description": "创建一个线性的渐变颜色。需要使用 addColorStop() 来指定渐变点，至少要两个",
+        "body": "cvsCtx.createLinearGradient(${1:x0}, ${2:y0}, ${3:x1}, ${4:y1});\n  "
+    },
+    "cvsCtx.createPattern": {
+        "prefix": "cvsCtx-createPattern",
+        "description": "对指定的图像创建模式的方法，可在指定的方向上重复元图像",
+        "body": "cvsCtx.createPattern(${1:image}, ${2:repetition});\n  "
+    },
+    "cvsCtx.draw": {
+        "prefix": "cvsCtx-draw",
+        "description": "将之前在绘图上下文中的描述（路径、变形、样式）画到 canvas 中",
+        "body": "cvsCtx.draw(${1:true}, ${2:callback});\n  "
+    },
+    "cvsCtx.drawImage": {
+        "prefix": "cvsCtx-drawImage",
+        "description": "绘制图像到画布",
+        "body": "cvsCtx.drawImage(${1:imageResource}, ${2:dx}, ${3:dy}, ${4:dWidth}, ${5:dHeight});\n  "
+    },
+    "cvsCtx.fill": {
+        "prefix": "cvsCtx-fill",
+        "description": "对当前路径中的内容进行填充",
+        "body": "cvsCtx.fill();\n  "
+    },
+    "cvsCtx.fillRect": {
+        "prefix": "cvsCtx-fillRect",
+        "description": "填充一个矩形",
+        "body": "cvsCtx.fillRect(${1:x}, ${2:y}, ${3:width}, ${4:height});\n  "
+    },
+    "cvsCtx.fillStyle": {
+        "prefix": "cvsCtx-fillStyle",
+        "description": "设置填充色。基础库 1.9.90 起支持",
+        "body": "cvsCtx.fillStyle = ${1};\n  "
+    },
+    "cvsCtx.fillText": {
+        "prefix": "cvsCtx-fillText",
+        "description": "在画布上绘制被填充的文本",
+        "body": "cvsCtx.fillText('${1:text}', ${2:x}, ${3:y});\n  "
+    },
+    "cvsCtx.font": {
+        "prefix": "cvsCtx-font",
+        "description": "设置当前字体样式的属性",
+        "body": "cvsCtx.font = '${1:style}, ${2:weight}, ${3:size}, ${4:family}';\n  "
+    },
+    "cvsCtx.globalAlpha": {
+        "prefix": "cvsCtx-globalAlpha",
+        "description": "设置全局画笔透明度。基础库 1.9.90 起支持",
+        "body": "cvsCtx.globalAlpha = ${1:1};\n  "
+    },
+    "cvsCtx.globalCompositeOperation": {
+        "prefix": "cvsCtx-globalCompositeOperation",
+        "description": "该属性是设置要在绘制新形状时应用的合成操作的类型",
+        "body": "cvsCtx.globalCompositeOperation = ${1};\n  "
+    },
+    "cvsCtx.lineCap": {
+        "prefix": "cvsCtx-lineCap",
+        "description": "设置线条的端点样式。基础库 1.9.90 起支持",
+        "body": "cvsCtx.lineCap = '${1:butt}';\n  "
+    },
+    "cvsCtx.lineDashOffset": {
+        "prefix": "cvsCtx-lineDashOffset",
+        "description": "设置虚线偏移量的属性",
+        "body": "cvsCtx.lineDashOffset = ${1:value};\n  "
+    },
+    "cvsCtx.lineJoin": {
+        "prefix": "cvsCtx-lineJoin",
+        "description": "设置线条的交点样式。基础库 1.9.90 起支持",
+        "body": "cvsCtx.lineJoin = '${1:bevel}';\n  "
+    },
+    "cvsCtx.lineTo": {
+        "prefix": "cvsCtx-lineTo",
+        "description": "lineTo 方法增加一个新点，然后创建一条从上次指定点到目标点的线",
+        "body": "cvsCtx.lineTo(${1:x}, ${2:y});\n  "
+    },
+    "cvsCtx.lineWidth": {
+        "prefix": "cvsCtx-lineWidth",
+        "description": "设置线条的宽度。基础库 1.9.90 起支持",
+        "body": "cvsCtx.lineWidth = ${1};\n  "
+    },
+    "cvsCtx.measureText": {
+        "prefix": "cvsCtx-measureText",
+        "description": "测量文本尺寸信息，目前仅返回文本宽度。同步接口",
+        "body": "${1:var metrics = }cvsCtx.measureText(${2});\n  "
+    },
+    "cvsCtx.moveTo": {
+        "prefix": "cvsCtx-moveTo",
+        "description": "把路径移动到画布中的指定点，不创建线条",
+        "body": "cvsCtx.moveTo(${1:x}, ${2:y});\n  "
+    },
+    "cvsCtx.quadraticCurveTo": {
+        "prefix": "cvsCtx-quadraticCurveTo",
+        "description": "创建二次贝塞尔曲线路径。曲线的起始点为路径中前一个点",
+        "body": "cvsCtx.quadraticCurveTo(${1:cpx}, ${2:cpy}, ${3:x}, ${4:y});\n  "
+    },
+    "cvsCtx.rect": {
+        "prefix": "cvsCtx-rect",
+        "description": "创建一个矩形",
+        "body": "cvsCtx.rect(${1:x}, ${2:y}, ${3:width}, ${4:height});\n  "
+    },
+    "cvsCtx.restore": {
+        "prefix": "cvsCtx-restore",
+        "description": "恢复之前保存的绘图上下文",
+        "body": "cvsCtx.restore();\n  "
+    },
+    "cvsCtx.rotate": {
+        "prefix": "cvsCtx-rotate",
+        "description": "以原点为中心，原点可以用 translate 方法修改。顺时针旋转当前坐标轴",
+        "body": "cvsCtx.rotate(${1:degrees} * Math.PI/180);\n  "
+    },
+    "cvsCtx.save": {
+        "prefix": "cvsCtx-save",
+        "description": "保存当前的绘图上下文",
+        "body": "cvsCtx.save();\n  "
+    },
+    "cvsCtx.scale": {
+        "prefix": "cvsCtx-scale",
+        "description": "在调用 scale 方法后，之后创建的路径其横纵坐标会被缩放。多次调用 scale，倍数会相乘",
+        "body": "cvsCtx.scale(${1:scaleWidth}, ${2:scaleHeight});\n  "
+    },
+    "cvsCtx.setFillStyle": {
+        "prefix": "cvsCtx-setFillStyle",
+        "description": "设置填充色",
+        "body": "cvsCtx.setFillStyle('${1}');\n  "
+    },
+    "cvsCtx.setFontSize": {
+        "prefix": "cvsCtx-setFontSize",
+        "description": "设置字体的字号",
+        "body": "cvsCtx.setFontSize(${1:20});\n  "
+    },
+    "cvsCtx.setGlobalAlpha": {
+        "prefix": "cvsCtx-setGlobalAlpha",
+        "description": "设置全局画笔透明度",
+        "body": "cvsCtx.setGlobalAlpha(${1:1});\n  "
+    },
+    "cvsCtx.setLineCap": {
+        "prefix": "cvsCtx-setLineCap",
+        "description": "设置线条的端点样式",
+        "body": "cvsCtx.setLineCap('${1:butt}');\n  "
+    },
+    "cvsCtx.setLineDash": {
+        "prefix": "cvsCtx-setLineDash",
+        "description": "设置线条的宽度",
+        "body": "cvsCtx.setLineDash([${1:pattern}], ${2:offset});\n  "
+    },
+    "cvsCtx.setLineJoin": {
+        "prefix": "cvsCtx-setLineJoin",
+        "description": "设置线条的交点样式",
+        "body": "cvsCtx.setLineJoin('${1:bevel}');\n  "
+    },
+    "cvsCtx.setLineWidth": {
+        "prefix": "cvsCtx-setLineWidth",
+        "description": "设置线条的宽度",
+        "body": "cvsCtx.setLineWidth(${1});\n  "
+    },
+    "cvsCtx.setMiterLimit": {
+        "prefix": "cvsCtx-setMiterLimit",
+        "description": "设置最大斜接长度，斜接长度指的是在两条线交汇处内角和外角之间的距离。 当 setLineJoin() 为 miter 时才有效",
+        "body": "cvsCtx.setMiterLimit(${1});\n  "
+    },
+    "cvsCtx.setShadow": {
+        "prefix": "cvsCtx-setShadow",
+        "description": "设置阴影样式",
+        "body": "cvsCtx.setShadow(${1:offsetX}, ${2:offsetY}, ${3:blur}, ${4:color});\n  "
+    },
+    "cvsCtx.setStrokeStyle": {
+        "prefix": "cvsCtx-setStrokeStyle",
+        "description": "设置边框颜色",
+        "body": "cvsCtx.setStrokeStyle(${1});\n  "
+    },
+    "cvsCtx.setTextAlign": {
+        "prefix": "cvsCtx-setTextAlign",
+        "description": "用于设置文字的对齐",
+        "body": "cvsCtx.setTextAlign('${1:center}');\n  "
+    },
+    "cvsCtx.setTextBaseline": {
+        "prefix": "cvsCtx-setTextBaseline",
+        "description": "用于设置文字的水平对齐",
+        "body": "cvsCtx.setTextBaseline('${1:middle}');\n  "
+    },
+    "cvsCtx.setTransform": {
+        "prefix": "cvsCtx-setTransform",
+        "description": "使用矩阵重新设置（覆盖）当前变换的方法",
+        "body": "cvsCtx.setTransform(${1:scaleX}, ${2:skewX}, ${3:skewY}, ${4:scaleY}, ${5:translateX}, ${6:translateY});\n  "
+    },
+    "cvsCtx.shadowBlur": {
+        "prefix": "cvsCtx-shadowBlur",
+        "description": "设置阴影的模糊级别",
+        "body": "cvsCtx.shadowBlur = ${1:value};\n  "
+    },
+    "cvsCtx.shadowColor": {
+        "prefix": "cvsCtx-shadowColor",
+        "description": "设置阴影的颜色",
+        "body": "cvsCtx.shadowColor = ${1:value};\n  "
+    },
+    "cvsCtx.shadowOffsetX": {
+        "prefix": "cvsCtx-shadowOffsetX",
+        "description": "设置阴影相对于形状在水平方向的偏移",
+        "body": "cvsCtx.shadowOffsetX = ${1:value};\n  "
+    },
+    "cvsCtx.shadowOffsetY": {
+        "prefix": "cvsCtx-shadowOffsetY",
+        "description": "设置阴影相对于形状在竖直方向的偏移",
+        "body": "cvsCtx.shadowOffsetY = ${1:value};\n  "
+    },
+    "cvsCtx.stroke": {
+        "prefix": "cvsCtx-stroke",
+        "description": "画出当前路径的边框",
+        "body": "cvsCtx.stroke();\n  "
+    },
+    "cvsCtx.strokeRect": {
+        "prefix": "cvsCtx-strokeRect",
+        "description": "画一个矩形(非填充)",
+        "body": "cvsCtx.strokeRect(${1:x}, ${2:y}, ${3:width}, ${4:height});\n  "
+    },
+    "cvsCtx.strokeStyle": {
+        "prefix": "cvsCtx-strokeStyle",
+        "description": "设置边框颜色。基础库 1.9.90 起支持",
+        "body": "cvsCtx.strokeStyle = ${1};\n  "
+    },
+    "cvsCtx.strokeText": {
+        "prefix": "cvsCtx-strokeText",
+        "description": "给定的 (x, y) 位置绘制文本描边的方法",
+        "body": "cvsCtx.strokeText(${1:text}, ${2:x}, ${3:y});\n  "
+    },
+    "cvsCtx.textAlign": {
+        "prefix": "cvsCtx-textAlign",
+        "description": "用于设置文字的对齐，基础库 1.9.90 起支持",
+        "body": "cvsCtx.textAlign = '${1:center}';\n  "
+    },
+    "cvsCtx.textBaseline": {
+        "prefix": "cvsCtx-textBaseline",
+        "description": "用于设置文字的水平对齐，基础库 1.9.90 起支持",
+        "body": "cvsCtx.textBaseline = '${1:middle}';\n  "
+    },
+    "cvsCtx.translate": {
         "prefix": "cvsCtx-translate",
         "description": "对当前坐标系的原点(0, 0)进行变换，默认的坐标系原点为页面左上角",
         "body": "cvsCtx.translate(${1:x}, ${2:y});\n  "
     },
-    "downTask": {
+    "downTask.abort": {
+        "prefix": "downTask-abort",
+        "description": "中断下载任务",
+        "body": "downTask.abort();\n  "
+    },
+    "downTask.onProgressUpdate": {
         "prefix": "downTask-onProgressUpdate",
         "description": "监听下载进度变化事件",
         "body": "downTask.onProgressUpdate((result) => {\n\t\t${1}\n\t});\n  "
     },
-    "fileManager": {
+    "fileManager.access": {
+        "prefix": "fileManager-access",
+        "description": "判断文件/目录是否存在",
+        "body": "fileManager.access({\n\tpath: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.accessSync": {
+        "prefix": "fileManager-accessSync",
+        "description": "判断文件/目录是否存在，同步接口",
+        "body": "try {\n\tfileManager.accessSync('${1}');\n} catch (e) {\n\t${2}\n}\n  "
+    },
+    "fileManager.appendFile": {
+        "prefix": "fileManager-appendFile",
+        "description": "在文件结尾追加内容",
+        "body": "fileManager.appendFile({\n\tfilePath: '${1}',\n\tdata: '${2}',\n\tencoding:'${3:utf8}',\n\tsuccess: (result) => {\n\t\t${4}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.appendFileSync": {
+        "prefix": "fileManager-appendFileSync",
+        "description": "在文件结尾追加内容，同步接口",
+        "body": "try {\n\tfileManager.appendFileSync('${1}', '${2}', '${3:utf8}');\n} catch (e) {\n\t${4}\n}\n  "
+    },
+    "fileManager.copyFile": {
+        "prefix": "fileManager-copyFile",
+        "description": "复制文件",
+        "body": "fileManager.copyFile({\n\tsrcPath: '${1}',\n\tdestPath: '${2}',\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.copyFileSync": {
+        "prefix": "fileManager-copyFileSync",
+        "description": "复制文件，同步接口",
+        "body": "try {\n\tfileManager.copyFileSync('${1}', '${2}');\n} catch (e) {\n\t${3}\n}\n  "
+    },
+    "fileManager.getFileInfo": {
+        "prefix": "fileManager-getFileInfo",
+        "description": "获取该小程序下的本地临时文件或本地缓存文件信息",
+        "body": "fileManager.getFileInfo({\n\tfilePath: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.getSavedFileList": {
+        "prefix": "fileManager-getSavedFileList",
+        "description": "获取该小程序下已保存的本地缓存文件列表",
+        "body": "fileManager.getSavedFileList({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.mkdir": {
+        "prefix": "fileManager-mkdir",
+        "description": "创建目录",
+        "body": "fileManager.mkdir({\n\tdirPath: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.mkdirSync": {
+        "prefix": "fileManager-mkdirSync",
+        "description": "创建目录，同步接口",
+        "body": "try {\n\tfileManager.mkdirSync('${1}');\n} catch (e) {\n\t${2}\n}\n  "
+    },
+    "fileManager.readFile": {
+        "prefix": "fileManager-readFile",
+        "description": "读取本地文件内容",
+        "body": "fileManager.readFile({\n\tfilePath: '${1}',\n\tencoding: '${2}',\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.readFileSync": {
+        "prefix": "fileManager-readFileSync",
+        "description": "读取本地文件内容，同步接口",
+        "body": "try {\n\tvar ${1:fileData} = fileManager.readFileSync('${2}', '${3}');\n} catch (e) {\n\t${4}\n}\n  "
+    },
+    "fileManager.readdir": {
+        "prefix": "fileManager-readdir",
+        "description": "读取目录内文件列表",
+        "body": "fileManager.readdir({\n\tdirPath: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.readdirSync": {
+        "prefix": "fileManager-readdirSync",
+        "description": "读取目录内文件列表，同步接口",
+        "body": "try {\n\tvar ${1:fileList} = fileManager.readdirSync('${2}');\n} catch (e) {\n\t${3}\n}\n  "
+    },
+    "fileManager.removeSavedFile": {
+        "prefix": "fileManager-removeSavedFile",
+        "description": "删除该小程序下已保存的本地缓存文件",
+        "body": "fileManager.removeSavedFile({\n\tfilePath: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.rename": {
+        "prefix": "fileManager-rename",
+        "description": "重命名文件，可以把文件从 oldPath 移动到 newPath",
+        "body": "fileManager.rename({\n\toldPath: '${1}',\n\tnewPath: '${2}',\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.renameSync": {
+        "prefix": "fileManager-renameSync",
+        "description": "重命名文件，可以把文件从 oldPath 移动到 newPath，同步接口",
+        "body": "try {\n\tfileManager.renameSync('${1}', '${2}');\n} catch (e) {\n\t${3}\n}\n  "
+    },
+    "fileManager.rmdir": {
+        "prefix": "fileManager-rmdir",
+        "description": "删除目录",
+        "body": "fileManager.rmdir({\n\tdirPath: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.rmdirSync": {
+        "prefix": "fileManager-rmdirSync",
+        "description": "删除目录，同步接口",
+        "body": "try {\n\tfileManager.rmdirSync('${1}');\n} catch (e) {\n\t${2}\n}\n  "
+    },
+    "fileManager.saveFile": {
+        "prefix": "fileManager-saveFile",
+        "description": "保存临时文件到本地。此接口会移动临时文件，因此调用成功后，tempFilePath 将不可用",
+        "body": "fileManager.saveFile({\n\ttempFilePath: '${1}',\n\tfilePath: '${2}',\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.saveFileSync": {
+        "prefix": "fileManager-saveFileSync",
+        "description": "保存临时文件到本地。此接口会移动临时文件，因此调用成功后，tempFilePath 将不可用，同步接口",
+        "body": "try {\n\tvar ${1:fileNumber} = fileManager.saveFileSync('${2}', '${3}');\n} catch (e) {\n\t${4}\n}\n  "
+    },
+    "fileManager.stat": {
+        "prefix": "fileManager-stat",
+        "description": "获取文件 Stats 对象",
+        "body": "fileManager.stat({\n\tpath: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.statSync": {
+        "prefix": "fileManager-statSync",
+        "description": "获取文件 Stats 对象，同步接口",
+        "body": "try {\n\tvar ${1:fileStat} = fileManager.statSync('${2}');\n} catch (e) {\n\t${3}\n}\n  "
+    },
+    "fileManager.unlink": {
+        "prefix": "fileManager-unlink",
+        "description": "删除文件",
+        "body": "fileManager.unlink({\n\tfilePath: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.unlinkSync": {
+        "prefix": "fileManager-unlinkSync",
+        "description": "删除文件,同步接口",
+        "body": "try {\n\tfileManager.unlinkSync('${1}');\n} catch (e) {\n\t${2}\n}\n  "
+    },
+    "fileManager.unzip": {
+        "prefix": "fileManager-unzip",
+        "description": "解压文件",
+        "body": "fileManager.unzip({\n\tzipFilePath: '${1}',\n\ttargetPath: '${2}',\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.writeFile": {
+        "prefix": "fileManager-writeFile",
+        "description": "写文件",
+        "body": "fileManager.writeFile({\n\tfilePath: '${1}',\n\tdata: '${2}',\n\tencoding: '${3:utf8}',\n\tsuccess: (result) => {\n\t\t${4}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "fileManager.writeFileSync": {
         "prefix": "fileManager-writeFileSync",
         "description": "写文件，同步接口",
         "body": "try {\n\tfileManager.writeFileSync('${1}', '${2}', '${3:utf8}');\n} catch (e) {\n\t${4}\n}\n  "
     },
-    "fileStat": {
+    "fileStat.isDirectory": {
+        "prefix": "fileStat-isDirectory",
+        "description": "判断当前文件是否一个目录",
+        "body": "fileStat.isDirectory();\n  "
+    },
+    "fileStat.isFile": {
         "prefix": "fileStat-isFile",
         "description": "判断当前文件是否一个普通文件",
         "body": "fileStat.isFile();\n  "
@@ -49,77 +704,1408 @@
         "description": "获取当前页面栈",
         "body": "${1:let currentPages = } getCurrentPages();\n${2}\n  "
     },
-    "innerAudioContext": {
+    "innerAudioContext.destroy": {
+        "prefix": "innerAudioContext-destroy",
+        "description": "销毁当前实例",
+        "body": "innerAudioContext.destroy();\n  "
+    },
+    "innerAudioContext.offCanplay": {
+        "prefix": "innerAudioContext-offCanplay",
+        "description": "取消监听 onCanplay 事件",
+        "body": "innerAudioContext.offCanplay((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.offEnded": {
+        "prefix": "innerAudioContext-offEnded",
+        "description": "取消监听 onEnded 事件",
+        "body": "innerAudioContext.offEnded((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.offError": {
+        "prefix": "innerAudioContext-offError",
+        "description": "取消监听 onError 事件",
+        "body": "innerAudioContext.offError((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.offPlay": {
+        "prefix": "innerAudioContext-offPlay",
+        "description": "取消监听 onPlay 事件",
+        "body": "innerAudioContext.offPlay((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.offSeeked": {
+        "prefix": "innerAudioContext-offSeeked",
+        "description": "取消监听 onSeeked 事件",
+        "body": "innerAudioContext.offSeeked((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.offSeeking": {
+        "prefix": "innerAudioContext-offSeeking",
+        "description": "取消监听 onSeeking 事件",
+        "body": "innerAudioContext.offSeeking((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.offStop": {
+        "prefix": "innerAudioContext-offStop",
+        "description": "取消监听 onStop 事件",
+        "body": "innerAudioContext.offStop((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.offTimeUpdate": {
+        "prefix": "innerAudioContext-offTimeUpdate",
+        "description": "取消监听 onTimeUpdate 事件",
+        "body": "innerAudioContext.offTimeUpdate((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.offWaiting": {
+        "prefix": "innerAudioContext-offWaiting",
+        "description": "取消监听 onWaiting 事件",
+        "body": "innerAudioContext.offWaiting((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.onCanplay": {
+        "prefix": "innerAudioContext-onCanplay",
+        "description": "音频进入可以播放状态，但不保证后面可以流畅播放",
+        "body": "innerAudioContext.onCanplay(() => {${1}});\n  "
+    },
+    "innerAudioContext.onEnded": {
+        "prefix": "innerAudioContext-onEnded",
+        "description": "音频自然播放结束事件",
+        "body": "innerAudioContext.onEnded((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.onError": {
+        "prefix": "innerAudioContext-onError",
+        "description": "音频播放错误事件",
+        "body": "innerAudioContext.onError((${1:errMsg}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.onPause": {
+        "prefix": "innerAudioContext-onPause",
+        "description": "音频暂停播放事件",
+        "body": "innerAudioContext.onPause((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.onPlay": {
+        "prefix": "innerAudioContext-onPlay",
+        "description": "音频播放事件",
+        "body": "innerAudioContext.onPlay((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.onSeeked": {
+        "prefix": "innerAudioContext-onSeeked",
+        "description": "音频完成 seek 操作事件",
+        "body": "innerAudioContext.onSeeked((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.onSeeking": {
+        "prefix": "innerAudioContext-onSeeking",
+        "description": "音频进行 seek 操作事件",
+        "body": "innerAudioContext.onSeeking((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.onStop": {
+        "prefix": "innerAudioContext-onStop",
+        "description": "音频停止播放事件",
+        "body": "innerAudioContext.onStop((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.onTimeUpdate": {
+        "prefix": "innerAudioContext-onTimeUpdate",
+        "description": "音频播放进度更新事件",
+        "body": "innerAudioContext.onTimeUpdate((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.onWaiting": {
+        "prefix": "innerAudioContext-onWaiting",
+        "description": "音频加载中事件，当音频因为数据不足，需要停下来加载时会触发",
+        "body": "innerAudioContext.onWaiting((${1}) => {\n\t${2}\n});\n  "
+    },
+    "innerAudioContext.pause": {
+        "prefix": "innerAudioContext-pause",
+        "description": "????",
+        "body": "innerAudioContext.pause();\n  "
+    },
+    "innerAudioContext.play": {
+        "prefix": "innerAudioContext-play",
+        "description": "播放",
+        "body": "innerAudioContext.play();\n  "
+    },
+    "innerAudioContext.seek": {
+        "prefix": "innerAudioContext-seek",
+        "description": "跳转到指定位置，单位 s。精确到小数点后 3 位，即支持 ms 级别精确度",
+        "body": "innerAudioContext.seek(${1});\n  "
+    },
+    "innerAudioContext.stop": {
         "prefix": "innerAudioContext-stop",
         "description": "停止",
         "body": "innerAudioContext.stop();\n  "
     },
-    "interObser": {
+    "interObser.disconnect": {
+        "prefix": "interObser-disconnect",
+        "description": "停止监听，回调函数将不再触发",
+        "body": "interObser.disconnect();\n  "
+    },
+    "interObser.observe": {
+        "prefix": "interObser-observe",
+        "description": "指定目标节点并开始监听相交状态变化情况",
+        "body": "interObser.observe(${1:selector},(result) => {\n\t${2}\n});\n  "
+    },
+    "interObser.relativeTo": {
+        "prefix": "interObser-relativeTo",
+        "description": "使用选择器指定一个节点，作为参照区域之一",
+        "body": "interObser.relativeTo(${1:selector}, ${2});\n  "
+    },
+    "interObser.relativeToViewport": {
         "prefix": "interObser-relativeToViewport",
         "description": "指定页面显示区域作为参照区域之一",
         "body": "interObser.relativeToViewport(${1});\n  "
     },
-    "livePlayerContext": {
+    "livePlayerContext.exitFullScreen": {
+        "prefix": "livePlayerContext-exitFullScreen",
+        "description": "退出全屏",
+        "body": "livePlayerContext.exitFullScreen({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePlayerContext.mute": {
+        "prefix": "livePlayerContext-mute",
+        "description": "静音",
+        "body": "livePlayerContext.mute({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePlayerContext.pause": {
+        "prefix": "livePlayerContext-pause",
+        "description": "暂停",
+        "body": "livePlayerContext.pause({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePlayerContext.play": {
+        "prefix": "livePlayerContext-play",
+        "description": "播放",
+        "body": "livePlayerContext.play({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePlayerContext.requestFullScreen": {
+        "prefix": "livePlayerContext-requestFullScreen",
+        "description": "进入全屏",
+        "body": "livePlayerContext.requestFullScreen({\n\tdirection: ${1:0},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePlayerContext.resume": {
+        "prefix": "livePlayerContext-resume",
+        "description": "恢复",
+        "body": "livePlayerContext.resume({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePlayerContext.stop": {
         "prefix": "livePlayerContext-stop",
         "description": "停止",
         "body": "livePlayerContext.stop({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
     },
-    "livePusherContext": {
+    "livePusherContext.pause": {
+        "prefix": "livePusherContext-pause",
+        "description": "暂停推流",
+        "body": "livePusherContext.pause({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePusherContext.play": {
+        "prefix": "livePusherContext-play",
+        "description": "播放推流",
+        "body": "livePusherContext.play({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePusherContext.resume": {
+        "prefix": "livePusherContext-resume",
+        "description": "恢复推流",
+        "body": "livePusherContext.resume({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePusherContext.snapshot": {
+        "prefix": "livePusherContext-snapshot",
+        "description": "快照",
+        "body": "livePusherContext.snapshot({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePusherContext.stop": {
+        "prefix": "livePusherContext-stop",
+        "description": "停止推流",
+        "body": "livePusherContext.stop({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePusherContext.switchCamera": {
+        "prefix": "livePusherContext-switchCamera",
+        "description": "切换前后摄像头",
+        "body": "livePusherContext.switchCamera({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "livePusherContext.toggleTorch": {
         "prefix": "livePusherContext-toggleTorch",
         "description": "切换闪光灯",
         "body": "livePusherContext.toggleTorch({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
     },
-    "logger": {
+    "logger.debug": {
+        "prefix": "logger-debug",
+        "description": "写 debug 日志，可以提供任意个参数",
+        "body": "logger.debug(${1});\n  "
+    },
+    "logger.info": {
+        "prefix": "logger-info",
+        "description": "写 info 日志，可以提供任意个参数",
+        "body": "logger.info(${1});\n  "
+    },
+    "logger.log": {
+        "prefix": "logger-log",
+        "description": "写 log 日志，可以提供任意个参数",
+        "body": "logger.log(${1});\n  "
+    },
+    "logger.warn": {
         "prefix": "logger-warn",
         "description": "写 warn 日志，可以提供任意个参数",
         "body": "logger.warn(${1});\n  "
     },
-    "mapContext": {
+    "mapContext.getCenterLocation": {
+        "prefix": "mapContext-getCenterLocation",
+        "description": "获取当前地图中心的经纬度，返回的是 gcj02 坐标系，可以用于 wx.openLocation",
+        "body": "mapContext.getCenterLocation({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "mapContext.getRegion": {
+        "prefix": "mapContext-getRegion",
+        "description": "获取当前地图的视野范围",
+        "body": "mapContext.getRegion({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "mapContext.getScale": {
+        "prefix": "mapContext-getScale",
+        "description": "获取当前地图的缩放级别",
+        "body": "mapContext.getScale({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "mapContext.includePoints": {
+        "prefix": "mapContext-includePoints",
+        "description": "缩放视野展示所有经纬度",
+        "body": "mapContext.includePoints({\n\tpoints: [\n\t\t{\n\t\t\tlatitude: ${1:latitude},\n\t\t\tlongitude: ${2:longitude}\n\t\t}\n\t],\n\tpadding:[$3]\n});\n  "
+    },
+    "mapContext.moveToLocation": {
+        "prefix": "mapContext-moveToLocation",
+        "description": "将地图中心移动到当前定位点，需要配合 map 组件的 show-location 使用",
+        "body": "mapContext.moveToLocation();\n  "
+    },
+    "mapContext.translateMarker": {
         "prefix": "mapContext-translateMarker",
         "description": "平移 marker，带动画",
         "body": "mapContext.translateMarker({\n\tmarkerId: ${1},\n\tdestination: {\n\t\tlatitude: ${2},\n\t\tlongitude: ${3}\n\t},\n\tautoRotate: ${4:false},\n\trotate: ${5},\n\tduration: ${6:1000},\n\tanimationEnd: () => {},\n\tfail: () => {}\n});\n  "
     },
-    "recordManager": {
+    "recordManager.onError": {
+        "prefix": "recordManager-onError",
+        "description": "录音错误事件, 会回调错误信息",
+        "body": "recordManager.onError((${1:errMsg}) => {\n\t${2}\n});\n  "
+    },
+    "recordManager.onFrameRecorded": {
+        "prefix": "recordManager-onFrameRecorded",
+        "description": "已录制完指定帧大小的文件，会回调录音分片结果数据",
+        "body": "recordManager.onFrameRecorded((${1:result}) => {\n\t${2}\n});\n  "
+    },
+    "recordManager.onPause": {
+        "prefix": "recordManager-onPause",
+        "description": "录音暂停事件",
+        "body": "recordManager.onPause((${1}) => {\n\t${2}\n});\n  "
+    },
+    "recordManager.onStart": {
+        "prefix": "recordManager-onStart",
+        "description": "录音开始事件",
+        "body": "recordManager.onStart((${1}) => {\n\t${2}\n});\n  "
+    },
+    "recordManager.onStop": {
+        "prefix": "recordManager-onStop",
+        "description": "录音停止事件，会回调文件地址",
+        "body": "recordManager.onStop((${1:result}) => {\n\t${2}\n});\n  "
+    },
+    "recordManager.pause": {
+        "prefix": "recordManager-pause",
+        "description": "暂停录音",
+        "body": "recordManager.pause();\n  "
+    },
+    "recordManager.resume": {
+        "prefix": "recordManager-resume",
+        "description": "恢复录音",
+        "body": "recordManager.resume();\n  "
+    },
+    "recordManager.start": {
+        "prefix": "recordManager-start",
+        "description": "??",
+        "body": "recordManager.start({\n\tduration: ${1},\n\tsampleRate: ${2:44100},\n\tnumberOfChannels: ${3:2},\n\tformat: ${4:'aac'}\n});\n  "
+    },
+    "recordManager.stop": {
         "prefix": "recordManager-stop",
         "description": "停止录音",
         "body": "recordManager.stop();\n  "
     },
-    "reqTask": {
+    "reqTask.abort": {
         "prefix": "reqTask-abort",
         "description": "中断请求任务",
         "body": "reqTask.abort();\n  "
     },
-    "selQuery": {
+    "selQuery.exec": {
+        "prefix": "selQuery-exec",
+        "description": "执行所有的请求，请求结果按请求次序构成数组，在 callback 的第一个参数中返回",
+        "body": "selQuery.exec(result) => {\n\t${1}\n});\n  "
+    },
+    "selQuery.in": {
+        "prefix": "selQuery-in",
+        "description": "将选择器的选取范围更改为自定义组件 component 内（初始时，选择器仅选取页面范围的节点，不会选取任何自定义组件中的节点）",
+        "body": "selQuery.in(${1:this});\n  "
+    },
+    "selQuery.select": {
+        "prefix": "selQuery-select",
+        "description": "在当前页面下选择第一个匹配选择器 selector 的节点，返回一个 NodesRef 对象实例，可以用于获取节点信息",
+        "body": "selQuery.select(${2:selector});\n  "
+    },
+    "selQuery.selectAll": {
+        "prefix": "selQuery-selectAll",
+        "description": "在当前页面下选择匹配选择器 selector 的所有节点",
+        "body": "selQuery.selectAll();\n  "
+    },
+    "selQuery.selectViewport": {
         "prefix": "selQuery-selectViewport",
         "description": "选择显示区域，可用于获取显示区域的尺寸、滚动位置等信息",
         "body": "selQuery.selectViewport();\n  "
     },
-    "sockTask": {
+    "sockTask.close": {
+        "prefix": "sockTask-close",
+        "description": "关闭 WebSocket 连接",
+        "body": "sockTask.close({\n\tcode: ${1},\n\treason: ${2},\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "sockTask.onClose": {
+        "prefix": "sockTask-onClose",
+        "description": "监听 WebSocket 连接关闭事件",
+        "body": "sockTask.onClose(${1:result} => {\n\t${2}\n});\n  "
+    },
+    "sockTask.onError": {
+        "prefix": "sockTask-onError",
+        "description": "监听 WebSocket 错误",
+        "body": "sockTask.onError(${1:result} => {\n\t${2}\n});\n  "
+    },
+    "sockTask.onMessage": {
+        "prefix": "sockTask-onMessage",
+        "description": "监听 WebSocket 接受到服务器的消息事件",
+        "body": "sockTask.onMessage(${1:result} => {\n\t${2}\n});\n  "
+    },
+    "sockTask.onOpen": {
+        "prefix": "sockTask-onOpen",
+        "description": "监听 WebSocket 连接打开事件",
+        "body": "sockTask.onOpen(${1:result} => {\n\t${2}\n});\n  "
+    },
+    "sockTask.send": {
         "prefix": "sockTask-send",
         "description": "通过 WebSocket 连接发送数据",
         "body": "sockTask.send({\n\tdata: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
     },
-    "upTask": {
+    "upTask.abort": {
+        "prefix": "upTask-abort",
+        "description": "中断上传任务",
+        "body": "upTask.abort();\n  "
+    },
+    "upTask.onProgressUpdate": {
         "prefix": "upTask-onProgressUpdate",
         "description": "监听上传进度变化事件",
         "body": "upTask.onProgressUpdate((result) => {\n\t\t${1}\n\t});\n  "
     },
-    "updateManager": {
+    "updateManager.applyUpdate": {
+        "prefix": "updateManager-applyUpdate",
+        "description": "当新版本下载完成，调用该方法会强制当前小程序应用上新版本并重启",
+        "body": "updateManager.applyUpdate();\n  "
+    },
+    "updateManager.onCheckForUpdate": {
+        "prefix": "updateManager-onCheckForUpdate",
+        "description": "当向微信后台请求完新版本信息，会进行回调",
+        "body": "updateManager.onCheckForUpdate((result) => {${1}});\n  "
+    },
+    "updateManager.onUpdateFailed": {
+        "prefix": "updateManager-onUpdateFailed",
+        "description": "当新版本下载失败，会进行回调",
+        "body": "updateManager.onUpdateFailed((result) => {${1}});\n  "
+    },
+    "updateManager.onUpdateReady": {
         "prefix": "updateManager-onUpdateReady",
         "description": "当新版本下载完成，会进行回调",
         "body": "updateManager.onUpdateReady((result) => {${1}});\n  "
     },
-    "videoContext": {
+    "videoContext.exitFullScreen": {
+        "prefix": "videoContext-exitFullScreen",
+        "description": "退出全屏",
+        "body": "videoContext.exitFullScreen();\n  "
+    },
+    "videoContext.hideStatusBar": {
+        "prefix": "videoContext-hideStatusBar",
+        "description": "隐藏状态栏，仅在 iOS 全屏下有效",
+        "body": "videoContext.hideStatusBar();\n  "
+    },
+    "videoContext.pause": {
+        "prefix": "videoContext-pause",
+        "description": "暂停",
+        "body": "videoContext.pause();\n  "
+    },
+    "videoContext.play": {
+        "prefix": "videoContext-play",
+        "description": "播放",
+        "body": "videoContext.play();\n  "
+    },
+    "videoContext.playbackRate": {
+        "prefix": "videoContext-playbackRate",
+        "description": "设置倍速播放，支持的倍率有 0.5/0.8/1.0/1.25/1.5",
+        "body": "videoContext.playbackRate(${1});\n  "
+    },
+    "videoContext.requestFullScreen": {
+        "prefix": "videoContext-requestFullScreen",
+        "description": "进入全屏，可传入 direction 参数, 有效值为 0, 90, -90",
+        "body": "videoContext.requestFullScreen({\n\tdirection: ${1:0}\n});\n  "
+    },
+    "videoContext.seek": {
+        "prefix": "videoContext-seek",
+        "description": "跳转到指定位置，单位 s",
+        "body": "videoContext.seek(${1});\n  "
+    },
+    "videoContext.sendDanmu": {
+        "prefix": "videoContext-sendDanmu",
+        "description": "发送弹幕，包含两个属性 text, color",
+        "body": "videoContext.sendDanmu({\n\ttext: ${1},\n\tcolor: ${2}\n});\n  "
+    },
+    "videoContext.showStatusBar": {
+        "prefix": "videoContext-showStatusBar",
+        "description": "显示状态栏，仅在 iOS 全屏下有效",
+        "body": "videoContext.showStatusBar();\n  "
+    },
+    "videoContext.stop": {
         "prefix": "videoContext-stop",
         "description": "停止",
         "body": "videoContext.stop();\n  "
     },
-    "worker": {
+    "worker.onMessage": {
+        "prefix": "worker-onMessage",
+        "description": "监听 Worker 线程向当前线程发送的消息",
+        "body": "worker.onMessage((result) => {${1}});\n  "
+    },
+    "worker.postMessage": {
+        "prefix": "worker-postMessage",
+        "description": "向 Worker 线程发送的消息",
+        "body": "worker.postMessage(${1});\n  "
+    },
+    "worker.terminate": {
         "prefix": "worker-terminate",
         "description": "结束当前 Worker 线程，仅限在主线程 Worker 实例上调用",
         "body": "worker.terminate();\n  "
     },
-    "wx": {
+    "wx.addCard": {
+        "prefix": "wx-addCard",
+        "description": "批量添加卡券",
+        "body": "wx.addCard({\n\tcardList: [${1}],\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.addPhoneContact": {
+        "prefix": "wx-addPhoneContact",
+        "description": "调用后，用户可以选择将该表单以“新增联系人”或“添加到已有联系人”的方式，写入手机系统通讯录，完成手机通讯录联系人和联系方式的增加。此 API 参数非常多，请参考文档",
+        "body": "wx.addPhoneContact({\n\tphotoFilePath: ${1},\n\tnickName: ${2},\n\tlastName: ${3},\n\tmiddleName: ${4},\n\tfirstName: ${5},\n\tmobilePhoneNumber: ${6},\n\tweChatNumber: ${7},\n\temail: ${8},\n\tsuccess: (result) => {\n\t\t${9}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.authorize": {
+        "prefix": "wx-authorize",
+        "description": "提前向用户发起授权请求。调用后会立刻弹窗询问用户是否同意授权小程序使用某项功能或获取用户的某些数据，但不会实际调用对应接口。如果用户之前已经同意授权，则不会出现弹窗，直接返回成功",
+        "body": "wx.authorize({\n\tscope: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.canIUse": {
+        "prefix": "wx-canIUse",
+        "description": "判断小程序的 API，回调，参数，组件等是否在当前版本可用",
+        "body": "wx.canIUse(${1});\n  "
+    },
+    "wx.canvasGetImageData": {
+        "prefix": "wx-canvasGetImageData",
+        "description": "返回一个数组，用来描述 canvas 区域隐含的像素数据",
+        "body": "wx.canvasGetImageData({\n\tcanvasId: ${1},\n\tx: ${2:0},\n\ty: ${3:0},\n\twidth: ${4},\n\theight: ${5},\n\tsuccess: (result) => {\n\t\t${6}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n}, this);\n  "
+    },
+    "wx.canvasPutImageData": {
+        "prefix": "wx-canvasPutImageData",
+        "description": "将像素数据绘制到画布的方法",
+        "body": "wx.canvasPutImageData({\n\tcanvasId: ${1},\n\tdata: ${2},\n\tx: ${3},\n\ty: ${4},\n\twidth: ${5},\n\theight: ${6},\n\tsuccess: (result) => {\n\t\t${7}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n}, this);\n  "
+    },
+    "wx.canvasToTempFilePath": {
+        "prefix": "wx-canvasToTempFilePath",
+        "description": "把当前画布指定区域的内容导出生成指定大小的图片，并返回文件路径",
+        "body": "wx.canvasToTempFilePath({\n\tx: ${1:0},\n\ty: ${2:0},\n\twidth: ${3},\n\theight: ${4},\n\tdestWidth: ${5},\n\tdestHeight: ${6},\n\tcanvasId: ${7},\n\tfileType: ${8:png},\n\tquality: ${9:1.0},\n\tsuccess: (result) => {\n\t\t${10}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n}, this);\n  "
+    },
+    "wx.checkIsSoterEnrolledInDevice": {
+        "prefix": "wx-checkIsSoterEnrolledInDevice",
+        "description": "获取设备内是否录入如指纹等生物信息的接口",
+        "body": "wx.checkIsSoterEnrolledInDevice({\n\tcheckAuthMode:{${1}},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.checkIsSupportSoterAuthentication": {
+        "prefix": "wx-checkIsSupportSoterAuthentication",
+        "description": "获取本机支持的 SOTER 生物认证方式",
+        "body": "wx.checkIsSupportSoterAuthentication({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.checkSession": {
+        "prefix": "wx-checkSession",
+        "description": "校验用户当前 session_key 是否有效",
+        "body": "wx.checkSession({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.chooseAddress": {
+        "prefix": "wx-chooseAddress",
+        "description": "调起用户编辑收货地址原生界面，并在编辑完成后返回用户选择的地址",
+        "body": "wx.chooseAddress({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.chooseImage": {
+        "prefix": "wx-chooseImage",
+        "description": "从本地相册选择图片或使用相机拍照",
+        "body": "wx.chooseImage({\n\tcount: ${1:9},\n\tsizeType: ${2:['original', 'compressed']},\n\tsourceType: ${3:['album', 'camera']},\n\tsuccess: (result) => {\n\t\t${4}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.chooseInvoice": {
+        "prefix": "wx-chooseInvoice",
+        "description": "选择用户已有的发票",
+        "body": "wx.chooseInvoice({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.chooseInvoiceTitle": {
+        "prefix": "wx-chooseInvoiceTitle",
+        "description": "选择用户的发票抬头",
+        "body": "wx.chooseInvoiceTitle({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.chooseLocation": {
+        "prefix": "wx-chooseLocation",
+        "description": "打开地图选择位置。需要用户授权 scope.userLocation",
+        "body": "wx.chooseLocation({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.chooseVideo": {
+        "prefix": "wx-chooseVideo",
+        "description": "拍摄视频或从手机相册中选视频，返回视频的临时文件路径",
+        "body": "wx.chooseVideo({\n\tsourceType:['album', 'camera'],\n\tcompressed: ${1:true},\n\tmaxDuration:${2:15},\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.clearStorage": {
+        "prefix": "wx-clearStorage",
+        "description": "异步清除本地数据缓存",
+        "body": "wx.clearStorage();\n  "
+    },
+    "wx.clearStorageSync": {
+        "prefix": "wx-clearStorageSync",
+        "description": "同步清除本地数据缓存",
+        "body": "wx.clearStorageSync();\n  "
+    },
+    "wx.closeBLEConnection": {
+        "prefix": "wx-closeBLEConnection",
+        "description": "断开与低功耗蓝牙设备的连接",
+        "body": "wx.closeBLEConnection({\n\tdeviceId: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.closeBluetoothAdapter": {
+        "prefix": "wx-closeBluetoothAdapter",
+        "description": "关闭蓝牙模块，使其进入未初始化状态。调用该方法将断开所有已建立的链接并释放系统资源",
+        "body": "wx.closeBluetoothAdapter({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.closeSocket": {
+        "prefix": "wx-closeSocket",
+        "description": "关闭 WebSocket 连接",
+        "body": "wx.closeSocket({\n\tcode: ${1:1000},\n\treason: '${2}',\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.connectSocket": {
+        "prefix": "wx-connectSocket",
+        "description": "创建一个 WebSocket 连接",
+        "body": "${1:var sockTask = }wx.connectSocket({\n\turl: '${2}',\n\theader: {${3:'content-type':'application/json'}},\n\tmethod: '${4:GET}',\n\tprotocols: [${5}],\n\tsuccess: () => {\n\t\t${6}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.connectWifi": {
+        "prefix": "wx-connectWifi",
+        "description": "连接 WiFi。若已知 WiFi 信息，可以直接利用该接口连接",
+        "body": "wx.connectWifi({\n\tSSID: ${1},\n\tBSSID: ${2},\n\tpassword: ${3},\n\tsuccess: (result) => {\n\t\t${4}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.createAnimation": {
+        "prefix": "wx-createAnimation",
+        "description": "创建一个动画实例 animation。调用实例的方法来描述动画",
+        "body": "${1:let animation = }wx.createAnimation({\n\tduration: ${2:400},\n\ttimingFunction: '${3:linear}',\n\tdelay: ${4:0},\n\ttransformOrigin: '${5:50% 50% 0}'\n});\n  "
+    },
+    "wx.createAudioContext": {
+        "prefix": "wx-createAudioContext",
+        "description": "创建并返回 audio 上下文 audioContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 <audio/> 组件。1.6.0 起不再维护",
+        "body": "${1:var audioContext = }wx.createAudioContext(${2}, this);\n  "
+    },
+    "wx.createBLEConnection": {
+        "prefix": "wx-createBLEConnection",
+        "description": "连接低功耗蓝牙设备",
+        "body": "wx.createBLEConnection({\n\tdeviceId: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.createCameraContext": {
+        "prefix": "wx-createCameraContext",
+        "description": "创建并返回 camera 上下文 cameraContext 对象，cameraContext 与页面的 camera 组件绑定，一个页面只能有一个 camera，通过它可以操作对应的 <camera/> 组件。1.6.0 开始支持",
+        "body": "${1:var cameraContext = }wx.createCameraContext(${2:this});\n  "
+    },
+    "wx.createCanvasContext": {
+        "prefix": "wx-createCanvasContext",
+        "description": "创建 canvas 绘图上下文（指定 canvasId）",
+        "body": "${1:var cvsCtx = }wx.createCanvasContext(${2:canvas-id}, this);\n  "
+    },
+    "wx.createInnerAudioContext": {
+        "prefix": "wx-createInnerAudioContext",
+        "description": "创建并返回内部 audio 上下文 innerAudioContext 对象。本接口是 wx.createAudioContext 升级版。1.6.0 开始支持",
+        "body": "// properties(Read only)(duration,currentTime,paused,buffered,volume)\n// properties(src,startTime,autoplay,loop,obeyMuteSwitch)\n${1:var innerAudioContext = }wx.createInnerAudioContext();\n  "
+    },
+    "wx.createIntersectionObserver": {
+        "prefix": "wx-createIntersectionObserver",
+        "description": "创建并返回一个 IntersectionObserver 对象实例",
+        "body": "let ${1:interObser} = wx.createIntersectionObserver(${2:this}, ${3});\n  "
+    },
+    "wx.createLivePlayerContext": {
+        "prefix": "wx-createLivePlayerContext",
+        "description": "操作对应的 <live-player/> 组件。 创建并返回 live-player 上下文 LivePlayerContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 <live-player/> 组件",
+        "body": "${1:var livePlayerContext = }wx.createLivePlayerContext('${2:live-player}'${3:, this})\n  "
+    },
+    "wx.createLivePusherContext": {
+        "prefix": "wx-createLivePusherContext",
+        "description": "创建并返回 live-pusher 上下文 LivePusherContext 对象，LivePusherContext 与页面的 <live-pusher /> 组件绑定，一个页面只能有一个 live-pusher，通过它可以操作对应的 <live-pusher/> 组件。 在自定义组件下，第一个参数传入组件实例 this，以操作组件内 <live-pusher/> 组件",
+        "body": "${1:var livePusherContext = }wx.createLivePusherContext('${2:live-pusher}'${3:, this})\n  "
+    },
+    "wx.createMapContext": {
+        "prefix": "wx-createMapContext",
+        "description": "创建并返回 map 上下文 mapContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 <map/> 组件",
+        "body": "${1:var mapContext = }wx.createMapContext('${2:map}'${3:, this});\n  "
+    },
+    "wx.createSelectorQuery": {
+        "prefix": "wx-createSelectorQuery",
+        "description": "返回一个 SelectorQuery 对象实例",
+        "body": "let ${1:selQuery} = wx.createSelectorQuery();\n  "
+    },
+    "wx.createVideoContext": {
+        "prefix": "wx-createVideoContext",
+        "description": "创建并返回 video 上下文 videoContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 <video/> 组件",
+        "body": "${1:var videoContext = }wx.createVideoContext('${2:video}'${3:, this});\n  "
+    },
+    "wx.createWorker": {
+        "prefix": "wx-createWorker",
+        "description": "创建一个 Worker 线程，并返回 Worker 实例，目前限制最多只能创建一个 Worker，创建下一个 Worker 前请调用 Worker.terminate",
+        "body": "${1:var worker = }wx.createWorker(${1});\n  "
+    },
+    "wx.downloadFile": {
+        "prefix": "wx-downloadFile",
+        "description": "下载文件资源到本地，客户端直接发起一个 HTTP GET 请求，返回文件的本地临时路径",
+        "body": "${1:var downTask = }wx.downloadFile({\n\turl: '${2}',\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.faceVerifyForPay": {
+        "prefix": "wx-faceVerifyForPay",
+        "description": "支付各个安全场景验证人脸",
+        "body": "wx.faceVerifyForPay({\n\tscene: '${1}',\n\tpackage: '${2}',\n\tpackageSign: '${3}',\n\totherVerifyTitle: '${4}',\n\tsuccess: (result) => {\n\t\t${5}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getAccountInfoSync": {
+        "prefix": "wx-getAccountInfoSync",
+        "description": "获取当前账号信息",
+        "body": "${1:let accInfo = }wx.getAccountInfoSync();\n  "
+    },
+    "wx.getAvailableAudioSources": {
+        "prefix": "wx-getAvailableAudioSources",
+        "description": "获取当前支持的音频输入源",
+        "body": "wx.getAvailableAudioSources({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getBLEDeviceCharacteristics": {
+        "prefix": "wx-getBLEDeviceCharacteristics",
+        "description": "获取蓝牙设备某个服务中的所有 characteristic（特征值）",
+        "body": "wx.getBLEDeviceCharacteristics({\n\tdeviceId: ${1},\n\tservices: ${2},\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getBLEDeviceServices": {
+        "prefix": "wx-getBLEDeviceServices",
+        "description": "获取蓝牙设备所有 service（服务）",
+        "body": "wx.getBLEDeviceServices({\n\tdeviceId: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getBackgroundAudioManager": {
+        "prefix": "wx-getBackgroundAudioManager",
+        "description": "获取全局唯一的背景音频管理器 backgroundAudioManager",
+        "body": "// properties(Read only)(duration,currentTime,paused,buffered)\n// properties(src(m4a, aac, mp3, wav),startTime,title,epname,singer,coverImgUrl,webUrl,protocol)\n${1:var backAudioManager = }wx.getBackgroundAudioManager();\n  "
+    },
+    "wx.getBackgroundAudioPlayerState": {
+        "prefix": "wx-getBackgroundAudioPlayerState",
+        "description": "获取后台音乐播放状态。1.2.0 起不再维护",
+        "body": "wx.getBackgroundAudioPlayerState({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getBeacons": {
+        "prefix": "wx-getBeacons",
+        "description": "获取所有已搜索到的 iBeacon 设备",
+        "body": "wx.getBeacons({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getBluetoothAdapterState": {
+        "prefix": "wx-getBluetoothAdapterState",
+        "description": "获取本机蓝牙适配器状态",
+        "body": "wx.getBluetoothAdapterState({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getBluetoothDevices": {
+        "prefix": "wx-getBluetoothDevices",
+        "description": "获取在小程序蓝牙模块生效期间所有已发现的蓝牙设备，包括已经和本机处于连接状态的设备",
+        "body": "wx.getBluetoothDevices({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getClipboardData": {
+        "prefix": "wx-getClipboardData",
+        "description": "获取系统剪贴板内容",
+        "body": "wx.getClipboardData({\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getConnectedBluetoothDevices": {
+        "prefix": "wx-getConnectedBluetoothDevices",
+        "description": "根据 uuid 获取处于已连接状态的设备",
+        "body": "wx.getConnectedBluetoothDevices({\n\tservices: [${1}],\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getConnectedWifi": {
+        "prefix": "wx-getConnectedWifi",
+        "description": "获取已连接中的 WiFi 信息",
+        "body": "wx.getConnectedWifi({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getExtConfig": {
+        "prefix": "wx-getExtConfig",
+        "description": "获取第三方平台自定义的数据字段",
+        "body": "wx.getExtConfig({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getExtConfigSync": {
+        "prefix": "wx-getExtConfigSync",
+        "description": "同步获取第三方平台自定义的数据字段",
+        "body": "${1:let extConfig = }wx.getExtConfigSync();\n  "
+    },
+    "wx.getFileSystemManager": {
+        "prefix": "wx-getFileSystemManager",
+        "description": "获取全局唯一的文件管理器",
+        "body": "${1:var fileManager = }wx.getFileSystemManager();\n  "
+    },
+    "wx.getHCEState": {
+        "prefix": "wx-getHCEState",
+        "description": "判断当前设备是否支持 HCE 能力",
+        "body": "wx.getHCEState({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getImageInfo": {
+        "prefix": "wx-getImageInfo",
+        "description": "获取图片信息，倘若为网络图片，需先配置 download 域名才能生效",
+        "body": "wx.getImageInfo({\n\tsrc: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getLocation": {
+        "prefix": "wx-getLocation",
+        "description": "获取当前的地理位置、速度",
+        "body": "wx.getLocation({\n\ttype: '${1:wgs84}',\n\taltitude: ${2:false},\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getLogManager": {
+        "prefix": "wx-getLogManager",
+        "description": "获取日志管理器 logManager 对象",
+        "body": "${1:var logger = }wx.getLogManager();\n  "
+    },
+    "wx.getMenuButtonBoundingClientRect": {
+        "prefix": "wx-getMenuButtonBoundingClientRect",
+        "description": "获取菜单按钮的布局置信息",
+        "body": "let ${1:menuButton} = wx.getMenuButtonBoundingClientRect();\n  "
+    },
+    "wx.getNetworkType": {
+        "prefix": "wx-getNetworkType",
+        "description": "获取网络类型",
+        "body": "wx.getNetworkType({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getRecorderManager": {
+        "prefix": "wx-getRecorderManager",
+        "description": "获取全局唯一的录音管理器 recorderManager",
+        "body": "${1:var recordManager = }wx.getRecorderManager();\n  "
+    },
+    "wx.getSavedFileInfo": {
+        "prefix": "wx-getSavedFileInfo",
+        "description": "获取本地文件的文件信息。此接口只能用于获取已保存到本地的文件，若需要获取临时文件信息，请使用 wx.getFileInfo 接口",
+        "body": "wx.getSavedFileInfo({\n\tfilePath: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getSavedFileList": {
+        "prefix": "wx-getSavedFileList",
+        "description": "获取本地已保存的文件列表",
+        "body": "wx.getSavedFileList({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getScreenBrightness": {
+        "prefix": "wx-getScreenBrightness",
+        "description": "获取屏幕亮度",
+        "body": "wx.getScreenBrightness({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getSetting": {
+        "prefix": "wx-getSetting",
+        "description": "获取用户的当前设置",
+        "body": "wx.getSetting({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getShareInfo": {
+        "prefix": "wx-getShareInfo",
+        "description": "获取转发详细信息",
+        "body": "wx.getShareInfo({\n\tshareTicket: ${1},\n\ttimeout:${2:10000},\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getStorage": {
+        "prefix": "wx-getStorage",
+        "description": "从本地缓存中异步获取指定 key 对应的内容",
+        "body": "wx.getStorage({\n\tkey: '${1:key}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getStorageInfo": {
+        "prefix": "wx-getStorageInfo",
+        "description": "异步获取当前 storage 的相关信息",
+        "body": "wx.getStorageInfo({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getStorageInfoSync": {
+        "prefix": "wx-getStorageInfoSync",
+        "description": "同步获取当前 storage 的相关信息",
+        "body": "${1:let storageInfo = }wx.getStorageInfoSync();\n  "
+    },
+    "wx.getStorageSync": {
+        "prefix": "wx-getStorageSync",
+        "description": "从本地缓存中同步获取指定 key 对应的内容",
+        "body": "wx.getStorageSync(${1:key});\n  "
+    },
+    "wx.getSystemInfo": {
+        "prefix": "wx-getSystemInfo",
+        "description": "异步获取系统信息",
+        "body": "wx.getSystemInfo({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getSystemInfoSync": {
+        "prefix": "wx-getSystemInfoSync",
+        "description": "获取系统信息同步接口",
+        "body": "${var systemInfo = }wx.getSystemInfoSync();\n  "
+    },
+    "wx.getUpdateManager": {
+        "prefix": "wx-getUpdateManager",
+        "description": "获取全局唯一的版本更新管理器，用于管理小程序更新",
+        "body": "${1:var updateManager = }wx.getUpdateManager();\n  "
+    },
+    "wx.getUserInfo": {
+        "prefix": "wx-getUserInfo",
+        "description": "当用户未授权过，调用该接口将直接报错；当用户授权过，可以使用该接口获取用户信息",
+        "body": "wx.getUserInfo({\n\twithCredentials: '${1:false}',\n\tlang: '${2:zh_CN}',\n\ttimeout:${3:10000},\n\tsuccess: (result) => {\n\t\t${4}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getWeRunData": {
+        "prefix": "wx-getWeRunData",
+        "description": "获取用户过去三十天微信运动步数，需要先调用 wx.login 接口",
+        "body": "wx.getWeRunData({\n\ttimeout:${1:10000},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.getWifiList": {
+        "prefix": "wx-getWifiList",
+        "description": "请求获取 WiFi列表，在 onGetWifiList 注册的回调中返回 wifiList 数据",
+        "body": "wx.getWifiList({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.hideLoading": {
+        "prefix": "wx-hideLoading",
+        "description": "隐藏 loading 提示框",
+        "body": "wx.hideLoading();\n  "
+    },
+    "wx.hideNavigationBarLoading": {
+        "prefix": "wx-hideNavigationBarLoading",
+        "description": "隐藏导航条加载动画",
+        "body": "wx.hideNavigationBarLoading();\n  "
+    },
+    "wx.hideShareMenu": {
+        "prefix": "wx-hideShareMenu",
+        "description": "隐藏转发按钮",
+        "body": "wx.hideShareMenu({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.hideTabBar": {
+        "prefix": "wx-hideTabBar",
+        "description": "?? tabBar",
+        "body": "wx.hideTabBar({\n\tanimation: ${1:false},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.hideTabBarRedDot": {
+        "prefix": "wx-hideTabBarRedDot",
+        "description": "隐藏 tabBar 某一项的右上角的红点",
+        "body": "wx.hideTabBarRedDot({\n\tindex: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.hideToast": {
+        "prefix": "wx-hideToast",
+        "description": "隐藏消息提示框",
+        "body": "wx.hideToast();\n  "
+    },
+    "wx.loadFontFace": {
+        "prefix": "wx-loadFontFace",
+        "description": "动态加载网络字体",
+        "body": "wx.loadFontFace({\n\tfamily: '${1}',\n\tsource: '${2}',\n\tdesc: {\n\t\tstyle: '${3:normal}',\n\t\tweight: '${4:normal}',\n\t\tvariant: '${5:normal}'\n\t},\n\tsuccess: (result) => {\n\t\t${6}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.login": {
+        "prefix": "wx-login",
+        "description": "调用接口 wx.login() 获取临时登录凭证（code）",
+        "body": "wx.login({\n\ttimeout:${1:10000},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.makePhoneCall": {
+        "prefix": "wx-makePhoneCall",
+        "description": "拨打电话",
+        "body": "wx.makePhoneCall({\n\tphoneNumber: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.navigateBack": {
+        "prefix": "wx-navigateBack",
+        "description": "关闭当前页面，返回上一页面或多级页面。可通过 getCurrentPages()) 获取当前的页面栈，决定需要返回几层",
+        "body": "wx.navigateBack({\n\tdelta: ${1:1}\n});\n  "
+    },
+    "wx.navigateBackMiniProgram": {
+        "prefix": "wx-navigateBackMiniProgram",
+        "description": "返回到上一个小程序，只有在当前小程序是被其他小程序打开时可以调用成功",
+        "body": "wx.navigateBackMiniProgram({\n\textraData:{${1}},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.navigateTo": {
+        "prefix": "wx-navigateTo",
+        "description": "保留当前页面，跳转到应用内的某个页面，使用 wx.navigateBack 可以返回到原页面。目前页面路径最多只能十层",
+        "body": "wx.navigateTo({\n\turl: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.navigateToMiniProgram": {
+        "prefix": "wx-navigateToMiniProgram",
+        "description": "打开同一公众号下关联的另一个小程序",
+        "body": "wx.navigateToMiniProgram({\n\tappId:'${1}',\n\tpath:'${2}',\n\textraData:{${3}},\n\tenvVersion:'${4:release}',\n\tsuccess: (result) => {\n\t\t${5}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.nextTick": {
+        "prefix": "wx-nextTick",
+        "description": "用于延迟一部分操作到下一个时间片再执行",
+        "body": "wx.nextTick(() => {\n\t${1}\n});\n  "
+    },
+    "wx.notifyBLECharacteristicValueChange": {
+        "prefix": "wx-notifyBLECharacteristicValueChange",
+        "description": "启用低功耗蓝牙设备特征值变化时的 notify 功能，订阅特征值。注意：必须设备的特征值支持 notify 或者 indicate 才可以成功调用，具体参照 characteristic 的 properties 属性",
+        "body": "wx.notifyBLECharacteristicValueChange({\n\tdeviceId: ${1},\n\tservices: ${2},\n\tcharacteristicId: ${3},\n\tstate: ${4:true},\n\tvalue: ${5:<ArrayBuffer类型>},\n\tsuccess: (result) => {\n\t\t${6}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.offWindowResize": {
+        "prefix": "wx-offWindowResize",
+        "description": "取消监听窗口尺寸变化事件",
+        "body": "wx.offWindowResize((result) => {\n\t\t${1}\n\t});\n  "
+    },
+    "wx.onAccelerometerChange": {
+        "prefix": "wx-onAccelerometerChange",
+        "description": "监听加速度数据，频率：5 次/秒，接口调用后会自动开始监听，可使用 wx.stopAccelerometer 停止监听",
+        "body": "wx.onAccelerometerChange((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onBLECharacteristicValueChange": {
+        "prefix": "wx-onBLECharacteristicValueChange",
+        "description": "监听低功耗蓝牙设备的特征值变化。必须先启用 notify 接口才能接收到设备推送的 notification",
+        "body": "wx.onBLECharacteristicValueChange((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onBLEConnectionStateChange": {
+        "prefix": "wx-onBLEConnectionStateChange",
+        "description": "监听低功耗蓝牙连接状态的改变事件，包括开发者主动连接或断开连接，设备丢失，连接异常断开等等",
+        "body": "wx.onBLEConnectionStateChange((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onBackgroundAudioPause": {
+        "prefix": "wx-onBackgroundAudioPause",
+        "description": "监听音乐暂停。1.2.0 起不再维护",
+        "body": "wx.onBackgroundAudioPause((${1:result}) => {${2}});\n  "
+    },
+    "wx.onBackgroundAudioPlay": {
+        "prefix": "wx-onBackgroundAudioPlay",
+        "description": "监听音乐播放。1.2.0 起不再维护",
+        "body": "wx.onBackgroundAudioPlay((${1:result}) => {${2}});\n  "
+    },
+    "wx.onBackgroundAudioStop": {
+        "prefix": "wx-onBackgroundAudioStop",
+        "description": "监听音乐停止。1.2.0 起不再维护",
+        "body": "wx.onBackgroundAudioStop((${1:result}) => {${2}});\n  "
+    },
+    "wx.onBeaconServiceChange": {
+        "prefix": "wx-onBeaconServiceChange",
+        "description": "监听 iBeacon 服务的状态变化",
+        "body": "wx.onBeaconServiceChange((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onBeaconUpdate": {
+        "prefix": "wx-onBeaconUpdate",
+        "description": "监听 iBeacon 设备的更新事件",
+        "body": "wx.onBeaconUpdate((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onBluetoothAdapterStateChange": {
+        "prefix": "wx-onBluetoothAdapterStateChange",
+        "description": "监听蓝牙适配器状态变化事件",
+        "body": "wx.onBluetoothAdapterStateChange((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onBluetoothDeviceFound": {
+        "prefix": "wx-onBluetoothDeviceFound",
+        "description": "监听寻找到新设备的事件",
+        "body": "wx.onBluetoothDeviceFound((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onCompassChange": {
+        "prefix": "wx-onCompassChange",
+        "description": "监听罗盘数据，频率：5 次/秒，接口调用后会自动开始监听，可使用 wx.stopCompass 停止监听",
+        "body": "wx.onCompassChange((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onGetWifiList": {
+        "prefix": "wx-onGetWifiList",
+        "description": "监听在获取到 WiFi 列表数据时的事件，在回调中将返回 wifiList",
+        "body": "wx.onGetWifiList((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onHCEMessage": {
+        "prefix": "wx-onHCEMessage",
+        "description": "监听 NFC 设备的消息回调，并在回调中处理",
+        "body": "wx.onHCEMessage((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onMemoryWarning": {
+        "prefix": "wx-onMemoryWarning",
+        "description": "监听内存不足的告警事件，Android 下有告警等级划分，只有 LOW 和 CRITICAL 会回调开发者；iOS 无等级划分",
+        "body": "wx.onMemoryWarning((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onNetworkStatusChange": {
+        "prefix": "wx-onNetworkStatusChange",
+        "description": "监听网络状态变化",
+        "body": "wx.onNetworkStatusChange((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onSocketClose": {
+        "prefix": "wx-onSocketClose",
+        "description": "监听 WebSocket 关闭",
+        "body": "wx.onSocketClose((${1:result}) => {\n\t${2}\n});\n  "
+    },
+    "wx.onSocketError": {
+        "prefix": "wx-onSocketError",
+        "description": "监听 WebSocket 错误",
+        "body": "wx.onSocketError(${1:result} => {\n\t${2}\n});\n  "
+    },
+    "wx.onSocketMessage": {
+        "prefix": "wx-onSocketMessage",
+        "description": "监听 WebSocket 接受到服务器的消息事件",
+        "body": "wx.onSocketMessage((${1:result}) => {${2}});\n  "
+    },
+    "wx.onSocketOpen": {
+        "prefix": "wx-onSocketOpen",
+        "description": "监听 WebSocket 连接打开事件",
+        "body": "wx.onSocketOpen(${1:result} => {\n\t${2}\n});\n  "
+    },
+    "wx.onUserCaptureScreen": {
+        "prefix": "wx-onUserCaptureScreen",
+        "description": "监听用户主动截屏事件，用户使用系统截屏按键截屏时触发此事件",
+        "body": "wx.onUserCaptureScreen((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onWifiConnected": {
+        "prefix": "wx-onWifiConnected",
+        "description": "监听连接上 WiFi 的事件",
+        "body": "wx.onWifiConnected((result) => {\n\t${1}\n});\n  "
+    },
+    "wx.onWindowResize": {
+        "prefix": "wx-onWindowResize",
+        "description": "监听窗口尺寸变化事件",
+        "body": "wx.onWindowResize((result) => {\n\t\t${1}\n\t});\n  "
+    },
+    "wx.openBluetoothAdapter": {
+        "prefix": "wx-openBluetoothAdapter",
+        "description": "初始化小程序蓝牙模块，生效周期为调用 wx.openBluetoothAdapter 至调用 wx.closeBluetoothAdapter 或小程序被销毁为止",
+        "body": "wx.openBluetoothAdapter({\n\tsuccess: (result) => {\n\t\t${1}\n\t,\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.openCard": {
+        "prefix": "wx-openCard",
+        "description": "查看微信卡包中的卡券",
+        "body": "wx.openCard({\n\tcardList: [${1}],\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.openDocument": {
+        "prefix": "wx-openDocument",
+        "description": "新开页面打开文档，支持格式：doc, xls, ppt, pdf, docx, xlsx, pptx",
+        "body": "wx.openDocument({\n\tfilePath: ${1},\n\tfileType: ${2:'docx'},\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.openLocation": {
+        "prefix": "wx-openLocation",
+        "description": "使用微信内置地图查看位置，需要用户授权 scope.userLocation",
+        "body": "wx.openLocation({\n\tlatitude: ${1:0},\n\tlongitude: ${2:0},\n\tscale: ${3:18},\n\tname: '${4}',\n\taddress: '${5}',\n\tsuccess: (result) => {\n\t\t${6}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.openSetting": {
+        "prefix": "wx-openSetting",
+        "description": "调起客户端小程序设置界面，返回用户设置的操作结果",
+        "body": "wx.openSetting({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.pageScrollTo": {
+        "prefix": "wx-pageScrollTo",
+        "description": "将页面滚动到目标位置",
+        "body": "wx.pageScrollTo({\n\tscrollTop: ${1:0},\n\tduration: ${2:300}\n});\n  "
+    },
+    "wx.pauseBackgroundAudio": {
+        "prefix": "wx-pauseBackgroundAudio",
+        "description": "暂停播放音乐，1.2.0 起不再维护",
+        "body": "wx.playBackgroundAudio();\n  "
+    },
+    "wx.pauseVoice": {
+        "prefix": "wx-pauseVoice",
+        "description": "暂停正在播放的语音，1.6.0 起不再维护",
+        "body": "wx.pauseVoice();\n  "
+    },
+    "wx.playBackgroundAudio": {
+        "prefix": "wx-playBackgroundAudio",
+        "description": "使用后台播放器播放音乐，对于微信客户端来说，只能同时有一个后台音乐在播放。1.2.0 起不再维护",
+        "body": "wx.playBackgroundAudio({\n\tdataUrl: '${1}',\n\ttitle: '${2}',\n\tcoverImgUrl: '${3}',\n\tsuccess: (result) => {\n\t\t${4}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.playVoice": {
+        "prefix": "wx-playVoice",
+        "description": "开始播放语音，同时只允许一个语音文件正在播放，如果前一个语音文件还没播放完，将中断前一个语音播放。1.6.0 起不再维护",
+        "body": "wx.playVoice({\n\tfilePath: '${1}',\n\tduration: ${2:60},\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.previewImage": {
+        "prefix": "wx-previewImage",
+        "description": "预览图片",
+        "body": "wx.previewImage({\n\tcurrent: '${1}',\n\turls: [${2}],\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.reLaunch": {
+        "prefix": "wx-reLaunch",
+        "description": "关闭所有页面，打开到应用内的某个页面",
+        "body": "wx.reLaunch({\n\turl: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.readBLECharacteristicValue": {
+        "prefix": "wx-readBLECharacteristicValue",
+        "description": "读取低功耗蓝牙设备的特征值的二进制数据值。注意：必须设备的特征值支持 read 才可以成功调用，具体参照 characteristic 的 properties 属性",
+        "body": "wx.readBLECharacteristicValue({\n\tdeviceId: ${1},\n\tservices: ${2},\n\tcharacteristicId: ${3},\n\tsuccess: (result) => {\n\t\t${4}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.redirectTo": {
+        "prefix": "wx-redirectTo",
+        "description": "关闭当前页面，跳转到应用内的某个页面",
+        "body": "wx.redirectTo({\n\turl: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.removeSavedFile": {
+        "prefix": "wx-removeSavedFile",
+        "description": "删除本地存储的文件",
+        "body": "wx.removeSavedFile({\n\tfilePath: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.removeStorage": {
+        "prefix": "wx-removeStorage",
+        "description": "从本地缓存中异步移除指定 key",
+        "body": "wx.removeStorage({\n\tkey: '${1:key},'\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.removeStorageSync": {
+        "prefix": "wx-removeStorageSync",
+        "description": "从本地缓存中同步移除指定 key",
+        "body": "wx.removeStorageSync(${1:key});\n  "
+    },
+    "wx.removeTabBarBadge": {
+        "prefix": "wx-removeTabBarBadge",
+        "description": "移除 tabBar 某一项右上角的文本",
+        "body": "wx.removeTabBarBadge({\n\tindex: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.reportMonitor": {
+        "prefix": "wx-reportMonitor",
+        "description": "自定义业务数据监控上报接口",
+        "body": "wx.reportMonitor(${1:name}, ${2:value});\n  "
+    },
+    "wx.request": {
+        "prefix": "wx-request",
+        "description": "发起网络请求",
+        "body": "${1:var reqTask = }wx.request({\n\turl: '${2}',\n\tdata: {${3}},\n\theader: {${4:'content-type':'application/json'}},\n\tmethod: '${5:GET}',\n\tdataType: '${6:json}',\n\tresponseType: '${7:text}',\n\tsuccess: (result) => {\n\t\t${8}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.requestPayment": {
+        "prefix": "wx-requestPayment",
+        "description": "发起微信支付",
+        "body": "wx.requestPayment({\n\ttimeStamp: '${1}',\n\tnonceStr: '${2}',\n\tpackage: '${3}',\n\tsignType: '${4}',\n\tpaySign: '${5}',\n\tsuccess: (result) => {\n\t\t${6}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.saveFile": {
+        "prefix": "wx-saveFile",
+        "description": "保存文件到本地。注意：saveFile 会把临时文件移动，因此调用成功后传入的 tempFilePath 将不可用",
+        "body": "wx.saveFile({\n\ttempFilePath: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.saveImageToPhotosAlbum": {
+        "prefix": "wx-saveImageToPhotosAlbum",
+        "description": "保存图片到系统相册。需要用户授权 scope.writePhotosAlbum",
+        "body": "wx.saveImageToPhotosAlbum({\n\tfilePath: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.saveVideoToPhotosAlbum": {
+        "prefix": "wx-saveVideoToPhotosAlbum",
+        "description": "保存视频到系统相册。需要用户授权 scope.writePhotosAlbum",
+        "body": "wx.saveVideoToPhotosAlbum({\n\tfilePath: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.scanCode": {
+        "prefix": "wx-scanCode",
+        "description": "调起客户端扫码界面，扫码成功后返回对应的结果",
+        "body": "wx.scanCode({\n\tonlyFromCamera: ${1:false},\n\tscanType: ['${2:qrCode}', '${3:barCode}', '${4:datamatrix}', '${5:pdf417}'],\n\tsuccess: (result) => {\n\t\t${6}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.seekBackgroundAudio": {
+        "prefix": "wx-seekBackgroundAudio",
+        "description": "控制音乐播放进度(秒)。1.2.0 起不再维护",
+        "body": "wx.seekBackgroundAudio({\n\tposition: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.sendHCEMessage": {
+        "prefix": "wx-sendHCEMessage",
+        "description": "发送 NFC 消息。仅在安卓系统下有效",
+        "body": "wx.sendHCEMessage({\n\tdata: ${1:<ArrayBuffer类型>},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.sendSocketMessage": {
+        "prefix": "wx-sendSocketMessage",
+        "description": "通过 WebSocket 连接发送数据，需要先 wx.connectSocket，并在 wx.onSocketOpen 回调之后才能发送",
+        "body": "wx.sendSocketMessage({\n\tdata: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setBackgroundColor": {
+        "prefix": "wx-setBackgroundColor",
+        "description": "动态设置窗口的背景色",
+        "body": "wx.setBackgroundColor({\n\tbackgroundColor: '${1}',\n\tbackgroundColorTop: '${2}',\n\tbackgroundColorBottom: '${3}'\n});\n  "
+    },
+    "wx.setBackgroundTextStyle": {
+        "prefix": "wx-setBackgroundTextStyle",
+        "description": "动态设置下拉背景字体、loading 图的样式",
+        "body": "wx.setBackgroundTextStyle({\n\ttextStyle: '${1:dark}'\n});\n  "
+    },
+    "wx.setClipboardData": {
+        "prefix": "wx-setClipboardData",
+        "description": "设置系统剪贴板的内容",
+        "body": "wx.setClipboardData({\n\tdata: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setEnableDebug": {
+        "prefix": "wx-setEnableDebug",
+        "description": "设置是否打开调试开关，此开关对正式版也能生效",
+        "body": "wx.setEnableDebug({\n\tenableDebug:{${1:true}},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setKeepScreenOn": {
+        "prefix": "wx-setKeepScreenOn",
+        "description": "设置是否保持常亮状态。仅在当前小程序生效，离开小程序后设置失效",
+        "body": "wx.setKeepScreenOn({\n\tkeepScreenOn: ${1:true},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setNavigationBarColor": {
+        "prefix": "wx-setNavigationBarColor",
+        "description": "设置导航栏颜色",
+        "body": "wx.setNavigationBarColor({\n\tfrontColor: '${1:#ffffff}',\n\tbackgroundColor: '${2:#000000}',\n\tanimation: {\n\t\tduration: ${3:0},\n\t\ttimingFunc: '${4:linear}'\n\t},\n\tsuccess: (result) => {\n\t\t${5}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setNavigationBarTitle": {
+        "#text": "]]>",
+        "prefix": "wx-setNavigationBarTitle",
+        "description": "动态设置当前页面的标题",
+        "body": "wx.setNavigationBarTitle({\n\ttitle: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setScreenBrightness": {
+        "prefix": "wx-setScreenBrightness",
+        "description": "设置屏幕亮度",
+        "body": "wx.setScreenBrightness({\n\tvalue: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setStorage": {
+        "prefix": "wx-setStorage",
+        "description": "将数据存储在本地缓存中指定的 key 中，会覆盖掉原来该 key 对应的内容，这是一个异步接口",
+        "body": "wx.setStorage({\n\tkey: '${1:key}',\n\tdata: ${2:data},\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setStorageSync": {
+        "prefix": "wx-setStorageSync",
+        "description": "将 data 存储在本地缓存中指定的 key 中，会覆盖掉原来该 key 对应的内容，这是一个同步接口",
+        "body": "wx.setStorageSync(${1:key}, ${2:data});\n  "
+    },
+    "wx.setTabBarBadge": {
+        "prefix": "wx-setTabBarBadge",
+        "description": "为tabBar某一项的右上角添加文本",
+        "body": "wx.setTabBarBadge({\n\tindex: ${1},\n\ttext: '${2}',\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setTabBarItem": {
+        "prefix": "wx-setTabBarItem",
+        "description": "动态设置 tabBar 某一项的内容",
+        "body": "wx.setTabBarItem({\n\tindex: ${1},\n\ttext: ${2},\n\ticonPath: ${3},\n\tselectedIconPath: ${4},\n\tsuccess: (result) => {\n\t\t${5}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setTabBarStyle": {
+        "prefix": "wx-setTabBarStyle",
+        "description": "动态设置 tabBar 的整体样式",
+        "body": "wx.setTabBarStyle({\n\tcolor: '${1:#000000}',\n\tselectedColor: '${2:#1AAD16}',\n\tbackgroundColor: '${3:#e3e3e3}',\n\tborderStyle: '${4:black}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setTopBarText": {
+        "prefix": "wx-setTopBarText",
+        "description": "动态设置置顶栏文字内容，只有当前小程序被置顶时能生效，如果当前小程序没有被置顶，也能调用成功，但是不会立即生效，只有在用户将这个小程序置顶后才换上设置的文字内容",
+        "body": "wx.setTopBarText({\n\ttext: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.setWifiList": {
+        "prefix": "wx-setWifiList",
+        "description": "iOS 特有接口，在 onGetWifiList 回调后，利用接口设置 wifiList 中 AP 的相关信息",
+        "body": "wx.setWifiList({\n\twifiList: [\n\t\t{\n\t\t\tSSID: ${1},\n\t\t\tBSSID: ${2},\n\t\t\tpassword: ${3}\n\t\t}\n\t],\n\tsuccess: (result) => {\n\t\t${4}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.showActionSheet": {
+        "prefix": "wx-showActionSheet",
+        "description": "显示操作菜单",
+        "body": "wx.showActionSheet({\n\titemList: [${1}],\n\titemColor: '${2:#000000}',\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.showLoading": {
+        "prefix": "wx-showLoading",
+        "description": "显示 loading 提示框, 需主动调用 wx.hideLoading 才能关闭提示框",
+        "body": "wx.showLoading({\n\ttitle: ${1},\n\tmask: ${2:true},\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.showModal": {
+        "prefix": "wx-showModal",
+        "description": "显示模态弹窗",
+        "body": "wx.showModal({\n\ttitle: '${1}',\n\tcontent: '${2}',\n\tshowCancel: ${3:true},\n\tcancelText: '${4:取消}',\n\tcancelColor: '${5:#000000}',\n\tconfirmText: '${6:确定}',\n\tconfirmColor: '${7:#3CC51F}',\n\tsuccess: (result) => {\n\t\t${8:if {result.confirm) {\n\t\t\t${9}\n\t\t}}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.showNavigationBarLoading": {
+        "prefix": "wx-showNavigationBarLoading",
+        "description": "在当前页面显示导航条加载动画",
+        "body": "wx.showNavigationBarLoading();\n  "
+    },
+    "wx.showShareMenu": {
+        "prefix": "wx-showShareMenu",
+        "description": "显示当前页面的转发按钮",
+        "body": "wx.showShareMenu({\n\twithShareTicket: ${1:false}\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.showTabBar": {
+        "prefix": "wx-showTabBar",
+        "description": "?? tabBar",
+        "body": "wx.showTabBar({\n\tanimation: ${1:false},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.showTabBarRedDot": {
+        "prefix": "wx-showTabBarRedDot",
+        "description": "显示 tabBar 某一项的右上角的红点",
+        "body": "wx.showTabBarRedDot({\n\tindex: ${1},\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.showToast": {
+        "prefix": "wx-showToast",
+        "description": "显示消息提示框",
+        "body": "wx.showToast({\n\ttitle: '${1}',\n\ticon: '${2:none}',\n\timage: '${3}',\n\tduration: ${4:1500},\n\tmask: ${5:false},\n\tsuccess: (result) => {\n\t\t${6}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.startAccelerometer": {
+        "prefix": "wx-startAccelerometer",
+        "description": "开始监听加速度数据",
+        "body": "wx.startAccelerometer({\n\tinterval: '${1:normal}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.startBeaconDiscovery": {
+        "prefix": "wx-startBeaconDiscovery",
+        "description": "开始搜索附近的 iBeacon 设备",
+        "body": "wx.startBeaconDiscovery({\n\tuuids: [${1}],\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.startBluetoothDevicesDiscovery": {
+        "prefix": "wx-startBluetoothDevicesDiscovery",
+        "description": "开始搜寻附近的蓝牙外围设备。注意，该操作比较耗费系统资源，请在搜索并连接到设备后调用 stop 方法停止搜索",
+        "body": "wx.startBluetoothDevicesDiscovery({\n\tservices:[${1}]\n\tallowDuplicatesKey:${2:false}\n\tinterval:${3:0}\n\tsuccess: (result) => {\n\t\t${4}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.startCompass": {
+        "prefix": "wx-startCompass",
+        "description": "开始监听罗盘数据。",
+        "body": "wx.startCompass({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.startHCE": {
+        "prefix": "wx-startHCE",
+        "description": "初始化 NFC 模块",
+        "body": "wx.startHCE({\n\taid_list: [${1}],\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.startPullDownRefresh": {
+        "prefix": "wx-startPullDownRefresh",
+        "description": "开始下拉刷新，调用后触发下拉刷新动画，效果与用户手动下拉刷新一致",
+        "body": "wx.startPullDownRefresh({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.startRecord": {
+        "prefix": "wx-startRecord",
+        "description": "开始录音。需要用户授权 scope.record。1.6.0 起不再维护",
+        "body": "wx.startRecord({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.startSoterAuthentication": {
+        "prefix": "wx-startSoterAuthentication",
+        "description": "开始 SOTER 生物认证",
+        "body": "wx.startSoterAuthentication({\n\trequestAuthModes:['fingerPrint'],\n\tchallenge:'${1}',\n\tauthContent:'${2}',\n\tsuccess: (result) => {\n\t\t${3}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.startWifi": {
+        "prefix": "wx-startWifi",
+        "description": "初始化 WiFi 模块",
+        "body": "wx.startWifi({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.stopAccelerometer": {
+        "prefix": "wx-stopAccelerometer",
+        "description": "停止监听加速度数据",
+        "body": "wx.stopAccelerometer({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.stopBackgroundAudio": {
+        "prefix": "wx-stopBackgroundAudio",
+        "description": "停止播放音乐。1.2.0 起不再维护",
+        "body": "wx.stopBackgroundAudio();\n  "
+    },
+    "wx.stopBeaconDiscovery": {
+        "prefix": "wx-stopBeaconDiscovery",
+        "description": "停止搜索附近的 iBeacon 设备",
+        "body": "wx.stopBeaconDiscovery({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.stopBluetoothDevicesDiscovery": {
+        "prefix": "wx-stopBluetoothDevicesDiscovery",
+        "description": "停止搜寻附近的蓝牙外围设备。若已经找到需要的蓝牙设备并不需要继续搜索时，建议调用该接口停止蓝牙搜索",
+        "body": "wx.stopBluetoothDevicesDiscovery({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.stopCompass": {
+        "prefix": "wx-stopCompass",
+        "description": "停止监听罗盘数据。",
+        "body": "wx.stopCompass({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.stopHCE": {
+        "prefix": "wx-stopHCE",
+        "description": "关闭 NFC 模块。仅在安卓系统下有效",
+        "body": "wx.stopHCE({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.stopPullDownRefresh": {
+        "prefix": "wx-stopPullDownRefresh",
+        "description": "停止当前页面下拉刷新",
+        "body": "wx.stopPullDownRefresh\n  "
+    },
+    "wx.stopRecord": {
+        "prefix": "wx-stopRecord",
+        "description": "停止录音。1.6.0 起不再维护",
+        "body": "wx.stopRecord();\n  "
+    },
+    "wx.stopVoice": {
+        "prefix": "wx-stopVoice",
+        "description": "结束播放语音。1.6.0 起不再维护",
+        "body": "wx.stopVoice();\n  "
+    },
+    "wx.stopWifi": {
+        "prefix": "wx-stopWifi",
+        "description": "关闭 WiFi 模块",
+        "body": "wx.stopWifi({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.switchTab": {
+        "prefix": "wx-switchTab",
+        "description": "跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面",
+        "body": "wx.switchTab({\n\turl: '${1}',\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.updateShareMenu": {
+        "prefix": "wx-updateShareMenu",
+        "description": "更新转发属性",
+        "body": "wx.updateShareMenu({\n\twithShareTicket: ${1:false}\n\tsuccess: (result) => {\n\t\t${2}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.uploadFile": {
+        "prefix": "wx-uploadFile",
+        "description": "将本地资源上传到开发者服务器，客户端发起一个 HTTPS POST 请求，其中 content-type 为 multipart/form-data",
+        "body": "${1:var upTask = }wx.uploadFile({\n\turl: '${2}',\n\tfilePath: ${3},\n\tname: ${4},\n\tformData: {${5}},\n\tsuccess: (result) => {\n\t\t${6}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.vibrateLong": {
+        "prefix": "wx-vibrateLong",
+        "description": "使手机发生较长时间的振动（400ms）",
+        "body": "wx.vibrateLong({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.vibrateShort": {
+        "prefix": "wx-vibrateShort",
+        "description": "使手机发生较短时间的振动（15ms）",
+        "body": "wx.vibrateShort({\n\tsuccess: (result) => {\n\t\t${1}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+    },
+    "wx.writeBLECharacteristicValue": {
         "prefix": "wx-writeBLECharacteristicValue",
         "description": "向低功耗蓝牙设备特征值中写入二进制数据。注意：必须设备的特征值支持 write 才可以成功调用，具体参照 characteristic 的 properties 属性",
         "body": "wx.writeBLECharacteristicValue({\n\tdeviceId: ${1},\n\tservices: ${2},\n\tcharacteristicId: ${3},\n\tvalue: ${4:<ArrayBuffer类型>},\n\tsuccess: (result) => {\n\t\t${5}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
