@@ -2,7 +2,7 @@
   "name": "miniapp-helper",
   "displayName": "小程序开发助手",
   "description": "微信小程序开发助手",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "icon": "assets/images/logo.png",
   "publisher": "overtrue",
   "engines": {
