@@ -1,5 +1,5 @@
 {
-  "name": "@overtrue/miniapp-helper",
+  "name": "miniapp-helper",
   "displayName": "小程序开发助手",
   "description": "微信小程序开发助手",
   "version": "1.0.0",
