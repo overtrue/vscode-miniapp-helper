@@ -2,7 +2,7 @@
   <prefix>view</prefix>
   <description><![CDATA[基础的视图容器]]></description>
   <body><![CDATA[
-    <view class="${1}" hover-class="${2:none}" hover-stop-propagation="${3:false}">
+    <view>
 	${4}
 </view>
   ]]></body>

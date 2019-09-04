@@ -1958,7 +1958,7 @@
     "wx.showModal": {
         "prefix": "wx-showModal",
         "description": "显示模态弹窗",
-        "body": "wx.showModal({\n\ttitle: '${1}',\n\tcontent: '${2}',\n\tshowCancel: ${3:true},\n\tcancelText: '${4:取消}',\n\tcancelColor: '${5:#000000}',\n\tconfirmText: '${6:确定}',\n\tconfirmColor: '${7:#3CC51F}',\n\tsuccess: (result) => {\n\t\t${8:if {result.confirm) {\n\t\t\t${9}\n\t\t}}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
+        "body": "wx.showModal({\n\ttitle: '${1}',\n\tcontent: '${2}',\n\tshowCancel: ${3:true},\n\tcancelText: '${4:取消}',\n\tcancelColor: '${5:#000000}',\n\tconfirmText: '${6:确定}',\n\tconfirmColor: '${7:#3CC51F}',\n\tsuccess: (result) => {\n\t\t${8:if (result.confirm) {\n\t\t\t${9}\n\t\t}}\n\t},\n\tfail: () => {},\n\tcomplete: () => {}\n});\n  "
     },
     "wx.showNavigationBarLoading": {
         "prefix": "wx-showNavigationBarLoading",

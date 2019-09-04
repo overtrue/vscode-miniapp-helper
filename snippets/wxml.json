@@ -192,7 +192,7 @@
     "view": {
         "prefix": "view",
         "description": "基础的视图容器",
-        "body": "<view class=\"${1}\" hover-class=\"${2:none}\" hover-stop-propagation=\"${3:false}\">\n\t${4}\n</view>\n  "
+        "body": "<view>\n\t${4}\n</view>\n  "
     },
     "web-view": {
         "prefix": "web-view",
