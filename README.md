@@ -276,17 +276,17 @@
 | `wx-connectSocket` | 创建一个 WebSocket 连接 |
 | `wx-connectWifi` | 连接 WiFi。若已知 WiFi 信息，可以直接利用该接口连接 |
 | `wx-createAnimation` | 创建一个动画实例 animation。调用实例的方法来描述动画 |
-| `wx-createAudioContext` | 创建并返回 audio 上下文 audioContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 <audio/> 组件。1.6.0 起不再维护 |
+| `wx-createAudioContext` | 创建并返回 audio 上下文 audioContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 `<audio/>` 组件。1.6.0 起不再维护 |
 | `wx-createBLEConnection` | 连接低功耗蓝牙设备 |
-| `wx-createCameraContext` | 创建并返回 camera 上下文 cameraContext 对象，cameraContext 与页面的 camera 组件绑定，一个页面只能有一个 camera，通过它可以操作对应的 <camera/> 组件。1.6.0 开始支持 |
+| `wx-createCameraContext` | 创建并返回 camera 上下文 cameraContext 对象，cameraContext 与页面的 camera 组件绑定，一个页面只能有一个 camera，通过它可以操作对应的 `<camera/>` 组件。1.6.0 开始支持 |
 | `wx-createCanvasContext` | 创建 canvas 绘图上下文（指定 canvasId） |
 | `wx-createInnerAudioContext` | 创建并返回内部 audio 上下文 innerAudioContext 对象。本接口是 wx.createAudioContext 升级版。1.6.0 开始支持 |
 | `wx-createIntersectionObserver` | 创建并返回一个 IntersectionObserver 对象实例 |
-| `wx-createLivePlayerContext` | 操作对应的 <live-player/> 组件。 创建并返回 live-player 上下文 LivePlayerContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 <live-player/> 组件 |
-| `wx-createLivePusherContext` | 创建并返回 live-pusher 上下文 LivePusherContext 对象，LivePusherContext 与页面的 <live-pusher /> 组件绑定，一个页面只能有一个 live-pusher，通过它可以操作对应的 <live-pusher/> 组件。 在自定义组件下，第一个参数传入组件实例 this，以操作组件内 <live-pusher/> 组件 |
-| `wx-createMapContext` | 创建并返回 map 上下文 mapContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 <map/> 组件 |
+| `wx-createLivePlayerContext` | 操作对应的 `<live-player/>` 组件。 创建并返回 live-player 上下文 LivePlayerContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 `<live-player/>` 组件 |
+| `wx-createLivePusherContext` | 创建并返回 live-pusher 上下文 LivePusherContext 对象，LivePusherContext 与页面的 `<live-pusher />` 组件绑定，一个页面只能有一个 live-pusher，通过它可以操作对应的 `<live-pusher/>` 组件。 在自定义组件下，第一个参数传入组件实例 this，以操作组件内 `<live-pusher/>` 组件 |
+| `wx-createMapContext` | 创建并返回 map 上下文 mapContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 `<map/>` 组件 |
 | `wx-createSelectorQuery` | 返回一个 SelectorQuery 对象实例 |
-| `wx-createVideoContext` | 创建并返回 video 上下文 videoContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 <video/> 组件 |
+| `wx-createVideoContext` | 创建并返回 video 上下文 videoContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 `<video/>` 组件 |
 | `wx-createWorker` | 创建一个 Worker 线程，并返回 Worker 实例，目前限制最多只能创建一个 Worker，创建下一个 Worker 前请调用 Worker.terminate |
 | `wx-downloadFile` | 下载文件资源到本地，客户端直接发起一个 HTTP GET 请求，返回文件的本地临时路径 |
 | `wx-faceVerifyForPay` | 支付各个安全场景验证人脸 |
@@ -477,12 +477,12 @@
 | `checkbox` | 多选项目 |
 | `cover-image` | 覆盖在原生组件之上的图片视图，可覆盖的原生组件同 cover-view，支持嵌套在 cover-view 里 |
 | `cover-view` | 覆盖在原生组件之上的文本视图，可覆盖的原生组件包括 map、video、canvas、camera、live-player、live-pusher，只支持嵌套 cover-view、cover-image，可在 cover-view 中使用 button |
-| `form` | 表单，将组件内的用户输入的 <switch/> <input/> <checkbox/> <slider/> <radio/> <picker/> 提交 |
+| `form` | 表单，将组件内的用户输入的 `<switch/>`、`<input/>`、`<checkbox/>`、`<slider/>`、`<radio/>` `<picker/>` 提交 |
 | `functional-page-navigator` | 页面链接 |
 | `icon` | 图标 |
 | `image` | 图片。默认宽度 300px、高度 225px。image 组件中二维码/小程序码图片不支持长按识别 |
 | `input` | 输入框 |
-| `label` | 用来改进表单组件的可用性，使用 for 属性找到对应的 id，或者将控件放在该标签下，当点击时，就会触发对应的控件。for 优先级高于内部控件，内部有多个控件的时候默认触发第一个控件。目前可以绑定的控件有 <button/>、<checkbox/>、<radio/>、<switch/> |
+| `label` | 用来改进表单组件的可用性，使用 for 属性找到对应的 id，或者将控件放在该标签下，当点击时，就会触发对应的控件。for 优先级高于内部控件，内部有多个控件的时候默认触发第一个控件。目前可以绑定的控件有 `<button/>`、`<checkbox/>`、`<radio/>`、`<switch/>` |
 | `live-player` | 实时音视频播放。默认宽度 300px、高度 225px，可通过 wxss 设置宽高 |
 | `live-pusher` | 实时音视频录制。需要用户授权 scope.camera、scope.record。默认宽度为 100%、无默认高度，请通过 wxss 设置宽高 |
 | `map` | 地图 |
@@ -490,16 +490,16 @@
 | `movable-view` | 可移动的视图容器，在页面中可以拖拽滑动 |
 | `navigator` | 页面链接 |
 | `open-data` | 用于展示微信开放的数据 |
-| `picker-view-column` | 仅可放置于 <picker-view />中 其孩子节点的高度会自动设置成与 picker-view 的选中框的高度一致 |
+| `picker-view-column` | 仅可放置于 `<picker-view />`中 其孩子节点的高度会自动设置成与 picker-view 的选中框的高度一致 |
 | `picker-view` | 嵌入页面的滚动选择器 |
 | `picker` | 滚动选择器。现支持三种选择器 通过 mode 来区分，分别是普通选择器、时间选择器、日期选择器。默认是普通选择器 |
 | `progress` | 进度条 |
-| `radio-group` | 单项选择器，内部由多个 <radio/> 组成 |
+| `radio-group` | 单项选择器，内部由多个 `<radio/>` 组成 |
 | `radio` | 单选项目 |
 | `rich-text` | 富文本 |
 | `scroll-view` | 可滚动视图区域 |
 | `slider` | 滑动选择器 |
-| `swiper-item` | 仅可放置在 <swiper/>组件中，宽高自动设置为 100% |
+| `swiper-item` | 仅可放置在 `<swiper/>`组件中，宽高自动设置为 100% |
 | `swiper` | 滑块视图容器 |
 | `switch` | 开关选择器 |
 | `text` | 文本 |
