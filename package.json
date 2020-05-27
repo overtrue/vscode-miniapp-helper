@@ -105,7 +105,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "fast-xml-parser": "^3.17.2",
+    "fast-xml-parser": "^3.17.3",
     "vscode": "^1.1.37"
   },
   "dependencies": {}
