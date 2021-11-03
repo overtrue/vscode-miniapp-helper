@@ -3,6 +3,10 @@
 
 <img src="https://raw.githubusercontent.com/overtrue/vscode-miniapp-helper/master/assets/images/logo.png" height="16"/> 微信小程序开发助手 for VSCode，代码提示 + 语法高亮
 
+## :heart: 支持我
+
+如果你喜欢我的项目并想支持它，[点击这里 :heart:](https://github.com/sponsors/overtrue)
+
 ## Installation
 
 - 打开 VSCode
