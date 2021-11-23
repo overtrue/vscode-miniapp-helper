@@ -513,6 +513,13 @@
 | `web-view` | 可以用来承载网页的容器，会自动铺满整个小程序页面 |
 ---
 
+## Project supported by JetBrains
+
+Many thanks to Jetbrains for kindly providing a license for me to work on this and other open-source projects.
+
+[![](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://www.jetbrains.com/?from=https://github.com/overtrue)
+
+
 ## License
 
 MIT
